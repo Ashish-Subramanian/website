@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Minion Pro";
+  src: url("fonts/Minion Pro Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   font-family: "Minion Pro", serif;
   font-weight: 400; /* Regular */
