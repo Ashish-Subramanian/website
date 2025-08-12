@@ -10,6 +10,22 @@
   src: url("fonts/Niveau\ Grotesk\ Light\ Small\ Caps.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
+  font-variant: small-caps;
+}
+
+@font-face {
+  font-family: "Niveau Grotesk";
+  src: url("fonts/Niveau\ Grotesk\ Regular\ Small\ Caps.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-variant: small-caps;
+}
+
+@font-face {
+  font-family: "Niveau Grotesk";
+  src: url("fonts/Niveau\ Grotesk\ Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
 
 * {
@@ -66,6 +82,7 @@ h2 {
 .logo {
   font-weight: bold;
   color: #202020;
+  font-family: "Niveau Grotesk", sans-serif;
 }
 
 nav ul {
@@ -81,6 +98,8 @@ nav li {
 
 nav a {
   font-family: "Niveau Grotesk", sans-serif;
+  font-variant: small-caps;
+  font-weight: 300;
   text-decoration: none;
   color: #808080;
 }
