@@ -5,6 +5,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Niveau Grotesk";
+  src: url("fonts/Niveau Grotesk Regular Small Caps.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -29,6 +36,7 @@ header {
   top: 0;
   z-index: 1000;
   background-color: #fdfdfd;
+  font-family: "Niveau Grotesk", sans-serif;
 }
 
 header .container {
