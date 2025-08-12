@@ -56,6 +56,11 @@ h2 {
 }
 
 /* Nav */
+.logo {
+  font-weight: bold;
+  color: #202020;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -72,8 +77,12 @@ nav a {
   color: #808080;
 }
 
-nav a:hover {
+nav a:hover:not(.active) {
   color: #404040;
+}
+
+nav .active {
+  color: #202020;
 }
 
 /* Sections */
