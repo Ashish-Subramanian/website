@@ -74,12 +74,11 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #0077cc;
-  font-weight: bold;
+  color: #808080;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  color: #404040;
 }
 
 /* Sections */
