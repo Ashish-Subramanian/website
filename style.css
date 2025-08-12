@@ -1,13 +1,13 @@
 @font-face {
   font-family: "Minion Pro";
-  src: url("fonts/Minion Pro Regular.ttf") format("ttf");
+  src: url("fonts/Minion\ Pro\ Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Niveau Grotesk";
-  src: url("fonts/Niveau Grotesk Regular Small Caps.ttf") format("ttf");
+  src: url("fonts/Niveau\ Grotesk\ Regular\ Small\ Caps.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
