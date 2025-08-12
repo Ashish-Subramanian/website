@@ -16,7 +16,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.6;
-  color: #f00;
+  color: #202020;
   background-color: #fdfdfd;
   padding: 40px;
   max-width: 800px;
@@ -27,8 +27,6 @@ body {
 header {
   position: sticky;
   top: 0;
-  background: #ffffff;
-  border-bottom: 1px solid #ddd;
   z-index: 1000;
 }
 
