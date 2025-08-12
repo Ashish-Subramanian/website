@@ -10,13 +10,7 @@
 
 <div id="head"></div>
 <script>
-  // Figure out the base path for GitHub Pages project sites, e.g. /username/repo/
-  const isGithubPages = location.hostname.endsWith('ashishsubramanian.com');
-  const parts = location.pathname.split('/').filter(Boolean);
-  const repoBase = isGithubPages && parts.length > 1 ? `/${parts[0]}/${parts[1]}/` : '/';
-
-  // Load the navbar
-  fetch(`${repoBase}navbar.html`)
+  fetch(`../navbar.html`)
     .then(r => r.text())
     .then(html => {
       const mount = document.getElementById('head');
@@ -38,8 +32,7 @@
     return out || '/';
   }
 
-  // Load the footer
-  fetch(`${repoBase}footer.html`)
+  fetch(`../footer.html`)
     .then(r => r.text())
     .then(html => {
       const mount = document.getElementById('foot');
