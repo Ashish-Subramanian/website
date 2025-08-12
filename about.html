@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<div id="headerfooter"></div>
+<div id="head"></div>
 <script>
   // Figure out the base path for GitHub Pages project sites, e.g. /username/repo/
   const isGithubPages = location.hostname.endsWith('ashishsubramanian.com');
@@ -19,7 +19,7 @@
   fetch(`${repoBase}navbar.html`)
     .then(r => r.text())
     .then(html => {
-      const mount = document.getElementById('headerfooter');
+      const mount = document.getElementById('head');
       mount.innerHTML = html;
 
       // Mark the active link (supports /about and /about.html and folder index)
@@ -37,7 +37,16 @@
     out = out.replace(/\/+$/,'');
     return out || '/';
   }
+
+  // Load the footer
+  fetch(`${repoBase}footer.html`)
+    .then(r => r.text())
+    .then(html => {
+      const mount = document.getElementById('foot');
+      mount.innerHTML = html;
 </script>
+
+<div id="foot"></div>
   
 </body>
 </html>
