@@ -7,48 +7,40 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  
-<div id="head"></div>
-<script>
-  // Figure out the base path for GitHub Pages project sites, e.g. /username/repo/
-  const isGithubPages = location.hostname.endsWith('ashishsubramanian.com');
-  const parts = location.pathname.split('/').filter(Boolean);
-  const repoBase = isGithubPages && parts.length > 1 ? `/${parts[0]}/${parts[1]}/` : '/';
 
-  // Load the navbar
-  fetch(`${repoBase}navbar.html`)
-    .then(r => r.text())
-    .then(html => {
-      const mount = document.getElementById('head');
-      mount.innerHTML = html;
+  <header>
+  <div class="container">
+    <div class="logo">Ashish Subramanian</div>
+    <nav>
+      <ul>
+        <li><a href="/">home</a></li>
+        <li><a href="/about/">about</a></li>
+        <li><a class="active" href="/cv/">cv</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-      // Mark the active link (supports /about and /about.html and folder index)
-      const current = normalizePath(location.pathname);
-      mount.querySelectorAll('a[href]').forEach(a => {
-        const href = new URL(a.getAttribute('href'), location.origin + location.pathname).pathname;
-        if (normalizePath(href) === current) a.classList.add('active');
-      });
-    });
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>A brief academic/professional bio.</p>
+    </section>
 
-  function normalizePath(p) {
-    // Remove repoBase, trailing index.html, and trailing slash
-    let out = p.replace(repoBase, '/');
-    out = out.replace(/index\.html$/i, '');
-    out = out.replace(/\/+$/,'');
-    return out || '/';
-  }
+    <section id="research">
+      <h2>Research</h2>
+      <p>Topics, papers, interests, or a link to your CV.</p>
+    </section>
 
-  // Load the footer
-  fetch(`${repoBase}footer.html`)
-    .then(r => r.text())
-    .then(html => {
-      const mount = document.getElementById('foot');
-      mount.innerHTML = html;
-</script>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: ashish.subramanian@duke.edu</p>
+    </section>
+  </main>
 
-Hello.
-  
-<div id="foot"></div>
-  
+  <footer>
+    <p>&copy; 2025 Ashish Subramanian</p>
+  </footer>
+
 </body>
 </html>
