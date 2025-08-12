@@ -110,6 +110,7 @@ nav a:hover:not(.active) {
 
 nav .active {
   color: #202020;
+  pointer-events: none;
 }
 
 /* Sections */
