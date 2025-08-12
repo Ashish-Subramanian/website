@@ -36,7 +36,6 @@ header {
   top: 0;
   z-index: 1000;
   background-color: #fdfdfd;
-  font-family: "Niveau Grotesk", sans-serif;
 }
 
 header .container {
@@ -81,6 +80,7 @@ nav li {
 }
 
 nav a {
+  font-family: "Niveau Grotesk", sans-serif;
   text-decoration: none;
   color: #808080;
 }
