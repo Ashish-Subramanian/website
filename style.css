@@ -100,11 +100,12 @@ nav ul {
 
 nav li {
   display: inline;
+  padding: 20px 0;
 }
 
 nav a {
   font-family: "Niveau Grotesk", sans-serif;
-  font-size: 2em;
+  font-size: 1em;
   font-variant: small-caps;
   font-weight: 300;
   text-decoration: none;
