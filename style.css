@@ -88,7 +88,8 @@ h2 {
 .logo {
   font-weight: bold;
   color: #202020;
-  font-family: "Niveau Grotesk", sans-serif;
+  font-family: "Minion Pro", serif;
+  font-size: 2em;
 }
 
 nav ul {
