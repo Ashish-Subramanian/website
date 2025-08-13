@@ -47,6 +47,12 @@ body {
   padding-top: 50px;
 }
 
+:root{
+  --page-max: 1000px;   /* page width cap for the hero */
+  --gap: 2rem;          /* space between text and photo */
+  --img-size: 340px;    /* base photo size cap */
+}
+
 header {
   position: sticky;
   top: 0;
@@ -182,4 +188,42 @@ footer {
   margin-top: 4em;
   border-top: 1px solid #ddd;
   padding-top: 1em;
+}
+
+.hero-offset{
+  margin-top: clamp(6vh, 14vh, 18vh);
+}
+
+/* Force two columns: text left (fluid), image right (capped) */
+.hero{
+  display: grid;
+  grid-template-columns: 1fr min(28vw, 360px);
+  align-items: center;
+  gap: 2rem;
+}
+
+/* Keep the portrait on the right and under control */
+.portrait-wrap{ justify-self: end; }
+.portrait{
+  width: 100%;
+  max-width: min(28vw, 360px);
+  max-height: 60vh;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 10px 30px rgba(0,0,0,.12);
+}
+
+/* Slightly smaller hero heading */
+.intro h1{
+  font-size: clamp(1.8rem, 2.5vw + 1rem, 2.6rem);
+  line-height: 1.15;
+}
+
+/* Mobile: stack, center image, reduce top offset */
+@media (max-width: 900px){
+  .hero{ grid-template-columns: 1fr; gap: 1.25rem; }
+  .portrait-wrap{ justify-self: center; }
+  .portrait{ max-width: 220px; }
+  .hero-offset{ margin-top: 10vh; }
 }
