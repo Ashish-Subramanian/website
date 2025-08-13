@@ -200,7 +200,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr min(28vw, 360px);
   align-items: center;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 /* Keep the portrait on the right and under control */
