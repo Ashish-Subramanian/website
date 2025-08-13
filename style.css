@@ -118,6 +118,61 @@ section {
   margin-bottom: 2em;
 }
 
+  /* The “hero” block that starts ~halfway down */
+  .hero-offset{
+    /* Start partway down the viewport on larger screens */
+    margin-top: clamp(16vh, 45vh, 52vh);
+  }
+
+  .hero{
+    max-width: var(--page-max);
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 1fr var(--img-size);
+    gap: var(--gap);
+    align-items: center;
+  }
+
+  .intro h1{
+    margin: 0 0 .5rem;
+    font-size: clamp(2rem, 3vw + 1rem, 3rem);
+    line-height: 1.1;
+  }
+  .intro p{
+    margin: 0;
+    font-size: 1.05rem;
+    max-width: 60ch;
+  }
+
+  .portrait-wrap{
+    display: grid;
+    place-items: center;
+  }
+  .portrait{
+    width: 100%;
+    max-width: var(--img-size);
+    aspect-ratio: 1/1;          /* keeps it square; remove if you want free aspect */
+    object-fit: cover;           /* fills the frame */
+    border-radius: 50%;          /* circle; change to .75rem for rounded square */
+    box-shadow: 0 10px 30px rgba(0,0,0,.12);
+  }
+
+  /* Mobile: stack and remove the big offset so users see content sooner */
+  @media (max-width: 900px){
+    .hero{
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+      text-align: left;
+    }
+    .hero-offset{
+      margin-top: 12vh;
+    }
+    .portrait{
+      max-width: 220px;
+    }
+  }
+
 /* Footer */
 footer {
   text-align: center;
