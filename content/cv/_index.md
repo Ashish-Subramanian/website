@@ -31,7 +31,7 @@ GPA: 3.97, Graduation with Highest Honors, Phi Beta Kappa, Dean's List with Dist
 ## Research Experience
 
 <div class="cv-entry">
-<span class="cv-date">Spring 2024–Fall 2025</span>
+<span class="cv-date">Spring 2024–Spring 2026</span>
 
 ### Biostatistician
 <div class="cv-meta">David Lab, Duke School of Medicine</div>
