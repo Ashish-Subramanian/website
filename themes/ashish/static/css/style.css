@@ -578,6 +578,15 @@ main {
   color: var(--color-text);
 }
 
+.cv-body .cv-role {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  font-style: italic;
+  color: var(--color-muted);
+  margin-bottom: 0.1rem;
+  overflow: hidden;
+}
+
 .cv-body ul {
   margin-top: 0.35rem;
   margin-bottom: 0.75rem;

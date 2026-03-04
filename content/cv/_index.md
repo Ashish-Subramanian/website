@@ -10,15 +10,13 @@ lastmod: 2026-03-04
 <div class="cv-entry">
 <span class="cv-date">May 2024</span>
 
-### B.S. Duke University, Trinity College of Arts and Sciences, Durham, NC
+### B.S. Duke University, Trinity College of Arts and Sciences
+<div class="cv-meta">Durham, NC</div>
 
-Health and Medical Geography of Human–Environmental Interactions
-
-*Thesis:* "GIS-Based Analysis of Transportation Networks and Disease Diffusion in Northeastern Madagascar."
-
-*Thesis Advisors:* Dr. Charles L. Nunn, Dr. Mark Janko
-
-GPA: 3.97, Graduation with Highest Honors, Phi Beta Kappa, Dean's List with Distinction
+- Health and Medical Geography of Human–Environmental Interactions
+- *Thesis:* "GIS-Based Analysis of Transportation Networks and Disease Diffusion in Northeastern Madagascar."
+- *Thesis Advisors:* Dr. Charles L. Nunn, Dr. Mark Janko
+- GPA: 3.97, Graduation with Highest Honors, Phi Beta Kappa, Dean's List with Distinction
 </div>
 
 ## Research Interests
@@ -103,17 +101,10 @@ GPA: 3.97, Graduation with Highest Honors, Phi Beta Kappa, Dean's List with Dist
 <div class="cv-entry">
 
 ### Duke Quiz Bowl
-<span class="cv-date">Fall 2023–Spring 2024</span>
 
-President
-
-<span class="cv-date">Fall 2021–Spring 2023</span>
-
-Vice President
-
-<span class="cv-date">Fall 2023–Spring 2025</span>
-
-ACF Member, Communications Officer
+<div class="cv-role"><span class="cv-date">Fall 2023–Spring 2024</span>President</div>
+<div class="cv-role"><span class="cv-date">Fall 2021–Spring 2023</span>Vice President</div>
+<div class="cv-role"><span class="cv-date">Fall 2023–Spring 2025</span>ACF Member, Communications Officer</div>
 
 - Directed a club of 20 students focused on team-based academic competitions; responsible for booking rooms, receiving funding and raising money, planning social and educational events, managing practices, hosting tournaments, directing outreach, planning logistics and travel, supporting club members, and building camaraderie
 - Hosted 2024 ACF Nationals, the largest and most important quizbowl tournament of the season; involved logistical planning for 400 competitors and staffers
@@ -121,20 +112,18 @@ ACF Member, Communications Officer
 </div>
 
 <div class="cv-entry">
-<span class="cv-date">Fall 2023–Spring 2024</span>
 
 ### Duke GlobeMed
-<div class="cv-meta">International Partnerships Chair</div>
+<div class="cv-role"><span class="cv-date">Fall 2023–Spring 2024</span>International Partnerships Chair</div>
 
 - Coordinated with international partners in Uganda to lead initiatives including a directory of grants and organizations to fund education in Uganda, a clothing drive which raised $3,500, a menstrual hygiene manual, and HIV/AIDS educational materials
 - Presented and led weekly general body meeting discussions of up to eighty students on global health topics such as recent cholera outbreaks, period taxes, and food insecurity
 </div>
 
 <div class="cv-entry">
-<span class="cv-date">Summer 2019–Summer 2021</span>
 
 ### GeoGenius
-<div class="cv-meta">Co-Founder; Head of Site Design; Content Creator</div>
+<div class="cv-role"><span class="cv-date">Summer 2019–Summer 2021</span>Co-Founder; Head of Site Design; Content Creator</div>
 
 - Founded a website to spread geographic awareness and engage K–12 students, especially during the COVID-19 pandemic; organized, wrote, marketed, and hosted two geography competitions with over 500 participants each
 - NFTE 2020 National Runner-Up, won $9,000; partnered with and received sponsorships from the National Council for Geographic Education's state alliances, the International Geographical Union, and the North South Foundation
@@ -184,18 +173,34 @@ ACF Member, Communications Officer
 
 ## Skills and Certifications
 
+<div class="cv-entry">
+
 ### Laboratory
 
 Gel electrophoresis, PCR, molecular cloning, plasmid amplification, restriction digest, genome sequencing, bioinformatics, cell fractionation, DNA extraction; cell culturing and isolation, common stains (Gram, capsule, acid fast, etc.), light microscopy, common streaks and assays (salt tolerance, deaminases, VP, etc.); ELISA, hemagglutination and hemolysis, plaque assay
+
+</div>
+
+<div class="cv-entry">
 
 ### Statistical
 
 R, Python, ArcGIS, SQL; bioinformatics, microbiome analysis, high throughput amplicon sequencing pipelines; machine learning; network modeling, exponential random graph models; biostatistics, proportional hazard models, linear regression, logistic regression, bootstrapping, hypothesis testing, statistical inference models, hierarchical and k-means clustering, Student's t-test, ANOVA
 
+</div>
+
+<div class="cv-entry">
+
 ### Computer
 
 ArcGIS and geographic information systems, Microsoft Office, Google Drive, Adobe Creative Cloud, Python, R, SQL, JavaScript, UI/UX design and web design, data analysis and visualization (including Tableau), GitHub, workflow management and project management software
 
+</div>
+
+<div class="cv-entry">
+
 ### Language
 
 Tamil (native), Telugu (native), Spanish (full; certified), French (full; certified), Hindi (full), Portuguese (professional), Egyptian Arabic (professional), Italian (limited), German (limited), more
+
+</div>
