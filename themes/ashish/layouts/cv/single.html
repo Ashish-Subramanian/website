@@ -1,0 +1,36 @@
+{{ define "main" }}
+<div class="cv-gate" id="cv-gate">
+  <div class="cv-gate-inner">
+    <h2>Curriculum Vitae</h2>
+    <p>This page contains detailed professional information and is intended for academic collaborators, prospective colleagues, and professional contacts.</p>
+    <button class="cv-gate-btn" id="cv-gate-btn" type="button">Continue</button>
+  </div>
+</div>
+<article class="page cv-page" id="cv-content">
+  <header class="page-header cv-header">
+    <div class="cv-header-top">
+      <h1>{{ .Title }}</h1>
+      <button class="cv-download" onclick="window.print()" type="button">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M8 1v10M4 8l4 4 4-4M2 14h12"/>
+        </svg>
+        PDF
+      </button>
+    </div>
+    {{ with .Lastmod }}
+    <time class="cv-updated" datetime="{{ .Format "2006-01-02" }}">Last updated {{ .Format "January 2006" }}</time>
+    {{ end }}
+  </header>
+  <div class="cv-layout">
+    <nav class="cv-toc" aria-label="Table of contents">
+      <div class="cv-toc-inner">
+        <div class="cv-toc-title">Contents</div>
+        {{ .TableOfContents }}
+      </div>
+    </nav>
+    <div class="page-body cv-body">
+      {{ .Content }}
+    </div>
+  </div>
+</article>
+{{ end }}

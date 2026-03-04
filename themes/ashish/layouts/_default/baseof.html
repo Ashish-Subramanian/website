@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
+  {{ if eq .Type "cv" }}<meta name="robots" content="noindex, nofollow">{{ end }}
+  <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
+  {{ if .Params.math }}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true},{left: '$', right: '$', display: false}]});"></script>
+  {{ end }}
+  <script defer src="{{ "js/main.js" | absURL }}"></script>
+  <noscript><style>.fade-in-section,.cv-entry,.pub{opacity:1!important;transform:none!important}.cv-gate{display:none!important}#cv-content{display:block!important}</style></noscript>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="{{ "/" | absURL }}" class="site-name">Ashish Subramanian</a>
+      <nav class="site-nav">
+        {{ $url := .RelPermalink }}
+        {{ range .Site.Menus.main }}
+          {{ $active := or (eq $url .URL) (and (ne .URL "/") (hasPrefix $url .URL)) }}
+          <a href="{{ .URL | absURL }}"{{ if $active }} class="active"{{ end }}>{{ .Name }}</a>
+        {{ end }}
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; {{ now.Year }} Ashish Subramanian</p>
+  </footer>
+</body>
+</html>

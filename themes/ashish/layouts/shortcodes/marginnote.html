@@ -1,0 +1,6 @@
+{{- $id := delimit (shuffle (seq 1 9999)) "" -}}
+<span class="marginnote-wrapper">
+  <label for="mn-{{ $id }}" class="marginnote-toggle">&#8853;</label>
+  <input type="checkbox" id="mn-{{ $id }}" class="marginnote-toggle-input" />
+  <span class="marginnote">{{ .Inner | markdownify }}</span>
+</span>

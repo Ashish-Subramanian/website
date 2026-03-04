@@ -1,0 +1,4 @@
+<aside class="aside-box">
+  {{ with .Get "title" }}<div class="aside-title">{{ . }}</div>{{ end }}
+  <div class="aside-content">{{ .Inner | markdownify }}</div>
+</aside>

@@ -1,0 +1,37 @@
+baseURL = "https://www.ashishsubramanian.com/"
+languageCode = "en-us"
+title = "Ashish Subramanian"
+theme = "ashish"
+
+[markup]
+  [markup.highlight]
+    style = "monokailight"
+    noClasses = true
+    lineNos = false
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 2
+    ordered = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[[menus.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menus.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
+
+[[menus.main]]
+  name = "CV"
+  url = "/cv/"
+  weight = 3
+
+[[menus.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 4

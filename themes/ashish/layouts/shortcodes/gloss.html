@@ -1,0 +1,7 @@
+{{/* Interlinear gloss shortcode — placeholder for linguistic examples */}}
+<div class="gloss" style="margin: 1.5em 0; font-size: 0.95em; line-height: 2;">
+  {{ with .Get "source" }}<div style="font-style: italic;">{{ . }}</div>{{ end }}
+  {{ with .Get "morphemes" }}<div style="font-family: var(--font-sans); font-size: 0.85em;">{{ . }}</div>{{ end }}
+  {{ with .Get "glosses" }}<div style="font-family: var(--font-sans); font-size: 0.85em; font-variant: small-caps;">{{ . }}</div>{{ end }}
+  {{ with .Get "translation" }}<div>'{{ . }}'</div>{{ end }}
+</div>

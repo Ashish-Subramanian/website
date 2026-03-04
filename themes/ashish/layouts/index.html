@@ -1,0 +1,9 @@
+{{ define "main" }}
+<section class="hero">
+  <h1>{{ .Title | default "Ashish Subramanian" }}</h1>
+  <p class="subtitle">{{ .Params.subtitle | default "" }}</p>
+  <div class="hero-body">
+    {{ .Content }}
+  </div>
+</section>
+{{ end }}
