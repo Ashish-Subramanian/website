@@ -53,6 +53,38 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Gentium Plus";
+  src: url("/fonts/GentiumPlus-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gentium Plus";
+  src: url("/fonts/GentiumPlus-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gentium Plus";
+  src: url("/fonts/GentiumPlus-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gentium Plus";
+  src: url("/fonts/GentiumPlus-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
 /* --- Reset --- */
 
 *, *::before, *::after {
@@ -70,7 +102,7 @@
   --color-rule: #e2e2e2;
   --color-accent: #34568B;
   --color-accent-light: #eaeff7;
-  --font-serif: "Minion Pro", "Georgia", serif;
+  --font-serif: "Minion Pro", "Gentium Plus", "Georgia", serif;
   --font-sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
   --font-mono: "Fira Code", "SFMono-Regular", "Consolas", monospace;
   --content-width: 680px;
@@ -979,6 +1011,52 @@ main {
     max-width: var(--wide-width);
     margin-left: calc((var(--content-width) - var(--wide-width)) / 2);
   }
+}
+
+/* --- OpenType Utilities --- */
+
+.smcp {
+  font-variant-caps: small-caps;
+  font-feature-settings: "smcp" 1;
+}
+
+.c2sc {
+  font-variant-caps: all-small-caps;
+  font-feature-settings: "c2sc" 1, "smcp" 1;
+}
+
+.onum {
+  font-variant-numeric: oldstyle-nums;
+  font-feature-settings: "onum" 1;
+}
+
+.lnum {
+  font-variant-numeric: lining-nums;
+  font-feature-settings: "lnum" 1;
+}
+
+.frac {
+  font-variant-numeric: diagonal-fractions;
+  font-feature-settings: "frac" 1;
+}
+
+.liga {
+  font-variant-ligatures: common-ligatures discretionary-ligatures;
+  font-feature-settings: "liga" 1, "dlig" 1;
+}
+
+.swsh {
+  font-feature-settings: "swsh" 1;
+}
+
+.ordn {
+  font-feature-settings: "ordn" 1;
+}
+
+/* --- Transliteration / Extended Latin --- */
+
+.tl {
+  font-family: "Gentium Plus", "Gentium Book Plus", serif;
 }
 
 /* --- KaTeX --- */
