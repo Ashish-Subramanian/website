@@ -112,6 +112,7 @@
 html {
   font-size: 18px;
   scroll-behavior: smooth;
+  scroll-padding-top: 3.6rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -722,6 +723,7 @@ main {
   align-items: center;
   gap: 0.5rem;
   user-select: none;
+  scroll-margin-top: 3.6rem;
 }
 
 .cv-section-header::before {
