@@ -282,6 +282,10 @@ main {
   position: relative;
 }
 
+.cv-print-name {
+  display: none !important;
+}
+
 .cv-header-top {
   display: flex;
   align-items: baseline;
@@ -1136,9 +1140,23 @@ main {
     color: #000;
   }
 
-  /* Margins */
   @page {
     margin: 1in 0.85in;
+  }
+
+  .cv-print-name {
+    display: block !important;
+    font-family: var(--font-serif);
+    font-size: 26pt;
+    font-weight: 400;
+    margin-bottom: 0.1rem;
+  }
+
+  .cv-header h1 {
+    font-size: 13pt;
+    font-weight: 400;
+    color: #555;
+    letter-spacing: 0.03em;
   }
 
   .page-header {
