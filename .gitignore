@@ -1,5 +1,6 @@
 CLAUDE.md
 _resources/
+_scripts/
 public/
 resources/_gen/
 .hugo_build.lock
