@@ -1,7 +1,7 @@
 ---
 title: "A Year in the World's Literature"
 date: 2026-03-04
-draft: true
+draft: false
 d3: true
 description: "A chronological journey through 4,300 years of world literature, calibrated to exactly one year of reading at 2.5 hours per day."
 ---
