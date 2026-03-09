@@ -1690,9 +1690,12 @@
     /* 6. Today marker */
     var today = new Date();
     today.setHours(0, 0, 0, 0);
-    var daysSinceStart = Math.floor((today - startDate) / 86400000);
+    /* Use UTC to avoid DST off-by-one errors */
+    var utcToday = Date.UTC(today.getFullYear(), today.getMonth(), today.getDate());
+    var utcStart = Date.UTC(startDate.getFullYear(), startDate.getMonth(), startDate.getDate());
+    var daysSinceStart = Math.floor((utcToday - utcStart) / 86400000);
 
-    if (daysSinceStart >= 1 && daysSinceStart <= 365) {
+    if (daysSinceStart >= 0 && daysSinceStart <= 365) {
       var scheduledMinutes = daysSinceStart * 150;
       var todayX = null;
       var todayY = y(scheduledMinutes);
@@ -1846,7 +1849,10 @@
     /* Line 2: Schedule */
     var today = new Date();
     today.setHours(0, 0, 0, 0);
-    var daysSinceStart = Math.floor((today - s.startDate) / 86400000);
+    /* Use UTC to avoid DST off-by-one errors */
+    var utcToday = Date.UTC(today.getFullYear(), today.getMonth(), today.getDate());
+    var utcStart = Date.UTC(s.startDate.getFullYear(), s.startDate.getMonth(), s.startDate.getDate());
+    var daysSinceStart = Math.floor((utcToday - utcStart) / 86400000);
     var yearEndDate = new Date(s.startDate.getTime() + 365 * 86400000);
 
     var line2 = document.createElement("span");
@@ -1871,8 +1877,9 @@
       }
 
       var estStr = "";
-      if (daysSinceStart > 0 && readMinutes > 0) {
-        var rate = readMinutes / daysSinceStart;
+      var elapsedDays = Math.max(daysSinceStart, 1);
+      if (readMinutes > 0) {
+        var rate = readMinutes / elapsedDays;
         var daysToComplete = Math.ceil(s.total / rate);
         var estDate = new Date(s.startDate.getTime() + daysToComplete * 86400000);
         estStr = "  \u00b7  est. completion " + estDate.toLocaleDateString("en-US", {
@@ -1880,7 +1887,7 @@
         });
       }
 
-      line2.textContent = "Day " + daysSinceStart + " of 365  \u00b7  " + diffStr + estStr;
+      line2.textContent = "Day " + (daysSinceStart + 1) + " of 365  \u00b7  " + diffStr + estStr;
       summaryDiv.appendChild(line2);
     }
   }
