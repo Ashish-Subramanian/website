@@ -1722,6 +1722,9 @@ main {
 #rl-list .rl-conn-ext {
   color: var(--color-muted);
   opacity: 0.55;
+}
+
+#rl-list .rl-conn-ext-nonlit {
   font-style: italic;
 }
 

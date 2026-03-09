@@ -1457,7 +1457,8 @@
         }
 
         function appendExtLink(ext) {
-          var span = el("span", "rl-conn-ext", ext.title);
+          var cls = "rl-conn-ext" + (ext.nonLiterary ? " rl-conn-ext-nonlit" : "");
+          var span = el("span", cls, ext.title);
           connDiv.appendChild(span);
         }
 

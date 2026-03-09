@@ -2852,6 +2852,11 @@
       {
         "title": "Parzival by Wolfram von Eschenbach",
         "year": 1220
+      },
+      {
+        "title": "Der Ring des Nibelungen by Richard Wagner",
+        "year": 1874,
+        "nonLiterary": true
       }
     ],
     "read": false,
