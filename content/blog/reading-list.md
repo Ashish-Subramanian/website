@@ -1,6 +1,6 @@
 ---
 title: "My Year-Long Reading List"
-date: 2026-03-04
+date: 2026-01-01
 draft: false
 d3: true
 description: "A chronological journey through 4,300 years of world literature, calibrated to exactly one year of reading at 2.5 hours per day."
