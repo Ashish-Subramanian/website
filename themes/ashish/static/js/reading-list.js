@@ -207,15 +207,6 @@
     readDiv.textContent = n + " of " + totalWorkCount + " read";
     container.appendChild(readDiv);
 
-    /* Lite list summary line */
-    var liteWorks = allData.filter(function (d) { return d.lite; });
-    var liteMinutes = liteWorks.reduce(function (s, d) {
-      return s + (d.litePages || d.readingMinutes || 0);
-    }, 0);
-    var liteLine = el("div", "rl-stat-lite",
-      "Abridged: " + liteWorks.length + " works \u00b7 " +
-      formatHoursShort(liteMinutes) + " hours (1 hr/day)");
-    container.appendChild(liteLine);
   }
 
   /* ========== MAP ========== */
