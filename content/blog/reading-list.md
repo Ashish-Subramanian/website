@@ -9,7 +9,7 @@ description: "A chronological journey through 4,300 years of world literature, c
 <div id="reading-list-app">
 
 <div class="rl-hero">
-<p class="rl-hero-subtitle">A chronological journey through the world's literature — from Enheduanna to Orhan Pamuk — calibrated to exactly one year of reading.</p>
+<p class="rl-hero-subtitle">A chronological journey through four millennia of literature, from Sumerian hymns to postmodern novels, calibrated to exactly one year of reading.</p>
 <div class="rl-stats" id="rl-stats"></div>
 </div>
 
@@ -45,7 +45,7 @@ This is a reading list designed to be completed in exactly 365 days at 2.5 hours
 
 <div class="rl-cumulative" id="rl-cumulative"></div>
 
-<p class="rl-disclaimer">Dates and places of composition are approximations, especially for older works with uncertain provenance. Reading times are estimates based on my personal reading speed and published page counts. Connections between works are necessarily selective and will never be complete — influence is a web far richer than any list can capture.</p>
+<p class="rl-disclaimer">Dates and places of composition are approximations, especially for older works with uncertain provenance. Reading times are estimates based on my personal reading speed and published page counts. Connections between works are necessarily selective and will never be complete.</p>
 
 </div>
 
