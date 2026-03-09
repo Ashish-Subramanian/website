@@ -1898,16 +1898,37 @@
     var app = document.getElementById("reading-list-app");
     if (!app) return;
 
-    var btn = el("button", "rl-back-to-top", "\u2191 Top");
-    btn.setAttribute("aria-label", "Back to top");
-    app.appendChild(btn);
+    var wrap = el("div", "rl-float-buttons");
+    app.appendChild(wrap);
 
-    var listHeading = document.getElementById("the-list") || listEl;
+    var btn = el("button", "rl-float-btn");
+    btn.setAttribute("aria-label", "Back to top");
+    var btnArrow = el("span", "rl-float-arrow", "\u2191");
+    btn.appendChild(btnArrow);
+    btn.appendChild(document.createTextNode(" Top"));
+    wrap.appendChild(btn);
+
+    var nextBtn = el("button", "rl-float-btn");
+    var nextArrow = el("span", "rl-float-arrow rl-float-arrow-right", "\u2191");
+    nextBtn.appendChild(nextArrow);
+    nextBtn.appendChild(document.createTextNode(" Next"));
+    nextBtn.setAttribute("aria-label", "Next unread work");
+    wrap.appendChild(nextBtn);
+
+    var listHeading = document.getElementById("the-list");
     btn.addEventListener("click", function () {
       var header = document.querySelector(".site-header");
       var offset = header ? header.offsetHeight + 8 : 0;
       var top = listHeading.getBoundingClientRect().top + window.pageYOffset - offset;
       window.scrollTo({ top: top, behavior: "smooth" });
+    });
+
+    nextBtn.addEventListener("click", function () {
+      var cards = document.querySelectorAll("#rl-list .rl-card:not(.rl-card-read)");
+      if (!cards.length) return;
+      cards[0].scrollIntoView({ behavior: "smooth", block: "center" });
+      cards[0].classList.add("rl-card-highlight");
+      setTimeout(function () { cards[0].classList.remove("rl-card-highlight"); }, 1500);
     });
 
     /* Show when scrolled past the list section */
@@ -1920,7 +1941,7 @@
       var shouldShow = listTop < 0;
       if (shouldShow !== visible) {
         visible = shouldShow;
-        btn.classList.toggle("rl-back-to-top-visible", visible);
+        wrap.classList.toggle("rl-float-visible", visible);
       }
     }, { passive: true });
   }
