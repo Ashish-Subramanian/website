@@ -1691,6 +1691,23 @@ main {
   line-height: 1.4;
 }
 
+#rl-list .rl-card-selections {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  color: var(--color-muted);
+  margin-top: 0.3rem;
+}
+
+#rl-list .rl-card-selections summary {
+  cursor: pointer;
+  letter-spacing: 0.02em;
+}
+
+#rl-list .rl-card-selections-list {
+  margin-top: 0.25rem;
+  line-height: 1.6;
+}
+
 #rl-list .rl-card-conn {
   font-family: var(--font-sans);
   font-size: 0.72rem;

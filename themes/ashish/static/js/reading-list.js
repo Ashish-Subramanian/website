@@ -1404,6 +1404,19 @@
         body.appendChild(whyDiv);
       }
 
+      /* Collapsible selections list */
+      if (w.selections && w.selections.length) {
+        var details = document.createElement("details");
+        details.className = "rl-card-selections";
+        var summary = document.createElement("summary");
+        summary.textContent = "Selections (" + w.selections.length + ")";
+        details.appendChild(summary);
+        var selList = el("div", "rl-card-selections-list");
+        selList.textContent = w.selections.join(", ");
+        details.appendChild(selList);
+        body.appendChild(details);
+      }
+
       /* Connections to other works (bidirectional, clickable, directional) */
       var connIds = connectionMap[w.id] || [];
       var extConns = externalConns[w.id] || [];
