@@ -213,7 +213,7 @@
       return s + (d.litePages || d.readingMinutes || 0);
     }, 0);
     var liteLine = el("div", "rl-stat-lite",
-      "Greatest hits: " + liteWorks.length + " works \u00b7 " +
+      "Abridged: " + liteWorks.length + " works \u00b7 " +
       formatHoursShort(liteMinutes) + " hours (1 hr/day)");
     container.appendChild(liteLine);
   }

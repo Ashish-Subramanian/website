@@ -1,5 +1,5 @@
 ---
-title: "A Year in the World's Literature"
+title: "My Year-Long Reading List"
 date: 2026-03-04
 draft: false
 d3: true
@@ -37,7 +37,7 @@ This is a reading list designed to be completed in exactly 365 days at 2.5 hours
     <button class="rl-sort-btn" data-sort="time">Reading time</button>
     <button class="rl-sort-btn" data-sort="alpha">Title</button>
     <span class="rl-sort-sep"></span>
-    <button class="rl-lite-btn" id="rl-lite-toggle">Greatest hits</button>
+    <button class="rl-lite-btn" id="rl-lite-toggle">Abridged</button>
   </div>
 </div>
 
