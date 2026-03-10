@@ -156,8 +156,6 @@ lastmod: 2026-03-04
 
 <div class="pub">Gumbaragyte J, Rivera C, Bauer A, Gois M, Sinha T, Jiang S, Ives N, <strong>Subramanian A</strong>, Brushett S, Perenboom C, Mallon C, David L, Zhernakova A, Kurilshikov A. <em>Assessing dietary intake in infants through DNA metabarcoding.</em> J Nutr. 2026. In review.</div>
 
-<div class="pub">Tamura K, Cadet K, <strong>Subramanian A</strong>, Moniruzzaman M, Rogers B, Deng Y, Cantor J. <em>County-level segregation on differential geographic availability of mental health treatment facilities.</em> 2026. In preparation.</div>
-
 <div class="pub"><strong>Subramanian A</strong>, Janko M, Barrett T, Nunn C. <em>Open-Source Modeling of Connectivity and Disease Diffusion in Northeastern Madagascar.</em> Health Place. 2026. In preparation.</div>
 
 <div class="pub"><strong>Subramanian, A.</strong>, Janko, M., and Nunn, C. <em>GIS-Based Analysis of Transportation Networks and Disease Diffusion in Northeastern Madagascar</em> [Senior thesis, Duke University]. 2024. Unpublished manuscript, Duke Global Health Institute, Duke University, Durham, NC, United States.</div>
