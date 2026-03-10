@@ -69,6 +69,35 @@
     return e;
   }
 
+  /* Collapse 3+ consecutive entries into ranges (e.g., "4–7") */
+  function collapseRanges(items) {
+    /* Parse each item into {prefix, num, raw} */
+    var parsed = items.map(function (s) {
+      var m = s.match(/^(.*?)(\d+)$/);
+      if (!m) return { prefix: "", num: NaN, raw: s };
+      return { prefix: m[1], num: parseInt(m[2], 10), raw: s };
+    });
+    var result = [];
+    var i = 0;
+    while (i < parsed.length) {
+      var start = i;
+      /* Walk consecutive entries with same prefix */
+      while (i + 1 < parsed.length &&
+             parsed[i + 1].prefix === parsed[start].prefix &&
+             parsed[i + 1].num === parsed[i].num + 1) {
+        i++;
+      }
+      var runLen = i - start + 1;
+      if (runLen >= 3) {
+        result.push(parsed[start].raw + "\u2013" + parsed[i].num);
+      } else {
+        for (var j = start; j <= i; j++) result.push(parsed[j].raw);
+      }
+      i++;
+    }
+    return result.join(", ");
+  }
+
   /* --- Read status (localStorage) --- */
 
   var READ_KEY = "rl-read-works";
@@ -1412,7 +1441,7 @@
         summary.textContent = "Selections (" + w.selections.length + ")";
         details.appendChild(summary);
         var selList = el("div", "rl-card-selections-list");
-        selList.textContent = w.selections.join(", ");
+        selList.textContent = collapseRanges(w.selections);
         details.appendChild(selList);
         body.appendChild(details);
       }
