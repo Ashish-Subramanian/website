@@ -161,7 +161,7 @@
     ],
     "type": "folktale",
     "lite": true,
-    "litePages": 252
+    "litePages": 251
   },
   {
     "id": 3,
@@ -1045,7 +1045,7 @@
     ],
     "type": "folktale",
     "lite": true,
-    "litePages": 196
+    "litePages": 195
   },
   {
     "id": 21,
@@ -1139,7 +1139,7 @@
     "yearEnd": null,
     "type": "folktale",
     "lite": true,
-    "litePages": 152
+    "litePages": 151
   },
   {
     "id": 24,
@@ -1784,7 +1784,7 @@
     ],
     "type": "folktale",
     "lite": true,
-    "litePages": 192
+    "litePages": 191
   },
   {
     "id": 39,
@@ -2113,7 +2113,7 @@
     ],
     "type": "folktale",
     "lite": true,
-    "litePages": 231
+    "litePages": 230
   },
   {
     "id": 46,
@@ -2232,7 +2232,23 @@
     "type": "work",
     "approximate": false,
     "lite": true,
-    "litePages": 300
+    "litePages": 309,
+    "liteTitle": "Shāhnāme: Selections",
+    "liteSelections": [
+      "The First Kings",
+      "The Demon-King Zahhak",
+      "Feraydun and His Three Sons",
+      "Tale of Sam and the Simorgh",
+      "Tale of Zal and Rudabeh",
+      "Rostam, the Son of Zal-Dastan",
+      "The Seven Trials of Rostam",
+      "The Tale of Sohrab",
+      "The Legend of Seyavash",
+      "Rostam and Esfandyar",
+      "The Death of Rostam",
+      "Ferdowsi's Lament for the Death of His Son",
+      "The Reign of Yazdegerd"
+    ]
   },
   {
     "id": 50,
@@ -2624,7 +2640,7 @@
     ],
     "type": "folktale",
     "lite": true,
-    "litePages": 278
+    "litePages": 277
   },
   {
     "id": 52,
@@ -3075,7 +3091,7 @@
     "yearEnd": null,
     "type": "folktale",
     "lite": true,
-    "litePages": 375
+    "litePages": 374
   },
   {
     "id": 66,
@@ -3557,7 +3573,8 @@
     "type": "work",
     "approximate": false,
     "lite": true,
-    "litePages": 306
+    "litePages": 306,
+    "liteTitle": "The Divine Comedy: Inferno"
   },
   {
     "id": 76,
@@ -5377,7 +5394,7 @@
     ],
     "type": "folktale",
     "lite": true,
-    "litePages": 200
+    "litePages": 199
   },
   {
     "id": 125,
@@ -5978,7 +5995,7 @@
     ],
     "type": "folktale",
     "lite": true,
-    "litePages": 187
+    "litePages": 186
   },
   {
     "id": 140,
@@ -7127,7 +7144,7 @@
   },
   {
     "id": 177,
-    "title": "Swann's Way",
+    "title": "In Search of Lost Time: Swann's Way",
     "author": "Marcel Proust",
     "translator": "C. K. Scott Moncrieff",
     "period": "Contemporary",

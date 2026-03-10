@@ -1297,7 +1297,11 @@
     }
 
     if (currentSort === "time") {
-      list.sort(function (a, b) { return (b.readingMinutes || 0) - (a.readingMinutes || 0); });
+      list.sort(function (a, b) {
+        var am = (liteMode && a.litePages) ? a.litePages : (a.readingMinutes || 0);
+        var bm = (liteMode && b.litePages) ? b.litePages : (b.readingMinutes || 0);
+        return bm - am;
+      });
     } else if (currentSort === "alpha") {
       list.sort(function (a, b) {
         var ta = (a.title || "").replace(/^(the|a|an)\s+/i, "").toLowerCase();
@@ -1382,13 +1386,14 @@
       body.style.minWidth = "0";
 
       var title = el("div", "rl-card-title");
-      var colonIdx = w.title.indexOf(":");
+      var displayTitle = (liteMode && w.liteTitle) ? w.liteTitle : w.title;
+      var colonIdx = displayTitle.indexOf(":");
       if (colonIdx !== -1) {
-        title.appendChild(document.createTextNode(w.title.substring(0, colonIdx)));
-        var sub = el("span", "rl-card-subtitle", w.title.substring(colonIdx + 1));
+        title.appendChild(document.createTextNode(displayTitle.substring(0, colonIdx)));
+        var sub = el("span", "rl-card-subtitle", displayTitle.substring(colonIdx + 1));
         title.appendChild(sub);
       } else {
-        title.textContent = w.title;
+        title.textContent = displayTitle;
       }
       body.appendChild(title);
 
@@ -1434,14 +1439,16 @@
       }
 
       /* Collapsible selections list */
-      if (w.selections && w.selections.length) {
+      var activeSelections = (liteMode && w.liteSelections) ? w.liteSelections :
+                             w.selections;
+      if (activeSelections && activeSelections.length) {
         var details = document.createElement("details");
         details.className = "rl-card-selections";
         var summary = document.createElement("summary");
-        summary.textContent = "Selections (" + w.selections.length + ")";
+        summary.textContent = "Selections (" + activeSelections.length + ")";
         details.appendChild(summary);
         var selList = el("div", "rl-card-selections-list");
-        selList.textContent = collapseRanges(w.selections);
+        selList.textContent = collapseRanges(activeSelections);
         details.appendChild(selList);
         body.appendChild(details);
       }
