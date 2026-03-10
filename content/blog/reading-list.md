@@ -15,13 +15,13 @@ description: "A chronological journey through 4,300 years of world literature, c
 
 <div class="rl-intro" markdown="1">
 
-The following reading list intends to present a survey of the world's literature until 2000 that can be read in exactly one year given 2.5 hours of reading time every day. Also presented is an abridged list that can be read in one year given one hour a day.{{% sidenote %}}Simplistically, both lists assume an average word count of 300 words per page and an average reading speed of 300 words per minute. This will likely not be a sustainable pace.{{% /sidenote %}}
+The following reading list intends to present a survey of the world's literature until 2000 that can be read in exactly one year given 2.5 hours of reading time every day. Also presented is an abridged list that can be read in one year given one hour a day.{{% sidenote %}}Simplistically, both lists assume an average word count of 300 words per page and an average reading speed of 300 words per minute. I recognize that this will likely not be a sustainable pace.{{% /sidenote %}}
 
 The goals of this list are to present an even picture of the world's major literary traditions across space and time; in other words, what are the core "tentpoles" that support the world literary canon? This selection philosophy has led to some seemingly curious inclusions and omissions; for example, though Charles Dickens remains one of the most influential writers in the English language, his *Great Expectations* was excluded for overlap with George Eliot's *Middlemarch*, which I deemed to be a better representative of the Victorian realist novel. Meanwhile, you may not have heard of the *huēhuetlahtōlli*, but they remain one of the few surviving bodies of pre-Columbian prose, wisdom literature, and philosophy that we have, and they are important to read for gaining a worlded understanding of literature.{{% sidenote %}}Note that I still do account for sheer importance, which partly explains why we have multiple Sanskrit epics, classic Chinese novels, and plays by William Shakespeare.{{% /sidenote %}}
 
-I developed this list after completing my applications and interviews for MD-PhD programs and realizing how much empty time I had in my day; I spend easily upwards of 2.5 hours a day riding the bus, cooking, showering, doomscrolling social media, or what have you, and I decided I'd try doing something productive with that time this year.
+I developed this list after completing my applications and interviews for MD-PhD programs and realizing how much empty time I had in my day; I spend easily upwards of 2.5 hours a day riding the bus, cooking, showering, working out, doomscrolling social media, or what have you, and I decided I'd try doing something productive with that time this year.
 
-I hope that you too find this list to be useful; even if you don't read the full list, I hope it can provide recommendations for a next read or provoke thinking on the meaning of literature as a millennia-long, global art form.
+I hope that you too find this list to be useful; even if you don't read the full list, I hope it can provide recommendations for a next read or provoke thinking on the meaning and purpose of literature as a millennia-long, global art form.
 
 </div>
 
