@@ -783,6 +783,22 @@ main {
   letter-spacing: 0.03em;
 }
 
+.site-footer .license-notice {
+  font-size: 0.7rem;
+  margin-top: 0.25rem;
+}
+
+.site-footer .license-notice a {
+  color: var(--color-muted);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
+.site-footer .license-notice a:hover {
+  color: var(--color-text);
+}
+
 /* --- Responsive --- */
 
 @media (max-width: 640px) {

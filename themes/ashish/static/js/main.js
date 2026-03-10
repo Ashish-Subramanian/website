@@ -123,6 +123,17 @@
   });
 })();
 
+/* KaTeX auto-render initialization */
+(function () {
+  if (typeof renderMathInElement !== "function") return;
+  renderMathInElement(document.body, {
+    delimiters: [
+      { left: "$$", right: "$$", display: true },
+      { left: "$", right: "$", display: false },
+    ],
+  });
+})();
+
 /* CV ToC scroll-spy */
 (function () {
   var tocLinks = document.querySelectorAll(".cv-toc a");
