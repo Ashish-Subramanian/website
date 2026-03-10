@@ -35,7 +35,7 @@ lastmod: 2026-03-04
 <div class="cv-meta">David Lab, Duke School of Medicine</div>
 
 - Responsible for adapting the use of molecular biological and biostatistical techniques to the study of dietary consumption and nutrition from anthropological, geographic, and epidemiological perspectives, called FoodSeq
-- Responsible for building, testing, and maintaining databases, references, and pipeline for trnL-, 12S-, and 16S-based FoodSeq, measuring plant and animal consumption and microbiome
+- Responsible for building, testing, and maintaining databases, references, and pipeline for trnL-, 12S-, and 16S-based FoodSeq, measuring plant and animal consumption and microbiome composition
 - Responsible for co-running clinical DNATrack study, leading analysis of a wastewater study, and collaborating with cohorts from the Venezuelan Amazon, as well as working on other interesting studies from Pakistani infants to murine colostomy recipients
 - Responsible for overseeing laboratory procedures, protocols, and updates, and creating <a href="https://lad-lab.github.io/">documentation</a> to train new lab members
 </div>
