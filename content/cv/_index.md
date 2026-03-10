@@ -56,7 +56,7 @@ lastmod: 2026-03-04
 ### Volunteer Researcher
 <div class="cv-meta">Socio-Spatial Determinants of Health Lab, National Institutes of Health</div>
 
-- Performed a literature review and regression analysis and co-drafted an upcoming manuscript on the impacts of neighborhood residential segregation on mental health in collaboration with researchers from the National Institutes of Health, the RAND Corporation, and Columbia University
+- Performed a literature review and co-drafted an upcoming manuscript on the impacts of neighborhood residential segregation on mental health in collaboration with researchers from the National Institutes of Health, the RAND Corporation, and Columbia University
 </div>
 
 <div class="cv-entry">
