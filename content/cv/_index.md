@@ -34,9 +34,10 @@ lastmod: 2026-03-04
 ### Biostatistician
 <div class="cv-meta">David Lab, Duke School of Medicine</div>
 
-- Responsible for overseeing laboratory procedures, protocols, and updates, and creating documentation to train new lab members
-- Responsible for updating and maintaining databases, references, and pipeline for trnL marker gene, detecting plant consumption; responsible for building, testing, and documenting pipeline for 12Sv5 marker gene, detecting animal consumption
-- Responsible for co-running clinical DNATrack study, wastewater study, and collaborating with cohorts from the Venezuelan Amazon, as well as other administrative tasks
+- Responsible for adapting the use of molecular biological and biostatistical techniques to the study of dietary consumption and nutrition from anthropological, geographic, and epidemiological perspectives, called FoodSeq
+- Responsible for building, testing, and maintaining databases, references, and pipeline for trnL-, 12S-, and 16S-based FoodSeq, measuring plant and animal consumption and microbiome
+- Responsible for co-running clinical DNATrack study, leading analysis of a wastewater study, and collaborating with cohorts from the Venezuelan Amazon, as well as working on other interesting studies from Pakistani infants to murine colostomy recipients
+- Responsible for overseeing laboratory procedures, protocols, and updates, and creating <a href="https://lad-lab.github.io/">documentation</a> to train new lab members
 </div>
 
 <div class="cv-entry">
@@ -132,16 +133,16 @@ lastmod: 2026-03-04
 ## Volunteering and Community Service
 
 <div class="cv-entry">
-<span class="cv-date">Fall 2022–Fall 2025</span>
+<span class="cv-date">Fall 2022–Spring 2026</span>
 
 ### Duke Help Desk
-<div class="cv-meta">Student Volunteer</div>
+<div class="cv-meta">Community Resource Navigator</div>
 
 - Screened patients waiting in the Duke University Hospital Emergency Department for social needs such as food insecurity and unaffordable housing; connected patients to organizations in Durham, facilitated reaching out, and followed up regularly to address any continuing concerns
 </div>
 
 <div class="cv-entry">
-<span class="cv-date">Summer 2022–Fall 2025</span>
+<span class="cv-date">Summer 2022–Spring 2026</span>
 
 ### Root Causes, Duke School of Medicine
 <div class="cv-meta">Volunteer</div>

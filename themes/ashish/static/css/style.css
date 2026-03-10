@@ -2103,15 +2103,13 @@ main {
     break-inside: avoid;
   }
 
-  /* Links: show URL for external, plain for internal */
+  /* Links: plain text in print */
   a {
-    color: #000;
-    text-decoration: none;
+    color: #000 !important;
+    text-decoration: none !important;
   }
 
   .page-body a[href^="http"]::after {
-    content: " (" attr(href) ")";
-    font-size: 0.8em;
-    color: #555;
+    display: none;
   }
 }
