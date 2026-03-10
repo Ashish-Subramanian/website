@@ -1564,10 +1564,21 @@ main {
   border-color: var(--color-rule);
 }
 
+#reading-list-app .rl-lite-btn .rl-lite-btn-star {
+  display: inline-block;
+  vertical-align: -0.15em;
+  margin-right: 0.35em;
+}
+
 #reading-list-app .rl-lite-btn.active {
   color: #c9a227;
   border-color: #c9a227;
   background-color: #fdf6e3;
+}
+
+#reading-list-app .rl-lite-btn.active .rl-lite-btn-star path {
+  fill: #c9a227 !important;
+  stroke: #c9a227 !important;
 }
 
 /* Card list */

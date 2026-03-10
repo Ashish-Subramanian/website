@@ -1265,6 +1265,21 @@
     /* Greatest hits toggle */
     var liteBtn = document.getElementById("rl-lite-toggle");
     if (liteBtn) {
+      /* Prepend star icon */
+      var starSvg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+      starSvg.setAttribute("viewBox", "0 0 24 24");
+      starSvg.setAttribute("width", "12");
+      starSvg.setAttribute("height", "12");
+      starSvg.setAttribute("class", "rl-lite-btn-star");
+      var starPath = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      starPath.setAttribute("d", "M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z");
+      starPath.setAttribute("fill", "none");
+      starPath.setAttribute("stroke", "currentColor");
+      starPath.setAttribute("stroke-width", "1.5");
+      starPath.setAttribute("stroke-linejoin", "round");
+      starSvg.appendChild(starPath);
+      liteBtn.insertBefore(starSvg, liteBtn.firstChild);
+
       liteBtn.addEventListener("click", function () {
         liteMode = !liteMode;
         this.classList.toggle("active", liteMode);
