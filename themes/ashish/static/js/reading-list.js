@@ -1947,6 +1947,90 @@
     }
   }
 
+  /* ========== BIBLIOGRAPHY ========== */
+
+  function loadBibliography() {
+    var container = document.getElementById("rl-bibliography-list");
+    if (!container) return;
+
+    fetch("/data/bibliography.json")
+      .then(function (r) { return r.json(); })
+      .then(function (entries) {
+        container.innerHTML = "";
+        var list = document.createElement("div");
+        list.className = "rl-bib-list";
+        entries.forEach(function (entry) {
+          var div = document.createElement("div");
+          div.className = "rl-bib-entry";
+          if (entry.id != null) div.dataset.id = entry.id;
+          div.innerHTML = renderMlaCitation(entry);
+          list.appendChild(div);
+        });
+        container.appendChild(list);
+      })
+      .catch(function () {
+        container.innerHTML = "<p class=\"rl-appendix-loading\">Failed to load bibliography.</p>";
+      });
+  }
+
+  function renderMlaCitation(entry) {
+    /* Build MLA citation from structured fields:
+       Author. <em>Title.</em> Translated by Translator, Publisher, Year. */
+    var html = "";
+
+    /* Author */
+    if (entry.author) {
+      var a = escapeHtml(entry.author);
+      html += a.endsWith(".") ? a : (a + ".");
+    }
+
+    /* Title (italicized) */
+    if (entry.title) {
+      if (html) html += " ";
+      var t = escapeHtml(entry.title);
+      /* Period goes inside the <em> */
+      html += "<em>" + (t.endsWith(".") ? t : (t + ".")) + "</em>";
+    }
+
+    /* Translator */
+    if (entry.translator) {
+      html += " Translated by " + escapeHtml(entry.translator) + ",";
+    }
+
+    /* Publisher */
+    if (entry.publisher) {
+      html += " " + escapeHtml(entry.publisher) + ",";
+    }
+
+    /* Year */
+    if (entry.year) {
+      html += " " + escapeHtml(entry.year) + ".";
+    } else {
+      /* Close the last comma-terminated segment with a period */
+      if (html.endsWith(",")) {
+        html = html.slice(0, -1) + ".";
+      }
+    }
+
+    return html;
+  }
+
+  function escapeHtml(str) {
+    return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  /* Load bibliography when the details element is opened */
+  var bibDetails = document.getElementById("rl-bibliography");
+  if (bibDetails) {
+    var bibLoaded = false;
+    bibDetails.addEventListener("toggle", function () {
+      if (bibDetails.open && !bibLoaded) {
+        bibLoaded = true;
+        loadBibliography();
+      }
+    });
+  }
+
   /* ========== BACK TO TOP ========== */
 
   function initBackToTop() {

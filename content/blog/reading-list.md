@@ -53,6 +53,22 @@ I hope that you too find this list to be useful; even if you don't read the full
 
 <p class="rl-disclaimer">Dates and places of composition are approximations, especially for older works with uncertain provenance. Reading times are estimates based on my personal reading speed and published page counts. Connections between works are necessarily selective and will never be complete.</p>
 
+<details class="rl-appendix" id="rl-methods">
+<summary>Methods</summary>
+<div class="rl-appendix-body" markdown="1">
+
+Methods content goes here.
+
+</div>
+</details>
+
+<details class="rl-appendix" id="rl-bibliography">
+<summary>Bibliography</summary>
+<div class="rl-appendix-body" id="rl-bibliography-list">
+<p class="rl-appendix-loading">Loading bibliography…</p>
+</div>
+</details>
+
 </div>
 
 <script defer src="/js/reading-list.js"></script>

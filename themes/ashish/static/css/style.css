@@ -1951,6 +1951,73 @@ main {
   font-style: italic;
 }
 
+/* Appendix sections (Methods, Bibliography) */
+#reading-list-app .rl-appendix {
+  margin: 2rem 0 0;
+  border-top: 1px solid var(--color-rule);
+}
+
+#reading-list-app .rl-appendix summary {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  cursor: pointer;
+  padding: 0.75rem 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#reading-list-app .rl-appendix summary::-webkit-details-marker {
+  display: none;
+}
+
+#reading-list-app .rl-appendix summary::before {
+  content: "▸";
+  font-size: 0.7rem;
+  transition: transform 0.15s ease;
+}
+
+#reading-list-app .rl-appendix[open] summary::before {
+  transform: rotate(90deg);
+}
+
+#reading-list-app .rl-appendix summary:hover {
+  color: var(--color-text);
+}
+
+#reading-list-app .rl-appendix-body {
+  padding: 0 0 1.5rem;
+  font-size: 0.88rem;
+  line-height: 1.7;
+}
+
+#reading-list-app .rl-appendix-loading {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  color: var(--color-muted);
+  font-style: italic;
+}
+
+#reading-list-app .rl-bib-list {
+  padding: 0;
+  margin: 0;
+}
+
+#reading-list-app .rl-bib-entry {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  line-height: 1.7;
+  color: var(--color-text);
+  padding: 0.2rem 0;
+  padding-left: 2rem;
+  text-indent: -2rem;
+}
+
 /* Floating buttons (Top + Next) */
 #reading-list-app .rl-float-buttons {
   position: fixed;
