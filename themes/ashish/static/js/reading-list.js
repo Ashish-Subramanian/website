@@ -1997,6 +1997,11 @@
       html += " Translated by " + escapeHtml(entry.translator) + ",";
     }
 
+    /* Edition / volume (for anthologies) */
+    if (entry.edition) {
+      html += " " + escapeHtml(entry.edition) + ",";
+    }
+
     /* Publisher */
     if (entry.publisher) {
       html += " " + escapeHtml(entry.publisher) + ",";
