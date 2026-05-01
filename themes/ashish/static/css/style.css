@@ -564,7 +564,8 @@ main {
 }
 
 .cv-body .cv-entry h3 {
-  display: inline;
+  display: block;
+  overflow: hidden;
 }
 
 .cv-body .cv-meta {
@@ -580,6 +581,7 @@ main {
   font-style: normal;
   font-size: 0.95rem;
   color: var(--color-text);
+  margin-left: 1rem;
 }
 
 .cv-body .cv-role {
