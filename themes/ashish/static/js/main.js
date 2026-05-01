@@ -134,6 +134,12 @@
   });
 })();
 
+/* CV print button */
+(function () {
+  var btn = document.getElementById("cv-print-btn");
+  if (btn) btn.addEventListener("click", function () { window.print(); });
+})();
+
 /* CV ToC scroll-spy */
 (function () {
   var tocLinks = document.querySelectorAll(".cv-toc a");
