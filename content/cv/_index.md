@@ -10,7 +10,7 @@ lastmod: 2026-05-01
 <div class="cv-entry">
 <span class="cv-date">Expected 2034</span>
 
-### M.D. Washington University in St. Louis, Roy Vagelos Medical Scientist Training Program
+### M.D. Washington University School of Medicine in St. Louis, Roy Vagelos Medical Scientist Training Program
 <div class="cv-meta">St. Louis, MO</div>
 
 </div>
@@ -18,7 +18,7 @@ lastmod: 2026-05-01
 <div class="cv-entry">
 <span class="cv-date">Expected 2032</span>
 
-### Ph.D. Washington University in St. Louis
+### Ph.D. Washington University School of Public Health in St. Louis
 <div class="cv-meta">St. Louis, MO</div>
 
 - Public Health Sciences
