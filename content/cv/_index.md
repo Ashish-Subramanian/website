@@ -2,10 +2,27 @@
 title: "Curriculum Vitae"
 layout: "single"
 type: "cv"
-lastmod: 2026-03-04
+lastmod: 2026-05-01
 ---
 
 ## Education
+
+<div class="cv-entry">
+<span class="cv-date">Expected 2034</span>
+
+### M.D. Washington University in St. Louis
+<div class="cv-meta">St. Louis, MO</div>
+
+</div>
+
+<div class="cv-entry">
+<span class="cv-date">Expected 2032</span>
+
+### Ph.D. in Public Health Sciences, Washington University in St. Louis
+<div class="cv-meta">St. Louis, MO</div>
+
+- Medical Scientist Training Program (MSTP)
+</div>
 
 <div class="cv-entry">
 <span class="cv-date">May 2024</span>
@@ -200,6 +217,6 @@ ArcGIS and geographic information systems, Microsoft Office, Google Drive, Adobe
 
 ### Language
 
-Tamil (native), Telugu (native), Spanish (full; certified), French (full; certified), Hindi (full), Portuguese (professional), Egyptian Arabic (professional), Italian (limited), German (limited), more
+Tamil (native), Telugu (native), Spanish (full; certified), French (full; certified), Portuguese (professional), Egyptian Arabic (professional), Hindi (limited), Italian (limited), German (limited), more
 
 </div>
