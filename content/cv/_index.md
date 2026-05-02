@@ -187,6 +187,16 @@ lastmod: 2026-05-01
 
 <div class="pub"><strong>Subramanian, A.</strong> (2022, May 12). <em>Habitat Disturbance and Disease Transmission Networks in Mammals of Central Africa</em> [Oral presentation]. NIH-NSF Ecology and Evolution of Infectious Diseases Initiative working group, Durham, NC, United States.</div>
 
+## Grants
+
+<div class="cv-entry">
+<span class="cv-date">2025–2029</span>
+
+### Dietary Fiber–Microbiome Interactions: Elucidating Mechanisms to Suppress Multi-Drug Resistant Organisms in the Human Gut
+<div class="cv-meta">National Institute of Allergy and Infectious Diseases</div>
+
+</div>
+
 ## Skills and Certifications
 
 <div class="cv-entry">

@@ -563,6 +563,10 @@ main {
   margin-bottom: 1.25rem;
 }
 
+.cv-body .cv-entry:first-child h3 {
+  margin-top: 0;
+}
+
 .cv-body .cv-entry h3 {
   display: block;
   overflow: hidden;
