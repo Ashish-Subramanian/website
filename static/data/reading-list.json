@@ -17,7 +17,6 @@
       "foundational devotional hymn",
       "Sumerian literary tradition"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780300264173",
     "pages": 282,
@@ -31,7 +30,21 @@
     "type": "work",
     "yearStart": null,
     "yearEnd": null,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Descent of Inanna",
+        "author": "anonymous"
+      },
+      {
+        "title": "The Temple Hymns",
+        "author": "Enḫeduanna"
+      },
+      {
+        "title": "Lament for Ur",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 2,
@@ -50,7 +63,6 @@
       "oral traditions from the world's oldest continuous cultures",
       "Dreaming narratives encoding tens of thousands of years of ecological and cosmological knowledge"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781876334291",
     "pages": 412,
@@ -148,7 +160,21 @@
     "type": "folktale",
     "lite": true,
     "litePages": 252,
-    "approximate": true
+    "approximate": true,
+    "seeAlso": [
+      {
+        "title": "Wise Women of the Dreamtime",
+        "author": "coll. K. Langloh Parker"
+      },
+      {
+        "title": "The Singing Line",
+        "author": "Alice Thomson"
+      },
+      {
+        "title": "Dark Emu",
+        "author": "Bruce Pascoe"
+      }
+    ]
   },
   {
     "id": 3,
@@ -168,7 +194,6 @@
       "most popular work of literature in ancient Egypt",
       "exile-and-homecoming plot that anticipates the Odyssey by over a millennium"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780199555628",
     "pages": 298,
@@ -182,7 +207,21 @@
     "yearStart": -1971,
     "yearEnd": -1800,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Shipwrecked Sailor",
+        "author": "anonymous"
+      },
+      {
+        "title": "The Eloquent Peasant",
+        "author": "anonymous"
+      },
+      {
+        "title": "The Story of Wenamun",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 4,
@@ -202,7 +241,6 @@
       "origin of the quest narrative, the mortal hero, and the flood myth",
       "Mesopotamian literary tradition"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780393643985",
     "pages": 256,
@@ -217,7 +255,21 @@
     "yearEnd": -1200,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Enūma Eliš",
+        "author": "anonymous"
+      },
+      {
+        "title": "Atrahasis",
+        "author": "anonymous"
+      },
+      {
+        "title": "The Descent of Ishtar",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 5,
@@ -237,7 +289,6 @@
       "foundational hymns of Vedic religion and Indian philosophical inquiry",
       "wellspring of all subsequent Sanskrit literature"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780199370184",
     "pages": 1728,
@@ -362,6 +413,20 @@
       "X.177",
       "X.184",
       "X.190"
+    ],
+    "seeAlso": [
+      {
+        "title": "Atharvaveda",
+        "author": "anonymous"
+      },
+      {
+        "title": "Upaniṣads",
+        "author": "anonymous"
+      },
+      {
+        "title": "Sāmaveda",
+        "author": "anonymous"
+      }
     ]
   },
   {
@@ -382,7 +447,6 @@
       "one of the Five Classics of Confucianism",
       "establishes the lyric modes and allegorical reading practices that define the Chinese poetic tradition"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780393038231",
     "pages": 58,
@@ -458,6 +522,20 @@
       "262",
       "272",
       "290"
+    ],
+    "seeAlso": [
+      {
+        "title": "Chǔcí",
+        "author": "Qū Yuán"
+      },
+      {
+        "title": "Yìjīng",
+        "author": "anonymous"
+      },
+      {
+        "title": "Shūjīng",
+        "author": "anonymous"
+      }
     ]
   },
   {
@@ -477,10 +555,6 @@
       "foundational epic of Western literature",
       "defines heroic poetry, the tragedy of war, and epic conventions — epithets, catalogues, divine machinery — inherited by virtually every subsequent epic"
     ],
-    "connections": [
-      25,
-      247
-    ],
     "read": false,
     "isbn": "9781324102076",
     "pages": 816,
@@ -495,7 +569,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Argonautica",
+        "author": "Apollonius of Rhodes"
+      },
+      {
+        "title": "Works and Days",
+        "author": "Hesiod"
+      },
+      {
+        "title": "Theogony",
+        "author": "Hesiod"
+      }
+    ]
   },
   {
     "id": 8,
@@ -515,11 +603,6 @@
       "complement to the Iliad",
       "foundational influence on the novel as a form"
     ],
-    "connections": [
-      25,
-      50,
-      247
-    ],
     "read": false,
     "isbn": "9780393356250",
     "pages": 592,
@@ -534,7 +617,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Argonautica",
+        "author": "Apollonius of Rhodes"
+      },
+      {
+        "title": "The Return of Odysseus",
+        "author": "Nikos Kazantzakis"
+      },
+      {
+        "title": "Ithaca",
+        "author": "C. P. Cavafy"
+      }
+    ]
   },
   {
     "id": 9,
@@ -554,7 +651,6 @@
       "intimate exploration of desire and subjectivity",
       "among the most influential poets in history despite surviving only in fragments"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780375724510",
     "pages": 416,
@@ -593,7 +689,21 @@
     "yearStart": -650,
     "yearEnd": -570,
     "type": "work",
-    "approximate": true
+    "approximate": true,
+    "seeAlso": [
+      {
+        "title": "Odes",
+        "author": "Pindar"
+      },
+      {
+        "title": "poetry of Alcaeus",
+        "author": "Alcaeus"
+      },
+      {
+        "title": "poetry of Archilochus",
+        "author": "Archilochus"
+      }
+    ]
   },
   {
     "id": 10,
@@ -613,10 +723,6 @@
       "among the most influential literary works in human history",
       "origin of creation narrative, covenant theology, wisdom literature, prophetic poetry, and erotic verse"
     ],
-    "connections": [
-      75,
-      76
-    ],
     "read": false,
     "isbn": "9780197633571",
     "pages": 340,
@@ -631,7 +737,21 @@
     "yearStart": -600,
     "yearEnd": -400,
     "type": "work",
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Dead Sea Scrolls",
+        "author": "anonymous"
+      },
+      {
+        "title": "Book of Enoch",
+        "author": "anonymous"
+      },
+      {
+        "title": "Wisdom of Ben Sira",
+        "author": "Ben Sira"
+      }
+    ]
   },
   {
     "id": 11,
@@ -651,7 +771,6 @@
       "invents the courtroom drama",
       "traces the transition from blood vengeance to civic justice, dramatizing the birth of Athenian democracy"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780140443332",
     "pages": 336,
@@ -665,7 +784,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Persians",
+        "author": "Aeschylus"
+      },
+      {
+        "title": "Prometheus Bound",
+        "author": "Aeschylus"
+      },
+      {
+        "title": "Seven Against Thebes",
+        "author": "Aeschylus"
+      }
+    ]
   },
   {
     "id": 12,
@@ -685,7 +818,6 @@
       "Euripides' most psychologically modern tragedy",
       "challenges heroic ideals from the margins"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780199537969",
     "pages": 273,
@@ -699,7 +831,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Bacchae",
+        "author": "Euripides"
+      },
+      {
+        "title": "Hippolytus",
+        "author": "Euripides"
+      },
+      {
+        "title": "Trojan Women",
+        "author": "Euripides"
+      }
+    ]
   },
   {
     "id": 13,
@@ -719,7 +865,6 @@
       "Oedipus Rex gives Western literature its model of dramatic irony and tragic recognition",
       "Antigone stages the clash between individual conscience and state authority"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780140444254",
     "pages": 436,
@@ -734,7 +879,21 @@
     "yearEnd": -401,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Ajax",
+        "author": "Sophocles"
+      },
+      {
+        "title": "Electra",
+        "author": "Sophocles"
+      },
+      {
+        "title": "Philoctetes",
+        "author": "Sophocles"
+      }
+    ]
   },
   {
     "id": 14,
@@ -754,7 +913,6 @@
       "women's sex strike as anti-war satire",
       "foundational work of Old Comedy and comedic protest literature"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780192824080",
     "pages": 384,
@@ -768,7 +926,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Clouds",
+        "author": "Aristophanes"
+      },
+      {
+        "title": "The Birds",
+        "author": "Aristophanes"
+      },
+      {
+        "title": "The Frogs",
+        "author": "Aristophanes"
+      }
+    ]
   },
   {
     "id": 15,
@@ -788,7 +960,6 @@
       "philosophic poetry on effortless action, paradox, and the limits of language",
       "one of the most translated works in history"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780061142666",
     "pages": 144,
@@ -803,7 +974,21 @@
     "yearEnd": -300,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Lièzǐ",
+        "author": "Liè Yùkòu"
+      },
+      {
+        "title": "Tài Xuán Jīng",
+        "author": "Yáng Xióng"
+      },
+      {
+        "title": "Huáinánzǐ",
+        "author": "Liú Ān"
+      }
+    ]
   },
   {
     "id": 16,
@@ -822,7 +1007,6 @@
       "foundational text of Confucianism",
       "defines the ethical and social thought that shaped East Asian civilization for over two millennia"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780872206359",
     "pages": 314,
@@ -837,7 +1021,21 @@
     "yearEnd": -221,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Mencius",
+        "author": "Mencius"
+      },
+      {
+        "title": "Xúnzǐ",
+        "author": "Xúnzǐ"
+      },
+      {
+        "title": "Great Learning",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 17,
@@ -857,7 +1055,6 @@
       "defines tragedy, catharsis, mimesis, and plot structure",
       "the single most influential work of literary criticism ever written"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780393952162",
     "pages": null,
@@ -869,7 +1066,21 @@
     "yearStart": null,
     "yearEnd": null,
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Rhetoric",
+        "author": "Aristotle"
+      },
+      {
+        "title": "Ion",
+        "author": "Plato"
+      },
+      {
+        "title": "Republic: Book X",
+        "author": "Plato"
+      }
+    ]
   },
   {
     "id": 18,
@@ -889,7 +1100,6 @@
       "playful parables and radical relativism",
       "profound influence on Chan/Zen Buddhism and Chinese aesthetics"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781624668555",
     "pages": 338,
@@ -903,7 +1113,21 @@
     "yearStart": -369,
     "yearEnd": -286,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Lièzǐ",
+        "author": "Liè Yùkòu"
+      },
+      {
+        "title": "Huáinánzǐ",
+        "author": "Liú Ān"
+      },
+      {
+        "title": "The Inner Chapters",
+        "author": "A. C. Graham"
+      }
+    ]
   },
   {
     "id": 19,
@@ -922,7 +1146,6 @@
       "representative collection spanning India's extraordinary diversity of oral traditions",
       "animal fables, trickster tales, and domestic narratives drawn from dozens of languages and regions"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780679748328",
     "pages": 384,
@@ -1060,7 +1283,21 @@
     "type": "folktale",
     "lite": true,
     "litePages": 196,
-    "approximate": true
+    "approximate": true,
+    "seeAlso": [
+      {
+        "title": "Hitopadeśa",
+        "author": "Nārāyaṇa"
+      },
+      {
+        "title": "Kathāsaritsāgara",
+        "author": "Somadeva"
+      },
+      {
+        "title": "Jātaka Tales",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 20,
@@ -1081,15 +1318,6 @@
       "Alexander's conquests reimagined through legend, prophecy, and wonder",
       "adapted into over thirty languages from Iceland to Indonesia, its Iskandar traditions shaping Persian, Arabic, Ethiopian, Malay, and West African literatures"
     ],
-    "connections": [
-      4,
-      49,
-      70,
-      {
-        "title": "Malay Annals",
-        "year": 1612.0
-      }
-    ],
     "read": false,
     "isbn": "9780140445602",
     "pages": 197,
@@ -1100,6 +1328,20 @@
     "coords": [
       31.2001,
       29.9187
+    ],
+    "seeAlso": [
+      {
+        "title": "Daphnis and Chloe",
+        "author": "Longus"
+      },
+      {
+        "title": "Aethiopica",
+        "author": "Heliodorus"
+      },
+      {
+        "title": "The Golden Ass",
+        "author": "Apuleius"
+      }
     ]
   },
   {
@@ -1120,7 +1362,6 @@
       "distillation of the Buddha's ethical teachings into aphoristic verse",
       "foundational Pāli literary tradition"
     ],
-    "connections": null,
     "read": false,
     "isbn": null,
     "pages": 195,
@@ -1134,7 +1375,21 @@
     "yearStart": -300,
     "yearEnd": -200,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Sutta Nipāta",
+        "author": "anonymous"
+      },
+      {
+        "title": "Theragāthā",
+        "author": "anonymous"
+      },
+      {
+        "title": "Milindapañha",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 22,
@@ -1153,7 +1408,6 @@
       "representative collection of Chinese oral narrative across centuries",
       "supernatural tales, moral fables, and trickster stories reflecting Confucian, Daoist, and Buddhist worldviews"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780394420394",
     "pages": 259,
@@ -1169,7 +1423,21 @@
     "type": "folktale",
     "lite": true,
     "litePages": 152,
-    "approximate": true
+    "approximate": true,
+    "seeAlso": [
+      {
+        "title": "Strange Tales from a Chinese Studio",
+        "author": "Pú Sōnglíng"
+      },
+      {
+        "title": "Sōushénjì",
+        "author": "Gān Bǎo"
+      },
+      {
+        "title": "Records of the Taiping Era",
+        "author": "Lǐ Fáng"
+      }
+    ]
   },
   {
     "id": 23,
@@ -1189,10 +1457,6 @@
       "defines the ideal of dharmic kingship and devotional love",
       "adapted across South and Southeast Asia into dozens of literary, dramatic, and visual traditions"
     ],
-    "connections": [
-      41,
-      54
-    ],
     "read": false,
     "isbn": "9780691206868",
     "pages": 960,
@@ -1206,7 +1470,21 @@
     "yearStart": -700,
     "yearEnd": 300,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Rāmcaritmānas",
+        "author": "Tulsīdās"
+      },
+      {
+        "title": "Kamba Rāmāyaṇam",
+        "author": "Kamban"
+      },
+      {
+        "title": "Uttararāmacarita",
+        "author": "Bhavabhūti"
+      }
+    ]
   },
   {
     "id": 24,
@@ -1226,7 +1504,6 @@
       "encompasses the Bhagavad Gītā, the dice game, and the Kurukṣetra war",
       "encyclopedic compendium of Indian mythology, philosophy, and law"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780393352498",
     "pages": 928,
@@ -1241,7 +1518,21 @@
     "yearStart": -400,
     "yearEnd": 300,
     "type": "work",
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Bhagavad Gītā",
+        "author": "anonymous"
+      },
+      {
+        "title": "Kirātārjunīya",
+        "author": "Bhāravi"
+      },
+      {
+        "title": "Cilappatikāram",
+        "author": "Iḷaṅkō Aṭikaḷ"
+      }
+    ]
   },
   {
     "id": 25,
@@ -1261,14 +1552,6 @@
       "consciously inherits and transforms Homer",
       "model for Dante, Milton, and virtually every European epic that follows"
     ],
-    "connections": [
-      7,
-      8,
-      50,
-      75,
-      102,
-      119
-    ],
     "read": false,
     "isbn": "9780300240108",
     "pages": 392,
@@ -1283,7 +1566,21 @@
     "yearEnd": -19,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Pharsalia",
+        "author": "Lucan"
+      },
+      {
+        "title": "Thebaid",
+        "author": "Statius"
+      },
+      {
+        "title": "Georgics",
+        "author": "Virgil"
+      }
+    ]
   },
   {
     "id": 26,
@@ -1303,7 +1600,6 @@
       "source of \"ut pictura poesis\" and the principle of decorum",
       "shaped neoclassical literary theory for centuries"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780888641458",
     "pages": null,
@@ -1314,7 +1610,21 @@
     "type": "criticism",
     "yearStart": null,
     "yearEnd": null,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Epistles",
+        "author": "Horace"
+      },
+      {
+        "title": "Institutio Oratoria",
+        "author": "Quintilian"
+      },
+      {
+        "title": "De Oratore",
+        "author": "Cicero"
+      }
+    ]
   },
   {
     "id": 27,
@@ -1334,7 +1644,6 @@
       "origin of rasa theory",
       "the single most influential work of literary and artistic theory in the Indian tradition"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9788121506809",
     "pages": null,
@@ -1345,7 +1654,21 @@
     "coords": null,
     "yearStart": -200,
     "yearEnd": 200,
-    "type": "criticism"
+    "type": "criticism",
+    "seeAlso": [
+      {
+        "title": "Abhinavabhāratī",
+        "author": "Abhinavagupta"
+      },
+      {
+        "title": "Daśarūpaka",
+        "author": "Dhanaṁjaya"
+      },
+      {
+        "title": "Sāhityadarpaṇa",
+        "author": "Viśvanātha"
+      }
+    ]
   },
   {
     "id": 28,
@@ -1365,13 +1688,6 @@
       "250 transformation myths woven into continuous narrative",
       "inexhaustible source for Western art, literature, and opera"
     ],
-    "connections": [
-      75,
-      86,
-      107,
-      111,
-      119
-    ],
     "read": false,
     "isbn": "9780393427936",
     "pages": 564,
@@ -1385,7 +1701,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Fasti",
+        "author": "Ovid"
+      },
+      {
+        "title": "Heroides",
+        "author": "Ovid"
+      },
+      {
+        "title": "Amores",
+        "author": "Ovid"
+      }
+    ]
   },
   {
     "id": 29,
@@ -1405,7 +1735,6 @@
       "counterpoint to Aristotle's formalism",
       "revived in the 18th century to shape Romantic literary theory"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780198141624",
     "pages": null,
@@ -1416,7 +1745,21 @@
     "type": "criticism",
     "yearStart": 0,
     "yearEnd": 100,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Demetrius: On Style",
+        "author": "Demetrius"
+      },
+      {
+        "title": "Poetics",
+        "author": "Aristotle"
+      },
+      {
+        "title": "Ars Poetica",
+        "author": "Horace"
+      }
+    ]
   },
   {
     "id": 30,
@@ -1436,7 +1779,6 @@
       "love and war lyrics of extraordinary immediacy",
       "independent literary tradition rivaling Sanskrit in antiquity and sophistication"
     ],
-    "connections": null,
     "read": false,
     "isbn": [
       "9780231157353",
@@ -1454,7 +1796,21 @@
     "yearStart": -100,
     "yearEnd": 250,
     "type": "work",
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Cilappatikāram",
+        "author": "Iḷaṅkō Aṭikaḷ"
+      },
+      {
+        "title": "Maṇimēkalai",
+        "author": "Cīttalai Cāttanār"
+      },
+      {
+        "title": "Tirukkuṛaḷ",
+        "author": "Tiruvaḷḷuvar"
+      }
+    ]
   },
   {
     "id": 31,
@@ -1474,9 +1830,6 @@
       "the Gospels invent a new narrative genre centered on parable and witness",
       "Revelation defines apocalyptic literature",
       "Paul's epistles shape Western theology and rhetoric"
-    ],
-    "connections": [
-      75
     ],
     "read": false,
     "isbn": "9780197633571",
@@ -1510,7 +1863,21 @@
     "yearEnd": 100,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Gospel of Thomas",
+        "author": "anonymous"
+      },
+      {
+        "title": "Didache",
+        "author": "anonymous"
+      },
+      {
+        "title": "Shepherd of Hermas",
+        "author": "Hermas"
+      }
+    ]
   },
   {
     "id": 32,
@@ -1530,7 +1897,6 @@
       "introduces the bodhisattva ideal and the doctrine of skillful means",
       "central scripture in East Asian Buddhist traditions"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780231148955",
     "pages": 416,
@@ -1544,7 +1910,21 @@
     "yearStart": 50,
     "yearEnd": 150,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Heart Sūtra",
+        "author": "anonymous"
+      },
+      {
+        "title": "Vimalakīrtinirdeśa",
+        "author": "anonymous"
+      },
+      {
+        "title": "Diamond Sūtra",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 33,
@@ -1564,9 +1944,6 @@
       "nested animal fables on statecraft and practical wisdom",
       "source text for Kalīla wa-Dimna and countless retellings across Eurasia"
     ],
-    "connections": [
-      72
-    ],
     "read": false,
     "isbn": "9780192839886",
     "pages": 256,
@@ -1580,7 +1957,21 @@
     "yearStart": 0,
     "yearEnd": 500,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Hitopadeśa",
+        "author": "Nārāyaṇa"
+      },
+      {
+        "title": "Kalīla wa-Dimna",
+        "author": "Ibn al-Muqaffaʿ"
+      },
+      {
+        "title": "Jātaka Tales",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 34,
@@ -1600,9 +1991,6 @@
       "Kālidāsa's masterwork of rasa-driven romantic narrative",
       "first Indian literary work to reach European audiences, inspiring Goethe"
     ],
-    "connections": [
-      142
-    ],
     "read": false,
     "isbn": "9780192853615",
     "pages": 345,
@@ -1617,7 +2005,21 @@
     "yearEnd": 400,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Mṛcchakaṭika",
+        "author": "Śūdraka"
+      },
+      {
+        "title": "Mālavikāgnimitra",
+        "author": "Kālidāsa"
+      },
+      {
+        "title": "Mudrarākṣasa",
+        "author": "Viśākhadatta"
+      }
+    ]
   },
   {
     "id": 35,
@@ -1637,7 +2039,6 @@
       "an exiled lover's message carried by a monsoon cloud across the Indian landscape",
       "model of the messenger-poem genre in Indian literature"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780192853615",
     "pages": null,
@@ -1651,7 +2052,21 @@
     "yearStart": 300,
     "yearEnd": 400,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Kumārasambhava",
+        "author": "Kālidāsa"
+      },
+      {
+        "title": "Raghuvaṁśa",
+        "author": "Kālidāsa"
+      },
+      {
+        "title": "Ṛtusaṁhāra",
+        "author": "Kālidāsa"
+      }
+    ]
   },
   {
     "id": 36,
@@ -1671,7 +2086,6 @@
       "invents introspective self-examination as a literary mode",
       "foundational work of Christian theology and the literature of conversion"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780872208162",
     "pages": 345,
@@ -1686,7 +2100,21 @@
     "yearEnd": 400,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "The City of God",
+        "author": "Augustine"
+      },
+      {
+        "title": "The Consolation of Philosophy",
+        "author": "Boethius"
+      },
+      {
+        "title": "Rule of Saint Benedict",
+        "author": "Benedict of Nursia"
+      }
+    ]
   },
   {
     "id": 37,
@@ -1705,7 +2133,6 @@
       "most comprehensive work of classical Chinese literary theory",
       "systematic treatment of genre, style, and the relationship between literature and the cosmic order"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9789629965853",
     "pages": null,
@@ -1716,7 +2143,21 @@
     "type": "criticism",
     "yearStart": null,
     "yearEnd": null,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Shīpǐn",
+        "author": "Zhōng Róng"
+      },
+      {
+        "title": "Wénfù",
+        "author": "Lù Jī"
+      },
+      {
+        "title": "Twenty-Four Categories of Poetry",
+        "author": "Sīkōng Tú"
+      }
+    ]
   },
   {
     "id": 38,
@@ -1735,7 +2176,6 @@
       "representative collection spanning the continent's extraordinary diversity of oral traditions",
       "trickster tales, origin myths, and moral fables from over thirty cultures"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780394721170",
     "pages": 384,
@@ -1881,7 +2321,21 @@
     "type": "folktale",
     "lite": true,
     "litePages": 192,
-    "approximate": true
+    "approximate": true,
+    "seeAlso": [
+      {
+        "title": "Sundiata: An Epic of Old Mali",
+        "author": "Djibril Tamsir Niane"
+      },
+      {
+        "title": "The Hare and the Hornbill",
+        "author": "coll. Okot p'Bitek"
+      },
+      {
+        "title": "Tongue-Tied in Black and White",
+        "author": "Harold Scheub"
+      }
+    ]
   },
   {
     "id": 39,
@@ -1901,7 +2355,6 @@
       "the qaṣīda form at its peak",
       "foundational works of the Arabic literary tradition, memorized and revered for fifteen centuries"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9786030363926",
     "pages": 489,
@@ -1916,7 +2369,21 @@
     "yearEnd": 630,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Dīwān of Imru' al-Qais",
+        "author": "Imru' al-Qais"
+      },
+      {
+        "title": "Dīwān of al-Khansā'",
+        "author": "al-Khansā'"
+      },
+      {
+        "title": "Ḥamāsa",
+        "author": "Abū Tammām"
+      }
+    ]
   },
   {
     "id": 40,
@@ -1953,7 +2420,6 @@
       "inimitable Arabic prose-poetry that defines the literary, theological, and legal foundations of Islamic civilization",
       "among the most recited texts in human history"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780977300969",
     "pages": 385,
@@ -1961,7 +2427,21 @@
     "readingMinutes": 35,
     "readingTime": "0:35",
     "approximate": false,
-    "coords": null
+    "coords": null,
+    "seeAlso": [
+      {
+        "title": "Ḥadīth collections",
+        "author": "al-Bukhārī"
+      },
+      {
+        "title": "Sīra of the Prophet",
+        "author": "Ibn Hishām"
+      },
+      {
+        "title": "Tafsīr al-Ṭabarī",
+        "author": "al-Ṭabarī"
+      }
+    ]
   },
   {
     "id": 41,
@@ -1981,9 +2461,6 @@
       "representative work of Southeast Asian epic poetry",
       "demonstrates the Rāmāyaṇa's transformation as it travels across cultures"
     ],
-    "connections": [
-      22
-    ],
     "read": false,
     "isbn": "9780947593025",
     "pages": 348,
@@ -1997,7 +2474,21 @@
     "yearStart": 600,
     "yearEnd": 700,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Phra Lak Phra Ram",
+        "author": "anonymous"
+      },
+      {
+        "title": "Kakawin Rāmāyaṇa",
+        "author": "anonymous"
+      },
+      {
+        "title": "Hikayat Seri Rama",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 42,
@@ -2017,7 +2508,6 @@
       "mythological chronicle of divine origins and imperial lineage",
       "foundational work of Shintō cosmology and Japanese national identity"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780231163897",
     "pages": 279,
@@ -2031,7 +2521,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Nihon Shoki",
+        "author": "Toneri Shinnō"
+      },
+      {
+        "title": "Fudoki",
+        "author": "anonymous"
+      },
+      {
+        "title": "Man'yōshū",
+        "author": "various"
+      }
+    ]
   },
   {
     "id": 43,
@@ -2050,7 +2554,6 @@
       "golden age of Chinese poetry",
       "Lǐ Bái, Wáng Wéi, and Dù Fǔ represent the lyric, landscape, and socially engaged modes that define the tradition's peak"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780393038231",
     "pages": 182,
@@ -2065,7 +2568,21 @@
     "yearEnd": 762,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "poetry of Bái Jūyì",
+        "author": "Bái Jūyì"
+      },
+      {
+        "title": "poetry of Mèng Hàorán",
+        "author": "Mèng Hàorán"
+      },
+      {
+        "title": "poetry of Hán Yù",
+        "author": "Hán Yù"
+      }
+    ]
   },
   {
     "id": 44,
@@ -2085,7 +2602,6 @@
       "Cú Chulainn as the archetypal Celtic hero",
       "oldest extended prose narrative in a European vernacular outside Greek and Latin"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780192803733",
     "pages": 320,
@@ -2099,7 +2615,21 @@
     "yearStart": 700,
     "yearEnd": 800,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Lebor Gabála Érenn",
+        "author": "anonymous"
+      },
+      {
+        "title": "Fenian Cycle",
+        "author": "anonymous"
+      },
+      {
+        "title": "Acallam na Senórach",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 45,
@@ -2118,7 +2648,6 @@
       "representative collection of oral narrative from across the Arabic-speaking world",
       "jinn tales, Bedouin humor, and Sufi parables reflecting centuries of Islamic culture"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780394501048",
     "pages": 386,
@@ -2224,7 +2753,21 @@
     "type": "folktale",
     "lite": true,
     "litePages": 231,
-    "approximate": true
+    "approximate": true,
+    "seeAlso": [
+      {
+        "title": "Kalīla wa-Dimna",
+        "author": "Ibn al-Muqaffaʿ"
+      },
+      {
+        "title": "Sīrat Banī Hilāl",
+        "author": "anonymous"
+      },
+      {
+        "title": "Sīrat ʿAntar",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 46,
@@ -2244,7 +2787,6 @@
       "introduces dhvani (suggestion) as the soul of poetry",
       "the most sophisticated classical theory of literary meaning"
     ],
-    "connections": null,
     "read": false,
     "isbn": null,
     "pages": null,
@@ -2255,7 +2797,21 @@
     "type": "criticism",
     "yearStart": null,
     "yearEnd": null,
-    "approximate": true
+    "approximate": true,
+    "seeAlso": [
+      {
+        "title": "Locana",
+        "author": "Abhinavagupta"
+      },
+      {
+        "title": "Vakroktiijīvita",
+        "author": "Kuntaka"
+      },
+      {
+        "title": "Kāvyaprakāśa",
+        "author": "Mammaṭa"
+      }
+    ]
   },
   {
     "id": 47,
@@ -2275,7 +2831,6 @@
       "national epic of the Kyrgyz people",
       "representative masterwork of Central Asian oral-epic tradition"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780241544211",
     "pages": 330,
@@ -2289,7 +2844,21 @@
     "yearStart": 800,
     "yearEnd": 1000,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Alpamysh",
+        "author": "anonymous"
+      },
+      {
+        "title": "Köroğlu",
+        "author": "anonymous"
+      },
+      {
+        "title": "Dede Korkut",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 48,
@@ -2309,7 +2878,6 @@
       "codifies the aesthetics of mono no aware and seasonal sensibility",
       "model for all subsequent Japanese poetic collections"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780231207638",
     "pages": 432,
@@ -2323,7 +2891,21 @@
     "yearStart": 905,
     "yearEnd": 920,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Shin Kokinshū",
+        "author": "various"
+      },
+      {
+        "title": "Man'yōshū",
+        "author": "various"
+      },
+      {
+        "title": "Ogura Hyakunin Isshu",
+        "author": "Fujiwara no Teika"
+      }
+    ]
   },
   {
     "id": 49,
@@ -2343,7 +2925,6 @@
       "monumental verse history of Persian civilization from creation to the Arab conquest",
       "single-handedly preserved the Persian language and literary identity"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780143108320",
     "pages": 1000,
@@ -2375,6 +2956,20 @@
       "The Reign of Sekandar",
       "Ferdowsi's Lament for the Death of His Son",
       "The Reign of Yazdegerd"
+    ],
+    "seeAlso": [
+      {
+        "title": "Garshasp-Nama",
+        "author": "Asadī Ṭūsī"
+      },
+      {
+        "title": "Vīs o Rāmīn",
+        "author": "Fakhr al-Dīn Gorgānī"
+      },
+      {
+        "title": "Iskandarnāma",
+        "author": "Nezāmi Ganjavi"
+      }
     ]
   },
   {
@@ -2394,7 +2989,6 @@
       "representative collection spanning hundreds of Indigenous nations",
       "creation myths, trickster cycles, and hero tales encoding deep ecological and spiritual knowledge across the continent"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780394740188",
     "pages": 527,
@@ -2668,7 +3262,21 @@
     "type": "folktale",
     "lite": true,
     "litePages": 278,
-    "approximate": true
+    "approximate": true,
+    "seeAlso": [
+      {
+        "title": "American Indian Myths and Legends",
+        "author": "coll. Richard Erdoes"
+      },
+      {
+        "title": "The Way to Rainy Mountain",
+        "author": "N. Scott Momaday"
+      },
+      {
+        "title": "Coyote Stories",
+        "author": "coll. Mourning Dove"
+      }
+    ]
   },
   {
     "id": 51,
@@ -2688,14 +3296,6 @@
       "the hero's confrontation with monsters as a meditation on mortality, heroism, and the transience of glory",
       "Old English poetic tradition at its peak"
     ],
-    "connections": [
-      8,
-      25,
-      {
-        "title": "The Lord of the Rings by J. R. R. Tolkien",
-        "year": 1949.0
-      }
-    ],
     "read": false,
     "isbn": "9780393938371",
     "pages": 348,
@@ -2710,7 +3310,21 @@
     "yearEnd": 1025,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "The Wanderer",
+        "author": "anonymous"
+      },
+      {
+        "title": "The Battle of Maldon",
+        "author": "anonymous"
+      },
+      {
+        "title": "The Seafarer",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 52,
@@ -2730,7 +3344,6 @@
       "invents the zuihitsu (miscellany) genre",
       "Sei Shōnagon's wit, aesthetic judgment, and cataloguing impulse make it one of the great works of literary personality"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780140448061",
     "pages": 416,
@@ -2744,7 +3357,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Tsurezuregusa",
+        "author": "Yoshida Kenkō"
+      },
+      {
+        "title": "Hōjōki",
+        "author": "Kamo no Chōmei"
+      },
+      {
+        "title": "Sarashina Diary",
+        "author": "Sugawara no Takasue no Musume"
+      }
+    ]
   },
   {
     "id": 53,
@@ -2764,7 +3391,6 @@
       "supreme achievement of Heian prose",
       "psychological depth, narrative complexity, and the aesthetics of impermanence that define Japanese literary sensibility"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780143039495",
     "pages": 352,
@@ -2779,7 +3405,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "The Tales of Ise",
+        "author": "anonymous"
+      },
+      {
+        "title": "Sarashina Diary",
+        "author": "Sugawara no Takasue no Musume"
+      },
+      {
+        "title": "The Gossamer Years",
+        "author": "Michitsuna no Haha"
+      }
+    ]
   },
   {
     "id": 54,
@@ -2798,9 +3438,6 @@
       "representative work of Javanese wayang theater",
       "demonstrates how the Rāmāyaṇa is reimagined through Javanese cosmology and performance tradition"
     ],
-    "connections": [
-      22
-    ],
     "read": false,
     "isbn": "9780824814250",
     "pages": 444,
@@ -2814,7 +3451,21 @@
     "yearStart": 1000,
     "yearEnd": 1100,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Inao",
+        "author": "Rama II"
+      },
+      {
+        "title": "Phra Aphai Mani",
+        "author": "Sunthorn Phu"
+      },
+      {
+        "title": "Serat Centhini",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 55,
@@ -2834,12 +3485,6 @@
       "defines the chivalric ideal of feudal loyalty and Christian holy war",
       "origin of the medieval romance epic tradition"
     ],
-    "connections": [
-      {
-        "title": "Orlando Furioso by Ludovico Ariosto",
-        "year": 1532.0
-      }
-    ],
     "read": false,
     "isbn": "9781774642276",
     "pages": 210,
@@ -2853,7 +3498,21 @@
     "yearStart": 1040,
     "yearEnd": 1115,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Orlando Furioso",
+        "author": "Ludovico Ariosto"
+      },
+      {
+        "title": "El Cantar de mio Cid",
+        "author": "anonymous"
+      },
+      {
+        "title": "Orlando Innamorato",
+        "author": "Matteo Maria Boiardo"
+      }
+    ]
   },
   {
     "id": 56,
@@ -2873,7 +3532,6 @@
       "virtuosic rhymed prose showcasing the full range of Classical Arabic's linguistic possibilities",
       "the picaresque trickster-narrator centuries before the European novel"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781479810567",
     "pages": 542,
@@ -2887,7 +3545,21 @@
     "yearStart": 1080,
     "yearEnd": 1120,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Maqāmāt of al-Hamadhānī",
+        "author": "Badīʿ al-Zamān al-Hamadhānī"
+      },
+      {
+        "title": "Risālat al-Ghufrān",
+        "author": "Abū al-ʿAlāʾ al-Maʿarrī"
+      },
+      {
+        "title": "Ḥikāyāt Abī al-Qāsim",
+        "author": "Abū al-Muṭahhar al-Azdī"
+      }
+    ]
   },
   {
     "id": 57,
@@ -2907,7 +3579,6 @@
       "heroic tales of the Oghuz nomads",
       "bridges oral and written traditions across Central Asia and Anatolia"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780140442984",
     "pages": 213,
@@ -2921,7 +3592,21 @@
     "yearStart": 1000,
     "yearEnd": 1300,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Köroğlu",
+        "author": "anonymous"
+      },
+      {
+        "title": "Oghuz-name",
+        "author": "anonymous"
+      },
+      {
+        "title": "Alpamysh",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 58,
@@ -2941,13 +3626,6 @@
       "a castaway's solitary discovery of truth through reason alone",
       "profound influence on Enlightenment thought, including Locke and Defoe"
     ],
-    "connections": [
-      {
-        "title": "An Essay Concerning Human Understanding by John Locke",
-        "year": 1690.0
-      },
-      127
-    ],
     "read": false,
     "isbn": "9780226303109",
     "pages": 280,
@@ -2961,7 +3639,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Risālat al-Ṭayr",
+        "author": "Ibn Sīnā"
+      },
+      {
+        "title": "Theologus Autodidactus",
+        "author": "Ibn al-Nafīs"
+      },
+      {
+        "title": "The Improvement of Human Reason",
+        "author": "Simon Ockley"
+      }
+    ]
   },
   {
     "id": 59,
@@ -2981,13 +3673,6 @@
       "courtly love, fairy enchantment, and Arthurian romance in miniature",
       "Marie de France as pioneer of the short narrative form"
     ],
-    "connections": [
-      28,
-      {
-        "title": "Historia Regum Britanniae by Geoffrey of Monmouth",
-        "year": 1136.0
-      }
-    ],
     "read": false,
     "isbn": "9780140447590",
     "pages": 164,
@@ -3001,7 +3686,21 @@
     "yearStart": 1155,
     "yearEnd": 1170,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Le Roman de la Rose",
+        "author": "Guillaume de Lorris"
+      },
+      {
+        "title": "Yvain, the Knight of the Lion",
+        "author": "Chrétien de Troyes"
+      },
+      {
+        "title": "Tristan and Iseult",
+        "author": "Béroul"
+      }
+    ]
   },
   {
     "id": 60,
@@ -3021,7 +3720,6 @@
       "allegorical quest for divine unity through the journey of thirty birds",
       "the mystical tradition of Persian literature at its most inventive"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780140444346",
     "pages": 234,
@@ -3035,7 +3733,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Manṭiq al-Ṭayr",
+        "author": "Sanā'ī"
+      },
+      {
+        "title": "Ilāhī-Nāma",
+        "author": "Attār of Nishapur"
+      },
+      {
+        "title": "Ḥadīqat al-Ḥaqīqa",
+        "author": "Sanā'ī"
+      }
+    ]
   },
   {
     "id": 61,
@@ -3055,7 +3767,6 @@
       "Nezāmi transforms pre-Islamic love legends into vehicles for philosophical and mystical inquiry",
       "foundational influence on Ottoman, Mughal, and Persianate literary traditions"
     ],
-    "connections": null,
     "read": false,
     "isbn": [
       "9780143133995",
@@ -3072,7 +3783,21 @@
     "yearStart": 1163,
     "yearEnd": 1197,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Haft Paykar",
+        "author": "Nezāmi Ganjavi"
+      },
+      {
+        "title": "Vīs o Rāmīn",
+        "author": "Fakhr al-Dīn Gorgānī"
+      },
+      {
+        "title": "Yūsuf u Zulaykhā",
+        "author": "Jāmī"
+      }
+    ]
   },
   {
     "id": 62,
@@ -3092,7 +3817,6 @@
       "lyric intensity and pagan imagery unique among medieval European texts",
       "touchstone of Russian and Ukrainian national literary identity"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781468302103",
     "pages": 146,
@@ -3106,7 +3830,21 @@
     ],
     "yearStart": 1185,
     "yearEnd": 1187,
-    "type": "work"
+    "type": "work",
+    "seeAlso": [
+      {
+        "title": "Zadonshchina",
+        "author": "anonymous"
+      },
+      {
+        "title": "Primary Chronicle",
+        "author": "Nestor the Chronicler"
+      },
+      {
+        "title": "Byliny",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 63,
@@ -3126,7 +3864,6 @@
       "originate the concept of the poet as devoted lover",
       "foundational influence on Dante, Petrarch, and all subsequent European lyric poetry"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780226429335",
     "pages": 280,
@@ -3140,7 +3877,21 @@
     "yearStart": 1170,
     "yearEnd": 1213,
     "type": "work",
-    "approximate": true
+    "approximate": true,
+    "seeAlso": [
+      {
+        "title": "poetry of Bernart de Ventadorn",
+        "author": "Bernart de Ventadorn"
+      },
+      {
+        "title": "poetry of the Comtessa de Dia",
+        "author": "Comtessa de Dia"
+      },
+      {
+        "title": "Galician-Portuguese cantigas",
+        "author": "various"
+      }
+    ]
   },
   {
     "id": 64,
@@ -3160,7 +3911,6 @@
       "Baba Yaga, firebirds, and Ivan the Fool",
       "foundation of Russian folklore studies and a source for Propp's morphological analysis"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780394730905",
     "pages": 680,
@@ -3176,7 +3926,21 @@
     "type": "folktale",
     "lite": true,
     "litePages": 375,
-    "approximate": true
+    "approximate": true,
+    "seeAlso": [
+      {
+        "title": "Byliny",
+        "author": "anonymous"
+      },
+      {
+        "title": "The Firebird",
+        "author": "anonymous"
+      },
+      {
+        "title": "Russian Fairy Tales",
+        "author": "coll. Aleksandr Afanas'yev"
+      }
+    ]
   },
   {
     "id": 65,
@@ -3196,12 +3960,6 @@
       "betrayal, revenge, and catastrophic loyalty drawn from Germanic legend",
       "medieval counterpart to Homer in the northern European tradition"
     ],
-    "connections": [
-      {
-        "title": "Parzival by Wolfram von Eschenbach",
-        "year": 1220.0
-      }
-    ],
     "read": false,
     "isbn": "9780140441376",
     "pages": 416,
@@ -3215,7 +3973,21 @@
     ],
     "yearStart": null,
     "yearEnd": null,
-    "type": "work"
+    "type": "work",
+    "seeAlso": [
+      {
+        "title": "Parzival",
+        "author": "Wolfram von Eschenbach"
+      },
+      {
+        "title": "Tristan",
+        "author": "Gottfried von Straßburg"
+      },
+      {
+        "title": "Kudrun",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 66,
@@ -3235,7 +4007,6 @@
       "Snorri's systematic retelling of the Æsir, Ragnarök, and the art of skaldic poetry",
       "indispensable to understanding the pre-Christian imagination of northern Europe"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780460876162",
     "pages": 290,
@@ -3250,7 +4021,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Poetic Edda",
+        "author": "anonymous"
+      },
+      {
+        "title": "Völsunga Saga",
+        "author": "anonymous"
+      },
+      {
+        "title": "Njál's Saga",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 67,
@@ -3270,9 +4055,6 @@
       "Rādhā and Kṛṣṇa's erotic-spiritual love as the model of bhakti",
       "performed in temples across India for eight centuries"
     ],
-    "connections": [
-      98
-    ],
     "read": false,
     "isbn": "9789390713523",
     "pages": 250,
@@ -3286,7 +4068,21 @@
     "yearStart": 1200,
     "yearEnd": 1245,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "poetry of Vidyāpati",
+        "author": "Vidyāpati"
+      },
+      {
+        "title": "poetry of Chandīdās",
+        "author": "Chandīdās"
+      },
+      {
+        "title": "Sur Sāgar",
+        "author": "Sūrdās"
+      }
+    ]
   },
   {
     "id": 68,
@@ -3306,7 +4102,6 @@
       "intimate chronicle of Chinggis Khan's rise",
       "unparalleled primary source for the world's largest contiguous land empire"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780241197912",
     "pages": 480,
@@ -3320,7 +4115,21 @@
     "type": "work",
     "yearStart": null,
     "yearEnd": null,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Travels of Marco Polo",
+        "author": "Marco Polo"
+      },
+      {
+        "title": "Jāmiʿ al-Tawārīkh",
+        "author": "Rashīd al-Dīn Hamadānī"
+      },
+      {
+        "title": "Epic of Jangar",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 69,
@@ -3340,16 +4149,6 @@
       "witty moral tales and aphorisms blending worldly wisdom with Sufi insight",
       "quoted across the Persian-speaking world for centuries"
     ],
-    "connections": [
-      {
-        "title": "Zadig by Voltaire",
-        "year": 1747.0
-      },
-      {
-        "title": "Walden by Henry David Thoreau",
-        "year": 1854.0
-      }
-    ],
     "read": false,
     "isbn": "9781588141576",
     "pages": 442,
@@ -3363,7 +4162,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Bustān",
+        "author": "Sā'di"
+      },
+      {
+        "title": "Gulistān-i Sa'dī",
+        "author": "Sā'di"
+      },
+      {
+        "title": "Chahār Maqāla",
+        "author": "Nezāmī ʿArūżī"
+      }
+    ]
   },
   {
     "id": 70,
@@ -3383,7 +4196,6 @@
       "origin narrative of the Mali Empire",
       "oral performance, history, and praise poetry fused into a single masterwork"
     ],
-    "connections": null,
     "read": true,
     "isbn": "9781405849425",
     "pages": 120,
@@ -3398,7 +4210,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Epic of Askia Mohammed",
+        "author": "anonymous"
+      },
+      {
+        "title": "Ozidi Saga",
+        "author": "anonymous"
+      },
+      {
+        "title": "The Epic of Son-Jara",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 71,
@@ -3418,7 +4244,6 @@
       "encyclopedic spiritual epic weaving parable, theology, and ecstatic verse",
       "Rumi as the most widely read poet in the world today"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780192804389",
     "pages": 304,
@@ -3433,7 +4258,21 @@
     "yearEnd": 1273,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Dīvān-e Kabīr",
+        "author": "Rumi"
+      },
+      {
+        "title": "Fuṣūṣ al-Ḥikam",
+        "author": "Ibn ʿArabī"
+      },
+      {
+        "title": "poetry of Yūnus Emre",
+        "author": "Yūnus Emre"
+      }
+    ]
   },
   {
     "id": 72,
@@ -3452,12 +4291,6 @@
       "frame narrative par excellence",
       "Shahrazād's storytelling as survival",
       "inexhaustible source of narrative motifs — the genie, the voyage, the nested tale — across world literature"
-    ],
-    "connections": [
-      33,
-      79,
-      210,
-      241
     ],
     "read": false,
     "isbn": "9780393331660",
@@ -3487,7 +4320,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Sindbad the Sailor",
+        "author": "anonymous"
+      },
+      {
+        "title": "Sīrat Baybarṣ",
+        "author": "anonymous"
+      },
+      {
+        "title": "Tūtī-nāma",
+        "author": "Żiyā' al-Dīn Nakhshabī"
+      }
+    ]
   },
   {
     "id": 73,
@@ -3506,7 +4353,6 @@
       "oral traditions from across Polynesia, Melanesia, and Micronesia",
       "origin myths, trickster tales, and navigational lore reflecting oceanic cultures spanning a third of the globe"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781573060783",
     "pages": 200,
@@ -3636,7 +4482,21 @@
     "yearEnd": null,
     "lite": true,
     "litePages": 122,
-    "approximate": true
+    "approximate": true,
+    "seeAlso": [
+      {
+        "title": "Legends of Maui",
+        "author": "W. D. Westervelt"
+      },
+      {
+        "title": "Tales of the Tikongs",
+        "author": "Epeli Hauʻofa"
+      },
+      {
+        "title": "Myths and Legends of Fiji",
+        "author": "A. W. Reed"
+      }
+    ]
   },
   {
     "id": 74,
@@ -3656,7 +4516,6 @@
       "foundational argument for the literary dignity of spoken languages",
       "intellectual groundwork for the Divine Comedy"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780929837444",
     "pages": 127,
@@ -3667,7 +4526,21 @@
     "type": "criticism",
     "yearStart": 1302,
     "yearEnd": 1305,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Convivio",
+        "author": "Dante Alighieri"
+      },
+      {
+        "title": "Vita Nuova",
+        "author": "Dante Alighieri"
+      },
+      {
+        "title": "De Monarchia",
+        "author": "Dante Alighieri"
+      }
+    ]
   },
   {
     "id": 75,
@@ -3686,12 +4559,6 @@
       "supreme achievement of medieval European literature",
       "the poet's journey through Hell, Purgatory, and Paradise as an architecture of moral and theological vision",
       "transforms Italian into a literary language"
-    ],
-    "connections": [
-      10,
-      25,
-      28,
-      31
     ],
     "read": false,
     "isbn": [
@@ -3713,7 +4580,21 @@
     "approximate": false,
     "lite": true,
     "litePages": 306,
-    "liteTitle": "The Divine Comedy: Inferno"
+    "liteTitle": "The Divine Comedy: Inferno",
+    "seeAlso": [
+      {
+        "title": "Orlando Furioso",
+        "author": "Ludovico Ariosto"
+      },
+      {
+        "title": "Jerusalem Delivered",
+        "author": "Torquato Tasso"
+      },
+      {
+        "title": "Vita Nuova",
+        "author": "Dante Alighieri"
+      }
+    ]
   },
   {
     "id": 76,
@@ -3733,9 +4614,6 @@
       "traces the Solomonic lineage of Ethiopian emperors",
       "unique literary bridge between biblical, Coptic, and East African traditions"
     ],
-    "connections": [
-      10
-    ],
     "read": false,
     "isbn": "9781596050242",
     "pages": 279,
@@ -3750,7 +4628,21 @@
     "yearStart": 1314,
     "yearEnd": 1322,
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Fətha Nägäśt",
+        "author": "anonymous"
+      },
+      {
+        "title": "The Book of Aksum",
+        "author": "anonymous"
+      },
+      {
+        "title": "Gädlä Hawāryāt",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 77,
@@ -3771,16 +4663,6 @@
       "performed by blind biwa priests for centuries",
       "foundational influence on nō, kabuki, and Japanese narrative"
     ],
-    "connections": [
-      {
-        "title": "Gikeiki",
-        "year": 1600.0
-      },
-      {
-        "title": "Kanjinchō by Namiki Gohei",
-        "year": 1840.0
-      }
-    ],
     "read": false,
     "isbn": "9780670025138",
     "pages": 792,
@@ -3794,7 +4676,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Taiheiki",
+        "author": "anonymous"
+      },
+      {
+        "title": "Hōgen Monogatari",
+        "author": "anonymous"
+      },
+      {
+        "title": "Heiji Monogatari",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 78,
@@ -3814,7 +4710,6 @@
       "Petrarch's idealized love for Laura defines the conventions of European lyric poetry for three centuries",
       "origin of Petrarchism"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780674663480",
     "pages": 672,
@@ -3828,7 +4723,21 @@
     "yearStart": 1327,
     "yearEnd": 1368,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Vita Nuova",
+        "author": "Dante Alighieri"
+      },
+      {
+        "title": "Canzoniere",
+        "author": "Guido Cavalcanti"
+      },
+      {
+        "title": "Rime",
+        "author": "Michelangelo Buonarroti"
+      }
+    ]
   },
   {
     "id": 79,
@@ -3848,10 +4757,6 @@
       "one hundred tales told during the Black Death",
       "Boccaccio's range — from bawdy farce to tragic romance — makes it the great compendium of medieval narrative art"
     ],
-    "connections": [
-      72,
-      86
-    ],
     "read": false,
     "isbn": "9780393427882",
     "pages": 595,
@@ -3865,7 +4770,21 @@
     "yearStart": 1348,
     "yearEnd": 1353,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Novellino",
+        "author": "anonymous"
+      },
+      {
+        "title": "Heptaméron",
+        "author": "Marguerite de Navarre"
+      },
+      {
+        "title": "Canterbury Tales",
+        "author": "Geoffrey Chaucer"
+      }
+    ]
   },
   {
     "id": 80,
@@ -3885,7 +4804,6 @@
       "dramatizes the fall of the Han Dynasty",
       "foundational text of Chinese historical fiction and strategic thinking"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780520344556",
     "pages": 478,
@@ -3899,7 +4817,21 @@
     ],
     "yearStart": null,
     "yearEnd": null,
-    "type": "work"
+    "type": "work",
+    "seeAlso": [
+      {
+        "title": "Water Margin",
+        "author": "Shī Nài'ān"
+      },
+      {
+        "title": "Dream of the Red Chamber",
+        "author": "Cáo Xuěqín"
+      },
+      {
+        "title": "The Plum in the Golden Vase",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 81,
@@ -3919,7 +4851,6 @@
       "primary historical source for medieval Java's political and cultural reach across Southeast Asia",
       "representative work of Old Javanese kakawin poetry"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9789067180948",
     "pages": 158,
@@ -3933,7 +4864,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Kakawin Rāmāyaṇa",
+        "author": "anonymous"
+      },
+      {
+        "title": "Pararaton",
+        "author": "anonymous"
+      },
+      {
+        "title": "Serat Centhini",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 82,
@@ -3953,7 +4898,6 @@
       "a father's dream-vision of his dead daughter in Paradise",
       "theological consolation and formal virtuosity from the poet who wrote Sir Gawain"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781631492549",
     "pages": 160,
@@ -3967,7 +4911,21 @@
     "yearStart": 1350,
     "yearEnd": 1400,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Sir Gawain and the Green Knight",
+        "author": "Gawain Poet"
+      },
+      {
+        "title": "Patience",
+        "author": "Gawain Poet"
+      },
+      {
+        "title": "Cleanness",
+        "author": "Gawain Poet"
+      }
+    ]
   },
   {
     "id": 83,
@@ -3986,7 +4944,6 @@
       "oral chronicles of the Hausa city-states spanning a millennium",
       "praise narratives, dynastic origins, and moral exempla from one of West Africa's most influential literary cultures"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780198151180",
     "pages": null,
@@ -4000,7 +4957,21 @@
     ],
     "yearStart": 850,
     "yearEnd": 1900,
-    "type": "work"
+    "type": "work",
+    "seeAlso": [
+      {
+        "title": "Kano Chronicle",
+        "author": "anonymous"
+      },
+      {
+        "title": "Bayajidda legend",
+        "author": "anonymous"
+      },
+      {
+        "title": "Infaku'l Maisuri",
+        "author": "Muḥammad Bello"
+      }
+    ]
   },
   {
     "id": 84,
@@ -4020,7 +4991,6 @@
       "enchantment, sovereignty, and the Otherworld in Celtic narrative",
       "the earliest prose literature in a British vernacular"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780192832429",
     "pages": 336,
@@ -4034,7 +5004,21 @@
     "yearStart": 1350,
     "yearEnd": 1410,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Taliesin",
+        "author": "anonymous"
+      },
+      {
+        "title": "The Book of Aneirin",
+        "author": "Aneirin"
+      },
+      {
+        "title": "Trioedd Ynys Prydein",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 85,
@@ -4053,7 +5037,6 @@
       "supreme achievement of Persian lyric ghazal poetry",
       "beloved across the Persian-speaking world as a source of beauty, spiritual wisdom, and bibliomancy"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780143107286",
     "pages": 134,
@@ -4067,7 +5050,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Dīvān of Saʿdī",
+        "author": "Sā'di"
+      },
+      {
+        "title": "poetry of Jāmī",
+        "author": "Jāmī"
+      },
+      {
+        "title": "poetry of ʿIrāqī",
+        "author": "Fakhr al-Dīn ʿIrāqī"
+      }
+    ]
   },
   {
     "id": 86,
@@ -4087,10 +5084,6 @@
       "polyphonic pilgrimage narrative spanning the full social range of medieval England",
       "Chaucer invents the English literary voice"
     ],
-    "connections": [
-      28,
-      79
-    ],
     "read": false,
     "isbn": "9780393427899",
     "pages": 420,
@@ -4105,7 +5098,21 @@
     "yearEnd": 1400,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Troilus and Criseyde",
+        "author": "Geoffrey Chaucer"
+      },
+      {
+        "title": "Piers Plowman",
+        "author": "William Langland"
+      },
+      {
+        "title": "Confessio Amantis",
+        "author": "John Gower"
+      }
+    ]
   },
   {
     "id": 87,
@@ -4125,9 +5132,6 @@
       "theory of beauty as \"the flower\" — novelty, grace, and the art of aging on stage",
       "foundational text of Japanese aesthetic philosophy"
     ],
-    "connections": [
-      90
-    ],
     "read": false,
     "isbn": "9780691065823",
     "pages": null,
@@ -4138,7 +5142,21 @@
     "type": "criticism",
     "yearStart": null,
     "yearEnd": null,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Kakyō",
+        "author": "Zeami Motokiyo"
+      },
+      {
+        "title": "Sandō",
+        "author": "Zeami Motokiyo"
+      },
+      {
+        "title": "Shūgyoku Tokka",
+        "author": "Zeami Motokiyo"
+      }
+    ]
   },
   {
     "id": 88,
@@ -4158,7 +5176,6 @@
       "emergence through four worlds into the present",
       "cosmological and ceremonial foundation of Diné culture and identity"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780826310439",
     "pages": 431,
@@ -4172,7 +5189,21 @@
     "yearStart": 1300,
     "yearEnd": 1500,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Navajo Night Chant",
+        "author": "anonymous"
+      },
+      {
+        "title": "Beautyway",
+        "author": "anonymous"
+      },
+      {
+        "title": "Blessingway",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 89,
@@ -4191,13 +5222,6 @@
       "earliest major feminist literary work in European tradition",
       "Christine de Pizan constructs an allegorical city of exemplary women to refute centuries of misogynist writing"
     ],
-    "connections": [
-      {
-        "title": "Roman de la Rose by Jean de Meun",
-        "year": 1275.0
-      },
-      79
-    ],
     "read": false,
     "isbn": "9780140446890",
     "pages": 336,
@@ -4211,7 +5235,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Treasure of the City of Ladies",
+        "author": "Christine de Pizan"
+      },
+      {
+        "title": "Le Livre du Duc des vrais amants",
+        "author": "Christine de Pizan"
+      },
+      {
+        "title": "Roman de la Rose",
+        "author": "Jean de Meun"
+      }
+    ]
   },
   {
     "id": 90,
@@ -4230,7 +5268,6 @@
       "representative works of the world's oldest continuously performed theatrical form",
       "ritual, poetry, and spectral visitation fused into a drama of radical restraint"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9784805310335",
     "pages": null,
@@ -4244,7 +5281,21 @@
     ],
     "yearStart": 1418,
     "yearEnd": 1428,
-    "type": "work"
+    "type": "work",
+    "seeAlso": [
+      {
+        "title": "Matsukaze",
+        "author": "Kan'ami / Zeami"
+      },
+      {
+        "title": "Izutsu",
+        "author": "Zeami Motokiyo"
+      },
+      {
+        "title": "Kinuta",
+        "author": "Zeami Motokiyo"
+      }
+    ]
   },
   {
     "id": 91,
@@ -4264,7 +5315,6 @@
       "ritual songs of war, love, and ceremony",
       "one of the few literary voices from the ancient Maya world"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781931010214",
     "pages": null,
@@ -4278,7 +5328,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Ritual of the Bacabs",
+        "author": "anonymous"
+      },
+      {
+        "title": "Books of Chilam Balam",
+        "author": "anonymous"
+      },
+      {
+        "title": "Rabinal Achí",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 92,
@@ -4298,7 +5362,6 @@
       "attributed to the Inca emperor who built Machu Picchu",
       "hymns to Viracocha and meditations on power from the heart of the Inca Empire"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781931010214",
     "pages": null,
@@ -4312,7 +5375,21 @@
     "yearStart": 1420,
     "yearEnd": 1470,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Quechua hymns to Viracocha",
+        "author": "anonymous"
+      },
+      {
+        "title": "Ollantay",
+        "author": "anonymous"
+      },
+      {
+        "title": "Apu Inka Atawallpaman",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 93,
@@ -4332,7 +5409,6 @@
       "Nahuatl lyrics on the transience of life, beauty, and truth",
       "foundational voice of Aztec literary culture"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781931010214",
     "pages": null,
@@ -4346,7 +5422,21 @@
     "yearStart": 1429,
     "yearEnd": 1472,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Cantares Mexicanos",
+        "author": "anonymous"
+      },
+      {
+        "title": "Romances de los Señores de la Nueva España",
+        "author": "anonymous"
+      },
+      {
+        "title": "Huēhuetlahtōlli",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 94,
@@ -4366,7 +5456,6 @@
       "the Round Table, the Grail quest, and the fall of Camelot",
       "source text for virtually all subsequent Arthurian literature"
     ],
-    "connections": null,
     "read": true,
     "isbn": "9780192824202",
     "pages": 627,
@@ -4380,7 +5469,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Sir Gawain and the Green Knight",
+        "author": "Gawain Poet"
+      },
+      {
+        "title": "Lancelot, the Knight of the Cart",
+        "author": "Chrétien de Troyes"
+      },
+      {
+        "title": "The Once and Future King",
+        "author": "T. H. White"
+      }
+    ]
   },
   {
     "id": 95,
@@ -4400,7 +5503,6 @@
       "More's imagined commonwealth as a critique of Tudor England",
       "foundational work of political philosophy and social thought"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781107568730",
     "pages": 186,
@@ -4414,7 +5516,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Prince",
+        "author": "Niccolò Machiavelli"
+      },
+      {
+        "title": "The City of the Sun",
+        "author": "Tommaso Campanella"
+      },
+      {
+        "title": "New Atlantis",
+        "author": "Francis Bacon"
+      }
+    ]
   },
   {
     "id": 96,
@@ -4434,7 +5550,6 @@
       "erotic devotion, wit, and ornate versification from the Vijayanagara Empire",
       "representative works of one of India's richest literary traditions"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780520225985",
     "pages": 326,
@@ -4448,7 +5563,21 @@
     ],
     "yearStart": 1509,
     "yearEnd": 1529,
-    "type": "work"
+    "type": "work",
+    "seeAlso": [
+      {
+        "title": "Āmuktamālyada",
+        "author": "Krishnadevaraya"
+      },
+      {
+        "title": "Manu Charitra",
+        "author": "Allasani Peddana"
+      },
+      {
+        "title": "Vasu Charitra",
+        "author": "Bhattu Murti"
+      }
+    ]
   },
   {
     "id": 97,
@@ -4468,7 +5597,6 @@
       "the Mughal founder's candid memoir of conquest, exile, and wonder",
       "unparalleled portrait of Central and South Asian life in the early sixteenth century"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780375761379",
     "pages": 608,
@@ -4496,7 +5624,21 @@
     ],
     "yearStart": 1519,
     "yearEnd": 1529,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Akbarnāma",
+        "author": "Abū al-Faẓl"
+      },
+      {
+        "title": "Tuzk-e-Jahangiri",
+        "author": "Jahangir"
+      },
+      {
+        "title": "Humayun-Nama",
+        "author": "Gulbadan Begum"
+      }
+    ]
   },
   {
     "id": 98,
@@ -4516,9 +5658,6 @@
       "ecstatic songs of love for Kṛṣṇa that defy caste, gender, and royal convention",
       "sung across India to this day"
     ],
-    "connections": [
-      67
-    ],
     "read": false,
     "isbn": "9780807063873",
     "pages": 126,
@@ -4533,7 +5672,21 @@
     "yearEnd": 1545,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Sur Sāgar",
+        "author": "Sūrdās"
+      },
+      {
+        "title": "poetry of Kabīr",
+        "author": "Kabīr"
+      },
+      {
+        "title": "poetry of Tukārām",
+        "author": "Tukārām"
+      }
+    ]
   },
   {
     "id": 99,
@@ -4553,7 +5706,6 @@
       "ethical instruction and rhetorical art from the Aztec world",
       "among the few surviving examples of Mesoamerican prose"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781324020585",
     "pages": 240,
@@ -4567,7 +5719,21 @@
     "type": "work",
     "yearStart": null,
     "yearEnd": null,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Cantares Mexicanos",
+        "author": "anonymous"
+      },
+      {
+        "title": "Florentine Codex",
+        "author": "coll. Bernardino de Sahagún"
+      },
+      {
+        "title": "Codex Mendoza",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 100,
@@ -4587,7 +5753,6 @@
       "Rabelais' carnivalesque appetite for language, bodily humor, and humanist learning",
       "foundational work of French prose fiction"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780140445503",
     "pages": 1104,
@@ -4601,7 +5766,21 @@
     "yearStart": 1532,
     "yearEnd": 1564,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Pantagrueline Prognostication",
+        "author": "François Rabelais"
+      },
+      {
+        "title": "In Praise of Folly",
+        "author": "Erasmus"
+      },
+      {
+        "title": "Lazarillo de Tormes",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 101,
@@ -4621,7 +5800,6 @@
       "the Hero Twins' descent into Xibalba",
       "foundational sacred narrative of Mesoamerican civilization"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781571314680",
     "pages": 292,
@@ -4636,7 +5814,21 @@
     "yearEnd": 1558,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Annals of the Kaqchikels",
+        "author": "anonymous"
+      },
+      {
+        "title": "Rabinal Achí",
+        "author": "anonymous"
+      },
+      {
+        "title": "Books of Chilam Balam",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 102,
@@ -4656,9 +5848,6 @@
       "Vasco da Gama's voyage as a new Aeneid",
       "the Age of Exploration rendered in Virgilian epic form"
     ],
-    "connections": [
-      25
-    ],
     "read": false,
     "isbn": "9780199539963",
     "pages": 288,
@@ -4672,7 +5861,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Os Sertões",
+        "author": "Euclides da Cunha"
+      },
+      {
+        "title": "Mensagem",
+        "author": "Fernando Pessoa"
+      },
+      {
+        "title": "Peregrinação",
+        "author": "Fernão Mendes Pinto"
+      }
+    ]
   },
   {
     "id": 103,
@@ -4692,7 +5895,6 @@
       "indigenous mythology and ritual recorded on the cusp of Spanish evangelization",
       "irreplaceable window into pre-Columbian Andean thought"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780292730533",
     "pages": 284,
@@ -4706,7 +5908,21 @@
     "yearStart": 1550,
     "yearEnd": 1600,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Comentarios Reales de los Incas",
+        "author": "Inca Garcilaso de la Vega"
+      },
+      {
+        "title": "Nueva corónica y buen gobierno",
+        "author": "Felipe Guaman Poma de Ayala"
+      },
+      {
+        "title": "Ollantay",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 104,
@@ -4726,7 +5942,6 @@
       "Montaigne's radical self-examination transforms private experience into universal inquiry",
       "foundational influence on all subsequent personal and philosophical prose"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780140446029",
     "pages": 480,
@@ -4741,7 +5956,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Pensées",
+        "author": "Blaise Pascal"
+      },
+      {
+        "title": "Maximes",
+        "author": "La Rochefoucauld"
+      },
+      {
+        "title": "Lettres persanes",
+        "author": "Montesquieu"
+      }
+    ]
   },
   {
     "id": 105,
@@ -4760,7 +5989,6 @@
       "one of the Four Great Classical Novels of Chinese literature",
       "the Monkey King's pilgrimage as comic adventure, Buddhist allegory, and satirical mirror of Chinese society"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780226971568",
     "pages": 528,
@@ -4775,7 +6003,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Fēngshén Yǎnyì",
+        "author": "Xǔ Zhònglín"
+      },
+      {
+        "title": "The Plum in the Golden Vase",
+        "author": "anonymous"
+      },
+      {
+        "title": "Water Margin",
+        "author": "Shī Nài'ān"
+      }
+    ]
   },
   {
     "id": 106,
@@ -4795,7 +6037,6 @@
       "Sidney's defense of poetry's moral and imaginative power against Puritan attack",
       "shapes Renaissance literary theory in England"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781482724035",
     "pages": null,
@@ -4806,7 +6047,21 @@
     "type": "criticism",
     "yearStart": null,
     "yearEnd": null,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Arte of English Poesie",
+        "author": "George Puttenham"
+      },
+      {
+        "title": "Timber, or Discoveries",
+        "author": "Ben Jonson"
+      },
+      {
+        "title": "Defence of Rhyme",
+        "author": "Samuel Daniel"
+      }
+    ]
   },
   {
     "id": 107,
@@ -4825,9 +6080,6 @@
       "Shakespeare's supreme comedy of transformation",
       "the interplay of fairies, lovers, and mechanicals as a meditation on imagination, theater, and the mutability of desire"
     ],
-    "connections": [
-      28
-    ],
     "read": false,
     "isbn": "9781501146213",
     "pages": 307,
@@ -4841,7 +6093,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "As You Like It",
+        "author": "William Shakespeare"
+      },
+      {
+        "title": "Twelfth Night",
+        "author": "William Shakespeare"
+      },
+      {
+        "title": "The Merry Wives of Windsor",
+        "author": "William Shakespeare"
+      }
+    ]
   },
   {
     "id": 108,
@@ -4861,7 +6127,6 @@
       "a young woman loves, dies, and returns to life through the power of desire",
       "the greatest work of Ming dynasty drama"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780253215277",
     "pages": 384,
@@ -4875,7 +6140,21 @@
     "type": "work",
     "yearStart": null,
     "yearEnd": null,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Palace of Eternal Youth",
+        "author": "Hóng Shēng"
+      },
+      {
+        "title": "The Peach Blossom Fan",
+        "author": "Kǒng Shàngrèn"
+      },
+      {
+        "title": "Story of the Western Wing",
+        "author": "Wáng Shífǔ"
+      }
+    ]
   },
   {
     "id": 109,
@@ -4895,7 +6174,6 @@
       "invents the modern dramatic consciousness — doubt, interiority, the performance of self",
       "Shakespeare's deepest exploration of thought and action"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780743477123",
     "pages": 435,
@@ -4910,7 +6188,21 @@
     "yearEnd": 1601,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Othello",
+        "author": "William Shakespeare"
+      },
+      {
+        "title": "King Lear",
+        "author": "William Shakespeare"
+      },
+      {
+        "title": "Macbeth",
+        "author": "William Shakespeare"
+      }
+    ]
   },
   {
     "id": 110,
@@ -4930,7 +6222,6 @@
       "a deluded knight's adventures expose the collision between literary idealism and material reality",
       "transforms European fiction and invents the comic anti-hero"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780060934347",
     "pages": 992,
@@ -4945,7 +6236,21 @@
     "yearEnd": 1615,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Lazarillo de Tormes",
+        "author": "anonymous"
+      },
+      {
+        "title": "Guzmán de Alfarache",
+        "author": "Mateo Alemán"
+      },
+      {
+        "title": "Exemplary Novels",
+        "author": "Miguel de Cervantes"
+      }
+    ]
   },
   {
     "id": 111,
@@ -4965,9 +6270,6 @@
       "colonialism, magic, and renunciation on an enchanted island",
       "Prospero's farewell to art as the playwright's own"
     ],
-    "connections": [
-      28
-    ],
     "read": false,
     "isbn": "9780743482837",
     "pages": 275,
@@ -4981,7 +6283,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Winter's Tale",
+        "author": "William Shakespeare"
+      },
+      {
+        "title": "Cymbeline",
+        "author": "William Shakespeare"
+      },
+      {
+        "title": "A Tempest",
+        "author": "Aimé Césaire"
+      }
+    ]
   },
   {
     "id": 112,
@@ -5001,7 +6317,6 @@
       "radical conceits, intellectual passion, and the fusion of sacred and erotic",
       "transforms English lyric poetry"
     ],
-    "connections": null,
     "read": true,
     "isbn": "9780140422092",
     "pages": null,
@@ -5015,7 +6330,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "poetry of George Herbert",
+        "author": "George Herbert"
+      },
+      {
+        "title": "poetry of Andrew Marvell",
+        "author": "Andrew Marvell"
+      },
+      {
+        "title": "poetry of Henry Vaughan",
+        "author": "Henry Vaughan"
+      }
+    ]
   },
   {
     "id": 113,
@@ -5035,7 +6364,6 @@
       "Segismundo's question — is life illusion? — as the defining philosophical drama of the Baroque",
       "representative work of Spanish comedia"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780486424736",
     "pages": 203,
@@ -5049,7 +6377,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Fuenteovejuna",
+        "author": "Lope de Vega"
+      },
+      {
+        "title": "El burlador de Sevilla",
+        "author": "Tirso de Molina"
+      },
+      {
+        "title": "El alcalde de Zalamea",
+        "author": "Pedro Calderón de la Barca"
+      }
+    ]
   },
   {
     "id": 114,
@@ -5069,7 +6411,6 @@
       "call-and-response love debates of extraordinary metaphorical density",
       "a literary tradition unlike any other"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780838751756",
     "pages": 464,
@@ -5083,7 +6424,21 @@
     ],
     "yearStart": 1550,
     "yearEnd": 1750,
-    "type": "work"
+    "type": "work",
+    "seeAlso": [
+      {
+        "title": "Tantara ny Andriana",
+        "author": "coll. François Callet"
+      },
+      {
+        "title": "Ibonia",
+        "author": "anonymous"
+      },
+      {
+        "title": "Malagasy proverbs",
+        "author": "various"
+      }
+    ]
   },
   {
     "id": 115,
@@ -5103,7 +6458,6 @@
       "Çelebi's forty years of journeying across the Ottoman Empire and beyond",
       "unrivaled portrait of seventeenth-century Ottoman life and culture"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781906011581",
     "pages": 520,
@@ -5117,7 +6471,21 @@
     "yearStart": 1630,
     "yearEnd": 1675,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Travels of Ibn Baṭṭūṭa",
+        "author": "Ibn Baṭṭūṭa"
+      },
+      {
+        "title": "Mir'āt al-Mamālik",
+        "author": "Seydi Ali Reis"
+      },
+      {
+        "title": "Tārīkh-i Peçevī",
+        "author": "İbrahim Peçevī"
+      }
+    ]
   },
   {
     "id": 116,
@@ -5138,7 +6506,6 @@
       "the \"Dutch Shakespeare\" at his peak",
       "representative work of a literary tradition rarely encountered in English"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781023257312",
     "pages": null,
@@ -5152,7 +6519,21 @@
     ],
     "yearStart": null,
     "yearEnd": null,
-    "type": "work"
+    "type": "work",
+    "seeAlso": [
+      {
+        "title": "Gijsbrecht van Aemstel",
+        "author": "Joost van den Vondel"
+      },
+      {
+        "title": "Warenar",
+        "author": "P. C. Hooft"
+      },
+      {
+        "title": "Spaanschen Brabander",
+        "author": "Gerbrand Bredero"
+      }
+    ]
   },
   {
     "id": 117,
@@ -5172,7 +6553,6 @@
       "a kisaeng's daughter's fidelity tested by a corrupt magistrate",
       "representative work of pansori oral narrative and Korean national literature"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9788972251118",
     "pages": null,
@@ -5187,7 +6567,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Tale of Sim Cheong",
+        "author": "anonymous"
+      },
+      {
+        "title": "Tale of Hong Gildong",
+        "author": "Heo Gyun"
+      },
+      {
+        "title": "Tale of Heungbu and Nolbu",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 118,
@@ -5207,7 +6601,6 @@
       "the religious hypocrite unmasked",
       "definitive work of French classical theater and the comedy of manners"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780151002818",
     "pages": 246,
@@ -5221,7 +6614,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Misanthrope",
+        "author": "Molière"
+      },
+      {
+        "title": "Phèdre",
+        "author": "Jean Racine"
+      },
+      {
+        "title": "Le Cid",
+        "author": "Pierre Corneille"
+      }
+    ]
   },
   {
     "id": 119,
@@ -5241,10 +6648,6 @@
       "Milton reimagines the Fall of Man with Satan as literature's most compelling anti-hero",
       "transforms biblical narrative into philosophical drama"
     ],
-    "connections": [
-      25,
-      28
-    ],
     "read": false,
     "isbn": "9781405129299",
     "pages": 388,
@@ -5259,7 +6662,21 @@
     "yearEnd": 1674,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Paradise Regained",
+        "author": "John Milton"
+      },
+      {
+        "title": "Samson Agonistes",
+        "author": "John Milton"
+      },
+      {
+        "title": "The Faerie Queene",
+        "author": "Edmund Spenser"
+      }
+    ]
   },
   {
     "id": 120,
@@ -5278,7 +6695,6 @@
       "early anti-slavery narrative and one of the first English novels",
       "Aphra Behn — the first professional woman writer in English — gives voice to an enslaved African prince"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780199538768",
     "pages": 324,
@@ -5292,7 +6708,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Rover",
+        "author": "Aphra Behn"
+      },
+      {
+        "title": "Pamela",
+        "author": "Samuel Richardson"
+      },
+      {
+        "title": "Moll Flanders",
+        "author": "Daniel Defoe"
+      }
+    ]
   },
   {
     "id": 121,
@@ -5312,7 +6742,6 @@
       "Sor Juana as the greatest writer of colonial Latin America",
       "landmark text in the history of feminist thought"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780393920161",
     "pages": 348,
@@ -5326,7 +6755,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Primero Sueño",
+        "author": "Juana Inés de la Cruz"
+      },
+      {
+        "title": "Loa al auto sacramental del Divino Narciso",
+        "author": "Juana Inés de la Cruz"
+      },
+      {
+        "title": "Comentarios Reales de los Incas",
+        "author": "Inca Garcilaso de la Vega"
+      }
+    ]
   },
   {
     "id": 122,
@@ -5345,7 +6788,6 @@
       "representative collection spanning Indigenous, mestizo, and Afro-Latin traditions across the continent",
       "trickster tales, origin myths, and colonial-era legends reflecting centuries of cultural encounter"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780375714399",
     "pages": 400,
@@ -5591,7 +7033,21 @@
     "type": "folktale",
     "lite": true,
     "litePages": 200,
-    "approximate": true
+    "approximate": true,
+    "seeAlso": [
+      {
+        "title": "Cuentos de Espanto",
+        "author": "various"
+      },
+      {
+        "title": "Brazilian Fairy Tales",
+        "author": "coll. Elsie Spicer Eells"
+      },
+      {
+        "title": "The King of the Mountains",
+        "author": "coll. M. A. Jagendorf"
+      }
+    ]
   },
   {
     "id": 123,
@@ -5611,7 +7067,6 @@
       "genealogy of creation from coral and darkness to the royal lineage",
       "translated by Queen Lili'uokalani herself during her imprisonment"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781513299556",
     "pages": 88,
@@ -5625,7 +7080,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Pele and Hiiaka",
+        "author": "Nathaniel B. Emerson"
+      },
+      {
+        "title": "Unwritten Literature of Hawaii",
+        "author": "coll. Nathaniel B. Emerson"
+      },
+      {
+        "title": "Fornander Collection",
+        "author": "coll. Abraham Fornander"
+      }
+    ]
   },
   {
     "id": 124,
@@ -5645,14 +7114,6 @@
       "the warrior Hang Tuah's loyalty to his sultan as the defining myth of Malay identity",
       "representative masterwork of the hikayat tradition"
     ],
-    "connections": [
-      24,
-      81,
-      {
-        "title": "Malay Annals",
-        "year": 1612.0
-      }
-    ],
     "read": false,
     "isbn": "9789830687100",
     "pages": 600,
@@ -5666,7 +7127,21 @@
     ],
     "yearStart": 1650,
     "yearEnd": 1750,
-    "type": "work"
+    "type": "work",
+    "seeAlso": [
+      {
+        "title": "Malay Annals",
+        "author": "Tun Sri Lanang"
+      },
+      {
+        "title": "Hikayat Raja-Raja Pasai",
+        "author": "anonymous"
+      },
+      {
+        "title": "Hikayat Merong Mahawangsa",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 125,
@@ -5686,7 +7161,6 @@
       "Bashō's journey to the deep north as haiku-infused spiritual autobiography",
       "the haikai aesthetic at its most refined"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9784770020284",
     "pages": 188,
@@ -5701,7 +7175,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Saga Nikki",
+        "author": "Matsuo Bashō"
+      },
+      {
+        "title": "Nozarashi Kikō",
+        "author": "Matsuo Bashō"
+      },
+      {
+        "title": "poetry of Yosa Buson",
+        "author": "Yosa Buson"
+      }
+    ]
   },
   {
     "id": 126,
@@ -5721,7 +7209,6 @@
       "Pope's wit elevates a trivial social scandal into a miniature epic",
       "Augustan poetry at its most polished"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780140423501",
     "pages": 532,
@@ -5735,7 +7222,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Dunciad",
+        "author": "Alexander Pope"
+      },
+      {
+        "title": "Absalom and Achitophel",
+        "author": "John Dryden"
+      },
+      {
+        "title": "Mac Flecknoe",
+        "author": "John Dryden"
+      }
+    ]
   },
   {
     "id": 127,
@@ -5755,7 +7256,6 @@
       "the castaway narrative as a myth of individualism, colonialism, and self-making",
       "one of the most imitated plots in world literature"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780192833426",
     "pages": 360,
@@ -5769,7 +7269,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Moll Flanders",
+        "author": "Daniel Defoe"
+      },
+      {
+        "title": "Pamela",
+        "author": "Samuel Richardson"
+      },
+      {
+        "title": "The Swiss Family Robinson",
+        "author": "Johann David Wyss"
+      }
+    ]
   },
   {
     "id": 128,
@@ -5789,7 +7303,6 @@
       "Chikamatsu as the \"Shakespeare of Japan\"",
       "duty versus desire in the merchant quarters of Osaka"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780231111010",
     "pages": 220,
@@ -5803,7 +7316,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Battles of Coxinga",
+        "author": "Chikamatsu Monzaemon"
+      },
+      {
+        "title": "Love Suicides at Sonezaki",
+        "author": "Chikamatsu Monzaemon"
+      },
+      {
+        "title": "Kanadehon Chūshingura",
+        "author": "Takeda Izumo II"
+      }
+    ]
   },
   {
     "id": 129,
@@ -5823,7 +7350,6 @@
       "Swift's voyages dismantle human vanity, politics, and reason itself",
       "endlessly relevant as both children's adventure and philosophical demolition"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780192805348",
     "pages": 420,
@@ -5837,7 +7363,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "A Modest Proposal",
+        "author": "Jonathan Swift"
+      },
+      {
+        "title": "Candide",
+        "author": "Voltaire"
+      },
+      {
+        "title": "Rasselas",
+        "author": "Samuel Johnson"
+      }
+    ]
   },
   {
     "id": 130,
@@ -5857,7 +7397,6 @@
       "verse chronicle of Islamic heroism on the East African coast",
       "one of the earliest surviving long-form works in Swahili"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9789004030541",
     "pages": 69,
@@ -5871,7 +7410,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Utenzi wa Mwana Kupona",
+        "author": "Mwana Kupona binti Msham"
+      },
+      {
+        "title": "Utenzi wa al-Inkishafi",
+        "author": "Sayyid Abdallah bin Ali bin Nasir"
+      },
+      {
+        "title": "Utenzi wa Vita vya Wadachi",
+        "author": "Hemedi bin Abdallah el-Buhriy"
+      }
+    ]
   },
   {
     "id": 131,
@@ -5891,7 +7444,6 @@
       "Voltaire dismantles philosophical optimism through catastrophe and comic misadventure",
       "foundational work of philosophical fiction"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780300106558",
     "pages": 164,
@@ -5906,7 +7458,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Zadig",
+        "author": "Voltaire"
+      },
+      {
+        "title": "Micromégas",
+        "author": "Voltaire"
+      },
+      {
+        "title": "Jacques the Fatalist",
+        "author": "Denis Diderot"
+      }
+    ]
   },
   {
     "id": 132,
@@ -5927,7 +7493,6 @@
       "core influence on Romanticism",
       "provoked a cultural phenomenon across Europe"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780199583027",
     "pages": 154,
@@ -5941,7 +7506,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Robbers",
+        "author": "Friedrich Schiller"
+      },
+      {
+        "title": "Hymns to the Night",
+        "author": "Novalis"
+      },
+      {
+        "title": "Wilhelm Meister's Apprenticeship",
+        "author": "Johann Wolfgang von Goethe"
+      }
+    ]
   },
   {
     "id": 133,
@@ -5960,9 +7539,6 @@
       "first autobiography to focus on worldly experiences and personal feelings",
       "Rousseau's radical honesty about desire, shame, and selfhood transforms life writing into literature"
     ],
-    "connections": [
-      36
-    ],
     "read": false,
     "isbn": "9780199540037",
     "pages": 720,
@@ -5976,7 +7552,21 @@
     "yearStart": 1782,
     "yearEnd": 1789,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Reveries of the Solitary Walker",
+        "author": "Jean-Jacques Rousseau"
+      },
+      {
+        "title": "Émile",
+        "author": "Jean-Jacques Rousseau"
+      },
+      {
+        "title": "Memoirs",
+        "author": "Giacomo Casanova"
+      }
+    ]
   },
   {
     "id": 134,
@@ -5996,7 +7586,6 @@
       "Kant's analysis of beauty, taste, and the sublime",
       "establishes the philosophical framework through which art and nature are understood in the West"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780872200258",
     "pages": null,
@@ -6007,7 +7596,21 @@
     "coords": null,
     "yearStart": null,
     "yearEnd": null,
-    "type": "criticism"
+    "type": "criticism",
+    "seeAlso": [
+      {
+        "title": "Critique of Pure Reason",
+        "author": "Immanuel Kant"
+      },
+      {
+        "title": "Letters on the Aesthetic Education of Man",
+        "author": "Friedrich Schiller"
+      },
+      {
+        "title": "Aesthetics: Lectures on Fine Art",
+        "author": "G. W. F. Hegel"
+      }
+    ]
   },
   {
     "id": 135,
@@ -6027,7 +7630,6 @@
       "the decline of the Jia family as an anatomy of Qing dynasty society",
       "the pinnacle of Chinese psychological fiction"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780887271786",
     "pages": 516,
@@ -6042,7 +7644,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "The Scholars",
+        "author": "Wú Jìngzǐ"
+      },
+      {
+        "title": "The Plum in the Golden Vase",
+        "author": "anonymous"
+      },
+      {
+        "title": "Six Records of a Floating Life",
+        "author": "Shěn Fù"
+      }
+    ]
   },
   {
     "id": 136,
@@ -6062,7 +7678,6 @@
       "contrasting visions of childhood, society, and the fallen world",
       "visionary Romantic poetry at its origin"
     ],
-    "connections": null,
     "read": true,
     "isbn": "9780140422153",
     "pages": null,
@@ -6076,7 +7691,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Marriage of Heaven and Hell",
+        "author": "William Blake"
+      },
+      {
+        "title": "Jerusalem",
+        "author": "William Blake"
+      },
+      {
+        "title": "The Four Zoas",
+        "author": "William Blake"
+      }
+    ]
   },
   {
     "id": 137,
@@ -6096,7 +7725,6 @@
       "Wordsworth and Coleridge redefine poetry as the language of common speech and the ordinary made luminous",
       "watershed moment in English literary history"
     ],
-    "connections": null,
     "read": true,
     "isbn": "9780199601967",
     "pages": null,
@@ -6110,7 +7738,21 @@
     ],
     "yearStart": null,
     "yearEnd": null,
-    "type": "work"
+    "type": "work",
+    "seeAlso": [
+      {
+        "title": "The Prelude",
+        "author": "William Wordsworth"
+      },
+      {
+        "title": "The Rime of the Ancient Mariner",
+        "author": "Samuel Taylor Coleridge"
+      },
+      {
+        "title": "Biographia Literaria",
+        "author": "Samuel Taylor Coleridge"
+      }
+    ]
   },
   {
     "id": 138,
@@ -6129,7 +7771,6 @@
       "representative collection of Black oral narrative from the plantation era through the twentieth century",
       "Brer Rabbit, John the trickster, and tales of survival, resistance, and wit"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780375705397",
     "pages": 352,
@@ -6263,7 +7904,21 @@
     "type": "folktale",
     "lite": true,
     "litePages": 187,
-    "approximate": true
+    "approximate": true,
+    "seeAlso": [
+      {
+        "title": "Mules and Men",
+        "author": "Zora Neale Hurston"
+      },
+      {
+        "title": "The Conjure Woman",
+        "author": "Charles W. Chesnutt"
+      },
+      {
+        "title": "Uncle Remus: His Songs and His Sayings",
+        "author": "Joel Chandler Harris"
+      }
+    ]
   },
   {
     "id": 139,
@@ -6283,7 +7938,6 @@
       "performed orally to honor rulers, warriors, and ancestors",
       "representative tradition of southern African oral literature"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780198151241",
     "pages": null,
@@ -6297,7 +7951,21 @@
     ],
     "yearStart": 1750,
     "yearEnd": 1850,
-    "type": "work"
+    "type": "work",
+    "seeAlso": [
+      {
+        "title": "Xhosa praise poems",
+        "author": "various"
+      },
+      {
+        "title": "Sotho lithoko",
+        "author": "various"
+      },
+      {
+        "title": "poetry of Mazisi Kunene",
+        "author": "Mazisi Kunene"
+      }
+    ]
   },
   {
     "id": 140,
@@ -6317,7 +7985,6 @@
       "Austen's irony, psychological precision, and mastery of free indirect discourse transform the English novel",
       "among the most beloved works of fiction ever written"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780198826736",
     "pages": 367,
@@ -6332,7 +7999,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Sense and Sensibility",
+        "author": "Jane Austen"
+      },
+      {
+        "title": "Emma",
+        "author": "Jane Austen"
+      },
+      {
+        "title": "Persuasion",
+        "author": "Jane Austen"
+      }
+    ]
   },
   {
     "id": 141,
@@ -6352,7 +8033,6 @@
       "the creature's story as a parable of creation, abandonment, and monstrosity",
       "Mary Shelley reimagines the Promethean myth for the industrial age"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780198840824",
     "pages": 306,
@@ -6376,7 +8056,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Castle of Otranto",
+        "author": "Horace Walpole"
+      },
+      {
+        "title": "Dracula",
+        "author": "Bram Stoker"
+      },
+      {
+        "title": "The Strange Case of Dr Jekyll and Mr Hyde",
+        "author": "Robert Louis Stevenson"
+      }
+    ]
   },
   {
     "id": 142,
@@ -6396,7 +8090,6 @@
       "the scholar's pact with the devil as a myth of modernity — limitless striving, knowledge, and its costs",
       "Goethe's life work spanning sixty years"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780385031141",
     "pages": 512,
@@ -6411,7 +8104,21 @@
     "yearEnd": 1832,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Manfred",
+        "author": "Lord Byron"
+      },
+      {
+        "title": "The Master and Margarita",
+        "author": "Mikhail Bulgakov"
+      },
+      {
+        "title": "Doctor Faustus",
+        "author": "Thomas Mann"
+      }
+    ]
   },
   {
     "id": 143,
@@ -6431,7 +8138,6 @@
       "a woman's suffering, resilience, and moral integrity through war and exile",
       "the most beloved work in Vietnamese literature, quoted from memory across the country"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780300040517",
     "pages": 257,
@@ -6446,7 +8152,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Lục Vân Tiên",
+        "author": "Nguyễn Đình Chiểu"
+      },
+      {
+        "title": "Chinh Phụ Ngâm",
+        "author": "Đặng Trần Côn"
+      },
+      {
+        "title": "Cung Oán Ngâm Khúc",
+        "author": "Nguyễn Gia Thiều"
+      }
+    ]
   },
   {
     "id": 144,
@@ -6465,7 +8185,6 @@
       "Hölderlin's visionary hymns, Novalis's mystical fragments, Heine's ironic lyricism",
       "the three essential voices of a movement that transformed European poetry and philosophy"
     ],
-    "connections": null,
     "read": false,
     "isbn": [
       "9780140420982",
@@ -6483,7 +8202,21 @@
     ],
     "yearStart": 1797,
     "yearEnd": 1854,
-    "type": "work"
+    "type": "work",
+    "seeAlso": [
+      {
+        "title": "poetry of Eduard Mörike",
+        "author": "Eduard Mörike"
+      },
+      {
+        "title": "poetry of Joseph von Eichendorff",
+        "author": "Joseph von Eichendorff"
+      },
+      {
+        "title": "poetry of Clemens Brentano",
+        "author": "Clemens Brentano"
+      }
+    ]
   },
   {
     "id": 145,
@@ -6503,7 +8236,6 @@
       "Mickiewicz's nostalgic verse portrait of the vanished Lithuanian-Polish gentry on the eve of Napoleon's invasion",
       "the most beloved poem in Polish literature"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781939810007",
     "pages": 496,
@@ -6517,7 +8249,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Forefathers' Eve",
+        "author": "Adam Mickiewicz"
+      },
+      {
+        "title": "The Non-Divine Comedy",
+        "author": "Zygmunt Krasiński"
+      },
+      {
+        "title": "Kordian",
+        "author": "Juliusz Słowacki"
+      }
+    ]
   },
   {
     "id": 146,
@@ -6537,7 +8283,6 @@
       "an Egyptian cleric's account of Paris as a mirror held between Islamic and European modernity",
       "landmark of modern Arabic prose"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780863563461",
     "pages": null,
@@ -6551,7 +8296,21 @@
     ],
     "yearStart": null,
     "yearEnd": null,
-    "type": "work"
+    "type": "work",
+    "seeAlso": [
+      {
+        "title": "The Days",
+        "author": "Ṭāhā Ḥusayn"
+      },
+      {
+        "title": "Ḥadīth ʿĪsā ibn Hishām",
+        "author": "Muḥammad al-Muwayliḥī"
+      },
+      {
+        "title": "Selections from al-Manfalūṭī",
+        "author": "Muṣṭafā Luṭfī al-Manfalūṭī"
+      }
+    ]
   },
   {
     "id": 147,
@@ -6571,12 +8330,6 @@
       "Väinämöinen, the Sampo, and the mythic North",
       "inspired Tolkien and crystallized Finnish national identity"
     ],
-    "connections": [
-      {
-        "title": "The Lord of the Rings by J. R. R. Tolkien",
-        "year": 1949.0
-      }
-    ],
     "read": false,
     "isbn": "9780199538867",
     "pages": 679,
@@ -6590,7 +8343,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Kanteletar",
+        "author": "coll. Elias Lönnrot"
+      },
+      {
+        "title": "Kalevipoeg",
+        "author": "Friedrich Reinhold Kreutzwald"
+      },
+      {
+        "title": "Lāčplēsis",
+        "author": "Andrejs Pumpurs"
+      }
+    ]
   },
   {
     "id": 148,
@@ -6610,7 +8377,6 @@
       "a father's sacrificial love consumed by his daughters' social ambition",
       "the realist novel as social anatomy"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780199538751",
     "pages": 304,
@@ -6624,7 +8390,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Eugénie Grandet",
+        "author": "Honoré de Balzac"
+      },
+      {
+        "title": "Lost Illusions",
+        "author": "Honoré de Balzac"
+      },
+      {
+        "title": "Germinal",
+        "author": "Émile Zola"
+      }
+    ]
   },
   {
     "id": 149,
@@ -6644,7 +8424,6 @@
       "Balagtas' romance-in-verse as veiled critique of Spanish colonial rule",
       "foundational work of Filipino literary identity"
     ],
-    "connections": null,
     "read": false,
     "isbn": null,
     "pages": null,
@@ -6658,7 +8437,21 @@
     ],
     "yearStart": null,
     "yearEnd": null,
-    "type": "work"
+    "type": "work",
+    "seeAlso": [
+      {
+        "title": "Noli Me Tangere",
+        "author": "José Rizal"
+      },
+      {
+        "title": "El Filibusterismo",
+        "author": "José Rizal"
+      },
+      {
+        "title": "Ibong Adarna",
+        "author": "anonymous"
+      }
+    ]
   },
   {
     "id": 150,
@@ -6678,7 +8471,6 @@
       "ghazals of devastating wit, metaphysical depth, and erotic longing",
       "the supreme voice of Mughal literary culture in its twilight"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780231182065",
     "pages": 222,
@@ -6693,7 +8485,21 @@
     "yearEnd": 1869,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "poetry of Mīr Taqī Mīr",
+        "author": "Mīr Taqī Mīr"
+      },
+      {
+        "title": "poetry of Faiẓ Aḥmad Faiẓ",
+        "author": "Faiẓ Aḥmad Faiẓ"
+      },
+      {
+        "title": "poetry of Momin Khan Momin",
+        "author": "Momin Khan Momin"
+      }
+    ]
   },
   {
     "id": 151,
@@ -6712,7 +8518,6 @@
       "Mickiewicz's pioneering comparative criticism of Slavic dramatic traditions",
       "early articulation of a pan-Slavic literary consciousness distinct from Western European models"
     ],
-    "connections": null,
     "read": false,
     "isbn": null,
     "pages": null,
@@ -6723,7 +8528,21 @@
     "coords": null,
     "yearStart": null,
     "yearEnd": null,
-    "type": "criticism"
+    "type": "criticism",
+    "seeAlso": [
+      {
+        "title": "Aesthetic Relations of Art and Reality",
+        "author": "Nikolai Chernyshevsky"
+      },
+      {
+        "title": "What Is Art?",
+        "author": "Leo Tolstoy"
+      },
+      {
+        "title": "On Russian Literature",
+        "author": "Vissarion Belinsky"
+      }
+    ]
   },
   {
     "id": 152,
@@ -6742,7 +8561,6 @@
       "the most influential American slave narrative",
       "Douglass's self-liberation through literacy as a foundational text of African American literature and abolitionist thought"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780393265446",
     "pages": 208,
@@ -6757,7 +8575,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Incidents in the Life of a Slave Girl",
+        "author": "Harriet Jacobs"
+      },
+      {
+        "title": "Twelve Years a Slave",
+        "author": "Solomon Northup"
+      },
+      {
+        "title": "The Souls of Black Folk",
+        "author": "W. E. B. Du Bois"
+      }
+    ]
   },
   {
     "id": 153,
@@ -6777,7 +8609,6 @@
       "Brontë's fusion of gothic romance, moral independence, and social criticism",
       "a heroine who insists on equality of soul"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780198804970",
     "pages": 580,
@@ -6791,7 +8622,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Wuthering Heights",
+        "author": "Emily Brontë"
+      },
+      {
+        "title": "Villette",
+        "author": "Charlotte Brontë"
+      },
+      {
+        "title": "The Tenant of Wildfell Hall",
+        "author": "Anne Brontë"
+      }
+    ]
   },
   {
     "id": 154,
@@ -6811,7 +8656,6 @@
       "Ahab's obsessive hunt as an encyclopedic meditation on nature, knowledge, obsession, and the limits of human will",
       "Melville's maximalist masterpiece"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780142437247",
     "pages": 720,
@@ -6826,7 +8670,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "The Scarlet Letter",
+        "author": "Nathaniel Hawthorne"
+      },
+      {
+        "title": "Typee",
+        "author": "Herman Melville"
+      },
+      {
+        "title": "Billy Budd",
+        "author": "Herman Melville"
+      }
+    ]
   },
   {
     "id": 155,
@@ -6846,7 +8704,6 @@
       "the poet's body and the body politic as one",
       "foundational voice of American poetry and literary self-invention"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780140424515",
     "pages": null,
@@ -6860,7 +8717,21 @@
     ],
     "yearStart": null,
     "yearEnd": null,
-    "type": "work"
+    "type": "work",
+    "seeAlso": [
+      {
+        "title": "Song of Myself",
+        "author": "Walt Whitman"
+      },
+      {
+        "title": "Specimen Days",
+        "author": "Walt Whitman"
+      },
+      {
+        "title": "Democratic Vistas",
+        "author": "Walt Whitman"
+      }
+    ]
   },
   {
     "id": 156,
@@ -6880,7 +8751,6 @@
       "Flaubert's merciless precision transforms a provincial adultery into a study of desire, illusion, and the poverty of bourgeois life",
       "the style is the meaning"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780143106494",
     "pages": 384,
@@ -6895,7 +8765,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Sentimental Education",
+        "author": "Gustave Flaubert"
+      },
+      {
+        "title": "A Simple Heart",
+        "author": "Gustave Flaubert"
+      },
+      {
+        "title": "Thérèse Raquin",
+        "author": "Émile Zola"
+      }
+    ]
   },
   {
     "id": 157,
@@ -6915,7 +8799,6 @@
       "Baudelaire discovers beauty in urban squalor, ennui, and transgression",
       "origin point for Symbolism and the entire trajectory of modernist verse"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781631498596",
     "pages": 343,
@@ -6929,7 +8812,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Paris Spleen",
+        "author": "Charles Baudelaire"
+      },
+      {
+        "title": "A Season in Hell",
+        "author": "Arthur Rimbaud"
+      },
+      {
+        "title": "poetry of Stéphane Mallarmé",
+        "author": "Stéphane Mallarmé"
+      }
+    ]
   },
   {
     "id": 158,
@@ -6949,7 +8846,6 @@
       "hedonist philosophy and melancholy lyricism that became a Victorian sensation",
       "landmark of literary translation as creative art"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780199542970",
     "pages": 237,
@@ -6963,7 +8859,21 @@
     "type": "work",
     "yearStart": null,
     "yearEnd": null,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Lalla Rookh",
+        "author": "Thomas Moore"
+      },
+      {
+        "title": "The Kasîdah",
+        "author": "Richard Francis Burton"
+      },
+      {
+        "title": "Dīvān of Hāfez",
+        "author": "Hāfez"
+      }
+    ]
   },
   {
     "id": 159,
@@ -6982,7 +8892,6 @@
       "Nietzsche's Apollonian-Dionysian framework transforms the understanding of art, myth, and tragedy",
       "foundational text of modern aesthetic philosophy"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780521639873",
     "pages": null,
@@ -6993,7 +8902,21 @@
     "coords": null,
     "yearStart": null,
     "yearEnd": null,
-    "type": "criticism"
+    "type": "criticism",
+    "seeAlso": [
+      {
+        "title": "The Gay Science",
+        "author": "Friedrich Nietzsche"
+      },
+      {
+        "title": "Thus Spoke Zarathustra",
+        "author": "Friedrich Nietzsche"
+      },
+      {
+        "title": "The World as Will and Representation",
+        "author": "Arthur Schopenhauer"
+      }
+    ]
   },
   {
     "id": 160,
@@ -7013,9 +8936,6 @@
       "Eliot's panoramic study of provincial life, moral ambition, and the gap between idealism and compromise",
       "often called the greatest English novel"
     ],
-    "connections": [
-      169
-    ],
     "read": false,
     "isbn": "9780141199795",
     "pages": 948,
@@ -7029,7 +8949,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Tess of the d'Urbervilles",
+        "author": "Thomas Hardy"
+      },
+      {
+        "title": "Great Expectations",
+        "author": "Charles Dickens"
+      },
+      {
+        "title": "North and South",
+        "author": "Elizabeth Gaskell"
+      }
+    ]
   },
   {
     "id": 161,
@@ -7049,9 +8983,6 @@
       "representative work of the payada gaucho folk tradition",
       "the frontier outcast's defiance as a foundational myth of Argentine identity"
     ],
-    "connections": [
-      210
-    ],
     "read": false,
     "isbn": "9780873952842",
     "pages": 112,
@@ -7065,7 +8996,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Facundo",
+        "author": "Domingo Faustino Sarmiento"
+      },
+      {
+        "title": "Don Segundo Sombra",
+        "author": "Ricardo Güiraldes"
+      },
+      {
+        "title": "Santos Vega",
+        "author": "Hilario Ascasubi"
+      }
+    ]
   },
   {
     "id": 162,
@@ -7084,7 +9029,6 @@
       "Tolstoy's masterwork of psychological realism",
       "the parallel fates of Anna and Levin as a total portrait of Russian society, desire, faith, and moral reckoning"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780143035008",
     "pages": 864,
@@ -7099,7 +9043,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "War and Peace",
+        "author": "Leo Tolstoy"
+      },
+      {
+        "title": "Fathers and Sons",
+        "author": "Ivan Turgenev"
+      },
+      {
+        "title": "Dead Souls",
+        "author": "Nikolai Gogol"
+      }
+    ]
   },
   {
     "id": 163,
@@ -7119,7 +9077,6 @@
       "Nora's door-slam as the founding gesture of feminist theater",
       "transforms the European stage from spectacle to social inquiry"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780451524065",
     "pages": 384,
@@ -7134,7 +9091,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Hedda Gabler",
+        "author": "Henrik Ibsen"
+      },
+      {
+        "title": "Miss Julie",
+        "author": "August Strindberg"
+      },
+      {
+        "title": "The Wild Duck",
+        "author": "Henrik Ibsen"
+      }
+    ]
   },
   {
     "id": 164,
@@ -7154,7 +9125,6 @@
       "faith, doubt, patricide, and the Grand Inquisitor",
       "the philosophical novel at its most extreme and searching"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781250788450",
     "pages": 880,
@@ -7168,7 +9138,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoyevsky"
+      },
+      {
+        "title": "The Idiot",
+        "author": "Fyodor Dostoyevsky"
+      },
+      {
+        "title": "Notes from Underground",
+        "author": "Fyodor Dostoyevsky"
+      }
+    ]
   },
   {
     "id": 165,
@@ -7187,7 +9171,6 @@
       "representative works of one of Africa's richest oral poetic traditions",
       "alliterative verse serving clan diplomacy, love, and political contestation in a \"nation of poets\""
     ],
-    "connections": null,
     "read": false,
     "isbn": null,
     "pages": null,
@@ -7201,7 +9184,21 @@
     ],
     "yearStart": 1830,
     "yearEnd": 1930,
-    "type": "work"
+    "type": "work",
+    "seeAlso": [
+      {
+        "title": "The Dervish Poems of Mohamed Abdille Hasan",
+        "author": "Mohamed Abdille Hasan"
+      },
+      {
+        "title": "Oral Poetry and Somali Nationalism",
+        "author": "Said S. Samatar"
+      },
+      {
+        "title": "poetry of Hadraawi",
+        "author": "Hadraawi"
+      }
+    ]
   },
   {
     "id": 166,
@@ -7221,7 +9218,6 @@
       "Huck and Jim's river journey as a comic, vernacular reckoning with slavery, conscience, and freedom",
       "Twain invents the American literary voice"
     ],
-    "connections": null,
     "read": true,
     "isbn": "9780520343641",
     "pages": 616,
@@ -7235,7 +9231,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Adventures of Tom Sawyer",
+        "author": "Mark Twain"
+      },
+      {
+        "title": "Life on the Mississippi",
+        "author": "Mark Twain"
+      },
+      {
+        "title": "A Connecticut Yankee in King Arthur's Court",
+        "author": "Mark Twain"
+      }
+    ]
   },
   {
     "id": 167,
@@ -7254,7 +9264,6 @@
       "founder of modernismo, the first literary movement to flow from Latin America back to Spain",
       "transforms Spanish-language poetry with cosmopolitan musicality and formal innovation"
     ],
-    "connections": null,
     "read": true,
     "isbn": "9780143039365",
     "pages": null,
@@ -7268,7 +9277,21 @@
     ],
     "yearStart": null,
     "yearEnd": null,
-    "type": "work"
+    "type": "work",
+    "seeAlso": [
+      {
+        "title": "poetry of José Asunción Silva",
+        "author": "José Asunción Silva"
+      },
+      {
+        "title": "poetry of Leopoldo Lugones",
+        "author": "Leopoldo Lugones"
+      },
+      {
+        "title": "Cantos de vida y esperanza",
+        "author": "Rubén Darío"
+      }
+    ]
   },
   {
     "id": 168,
@@ -7288,7 +9311,6 @@
       "Dickinson reinvents English lyric poetry from total seclusion",
       "among the most original voices in any language"
     ],
-    "connections": null,
     "read": true,
     "isbn": "9780062668875",
     "pages": null,
@@ -7303,7 +9325,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": true,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "The Poems of Emily Dickinson: Variorum Edition",
+        "author": "Emily Dickinson"
+      },
+      {
+        "title": "poetry of Marianne Moore",
+        "author": "Marianne Moore"
+      },
+      {
+        "title": "poetry of Elizabeth Bishop",
+        "author": "Elizabeth Bishop"
+      }
+    ]
   },
   {
     "id": 169,
@@ -7323,7 +9359,6 @@
       "an innocent woman destroyed by social hypocrisy and fate",
       "the Victorian novel turned against Victorian morality"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780192840691",
     "pages": 484,
@@ -7337,7 +9372,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Far from the Madding Crowd",
+        "author": "Thomas Hardy"
+      },
+      {
+        "title": "Jude the Obscure",
+        "author": "Thomas Hardy"
+      },
+      {
+        "title": "The Return of the Native",
+        "author": "Thomas Hardy"
+      }
+    ]
   },
   {
     "id": 170,
@@ -7357,7 +9406,6 @@
       "source of \"Guantanamera\"",
       "foundational voice of Cuban and Latin American literary independence"
     ],
-    "connections": null,
     "read": true,
     "isbn": "9789592712393",
     "pages": 172,
@@ -7371,7 +9419,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Ismaelillo",
+        "author": "José Martí"
+      },
+      {
+        "title": "Nuestra América",
+        "author": "José Martí"
+      },
+      {
+        "title": "poetry of Julián del Casal",
+        "author": "Julián del Casal"
+      }
+    ]
   },
   {
     "id": 171,
@@ -7390,7 +9452,6 @@
       "foundational work of Yiddish literature",
       "a poor milkman's monologues with God as the comic, heartbreaking voice of Eastern European Jewish life on the eve of its destruction"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780143105602",
     "pages": 420,
@@ -7404,7 +9465,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Brothers Ashkenazi",
+        "author": "I. J. Singer"
+      },
+      {
+        "title": "The Family Moskat",
+        "author": "Isaac Bashevis Singer"
+      },
+      {
+        "title": "The Dybbuk",
+        "author": "S. Ansky"
+      }
+    ]
   },
   {
     "id": 172,
@@ -7424,7 +9499,6 @@
       "every line a jewel of paradox and inversion",
       "the comedy of manners distilled to pure wit"
     ],
-    "connections": null,
     "read": true,
     "isbn": "9780192848024",
     "pages": 496,
@@ -7438,7 +9512,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "An Ideal Husband",
+        "author": "Oscar Wilde"
+      },
+      {
+        "title": "The Rivals",
+        "author": "Richard Brinsley Sheridan"
+      },
+      {
+        "title": "She Stoops to Conquer",
+        "author": "Oliver Goldsmith"
+      }
+    ]
   },
   {
     "id": 173,
@@ -7458,14 +9546,6 @@
       "an unreliable narrator's jealousy destabilizes everything the reader knows",
       "Machado de Assis as a precursor to Borges and the postmodern novel decades before its time"
     ],
-    "connections": [
-      31,
-      {
-        "title": "Othello by William Shakespeare",
-        "year": 1603.0
-      },
-      142
-    ],
     "read": false,
     "isbn": "9781324095149",
     "pages": 288,
@@ -7480,7 +9560,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "The Posthumous Memoirs of Brás Cubas",
+        "author": "Machado de Assis"
+      },
+      {
+        "title": "Quincas Borba",
+        "author": "Machado de Assis"
+      },
+      {
+        "title": "Iracema",
+        "author": "José de Alencar"
+      }
+    ]
   },
   {
     "id": 174,
@@ -7500,9 +9594,6 @@
       "one of the most debated works in English",
       "provoked Chinua Achebe's landmark critique"
     ],
-    "connections": [
-      223
-    ],
     "read": false,
     "isbn": "9780199536016",
     "pages": 276,
@@ -7516,7 +9607,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Lord Jim",
+        "author": "Joseph Conrad"
+      },
+      {
+        "title": "Nostromo",
+        "author": "Joseph Conrad"
+      },
+      {
+        "title": "The Secret Sharer",
+        "author": "Joseph Conrad"
+      }
+    ]
   },
   {
     "id": 175,
@@ -7537,7 +9642,6 @@
       "invents a dramatic mode where comedy and tragedy are indistinguishable",
       "foundational work of modern theater"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781559364843",
     "pages": 192,
@@ -7552,7 +9656,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Three Sisters",
+        "author": "Anton Chekhov"
+      },
+      {
+        "title": "Uncle Vanya",
+        "author": "Anton Chekhov"
+      },
+      {
+        "title": "The Seagull",
+        "author": "Anton Chekhov"
+      }
+    ]
   },
   {
     "id": 176,
@@ -7571,7 +9689,6 @@
       "Tagore's devotional lyrics made him the first non-European Nobel laureate",
       "songs of longing, wonder, and surrender that bridge Bengali and English literary worlds"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781957240121",
     "pages": null,
@@ -7586,7 +9703,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "The Home and the World",
+        "author": "Rabindranath Tagore"
+      },
+      {
+        "title": "Stray Birds",
+        "author": "Rabindranath Tagore"
+      },
+      {
+        "title": "The Post Office",
+        "author": "Rabindranath Tagore"
+      }
+    ]
   },
   {
     "id": 177,
@@ -7606,7 +9737,6 @@
       "the madeleine, the goodnight kiss, and Swann's jealousy as the architecture of subjective time",
       "the twentieth century's great cathedral of prose"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780241610510",
     "pages": 1076,
@@ -7621,7 +9751,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Within a Budding Grove",
+        "author": "Marcel Proust"
+      },
+      {
+        "title": "The Guermantes Way",
+        "author": "Marcel Proust"
+      },
+      {
+        "title": "Time Regained",
+        "author": "Marcel Proust"
+      }
+    ]
   },
   {
     "id": 178,
@@ -7640,7 +9784,6 @@
       "Sōseki's meditation on loneliness, guilt, and the collision between Meiji modernity and traditional values",
       "the defining novel of modern Japanese interiority"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780143106036",
     "pages": 256,
@@ -7655,7 +9798,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Botchan",
+        "author": "Natsume Sōseki"
+      },
+      {
+        "title": "I Am a Cat",
+        "author": "Natsume Sōseki"
+      },
+      {
+        "title": "The Broken Commandment",
+        "author": "Shimazaki Tōson"
+      }
+    ]
   },
   {
     "id": 179,
@@ -7675,7 +9832,6 @@
       "elemental lyrics of love, loss, maternity, and the Chilean landscape",
       "voice of the rural and the dispossessed"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781877727184",
     "pages": null,
@@ -7689,7 +9845,21 @@
     ],
     "yearStart": null,
     "yearEnd": null,
-    "type": "work"
+    "type": "work",
+    "seeAlso": [
+      {
+        "title": "Desolación",
+        "author": "Gabriela Mistral"
+      },
+      {
+        "title": "Tala",
+        "author": "Gabriela Mistral"
+      },
+      {
+        "title": "poetry of Alfonsina Storni",
+        "author": "Alfonsina Storni"
+      }
+    ]
   },
   {
     "id": 180,
@@ -7709,7 +9879,6 @@
       "Josef K.'s arrest without charge as a parable of bureaucratic absurdity, guilt, and powerlessness",
       "the twentieth century's most prophetic novel"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780749399559",
     "pages": 260,
@@ -7724,7 +9893,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "The Castle",
+        "author": "Franz Kafka"
+      },
+      {
+        "title": "The Metamorphosis",
+        "author": "Franz Kafka"
+      },
+      {
+        "title": "Amerika",
+        "author": "Franz Kafka"
+      }
+    ]
   },
   {
     "id": 181,
@@ -7744,7 +9927,6 @@
       "introduces \"defamiliarization\" — art's purpose is to make the familiar strange",
       "transforms twentieth-century literary theory"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780803254602",
     "pages": null,
@@ -7755,7 +9937,21 @@
     "type": "criticism",
     "yearStart": null,
     "yearEnd": null,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Theory of Prose",
+        "author": "Viktor Shklovsky"
+      },
+      {
+        "title": "On Literary Evolution",
+        "author": "Yuri Tynyanov"
+      },
+      {
+        "title": "The Formal Method in Literary Scholarship",
+        "author": "Pavel Medvedev"
+      }
+    ]
   },
   {
     "id": 182,
@@ -7775,7 +9971,6 @@
       "a madman's discovery that his society is cannibalistic",
       "devastating allegory of Confucian tradition consuming its own people"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780824813178",
     "pages": 436,
@@ -7790,7 +9985,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "The True Story of Ah Q",
+        "author": "Lǔ Xùn"
+      },
+      {
+        "title": "Wild Grass",
+        "author": "Lǔ Xùn"
+      },
+      {
+        "title": "Midnight",
+        "author": "Máo Dùn"
+      }
+    ]
   },
   {
     "id": 183,
@@ -7810,7 +10019,6 @@
       "Irish myth, political passion, and the aging body fused into a visionary lyric",
       "towers, gyres, and Byzantium"
     ],
-    "connections": null,
     "read": true,
     "isbn": "9780684807317",
     "pages": null,
@@ -7824,7 +10032,21 @@
     "yearStart": 1916,
     "yearEnd": 1927,
     "type": "work",
-    "approximate": true
+    "approximate": true,
+    "seeAlso": [
+      {
+        "title": "Cathleen ni Houlihan",
+        "author": "W. B. Yeats"
+      },
+      {
+        "title": "poetry of Patrick Kavanagh",
+        "author": "Patrick Kavanagh"
+      },
+      {
+        "title": "poetry of Austin Clarke",
+        "author": "Austin Clarke"
+      }
+    ]
   },
   {
     "id": 184,
@@ -7844,7 +10066,6 @@
       "a single Dublin day reimagined through every conceivable style and form",
       "Joyce transforms the English language itself"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780199535675",
     "pages": 1057,
@@ -7859,7 +10080,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Finnegans Wake",
+        "author": "James Joyce"
+      },
+      {
+        "title": "A Portrait of the Artist as a Young Man",
+        "author": "James Joyce"
+      },
+      {
+        "title": "Dubliners",
+        "author": "James Joyce"
+      }
+    ]
   },
   {
     "id": 185,
@@ -7879,7 +10114,6 @@
       "fragments shored against ruins",
       "Eliot's collage of voices, languages, and mythic echoes maps the spiritual devastation of postwar Europe"
     ],
-    "connections": null,
     "read": true,
     "isbn": "9780393974997",
     "pages": 300,
@@ -7894,7 +10128,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Four Quartets",
+        "author": "T. S. Eliot"
+      },
+      {
+        "title": "The Cantos",
+        "author": "Ezra Pound"
+      },
+      {
+        "title": "The Love Song of J. Alfred Prufrock",
+        "author": "T. S. Eliot"
+      }
+    ]
   },
   {
     "id": 186,
@@ -7914,7 +10162,6 @@
       "Akutagawa invents the unreliable-narrator puzzle story",
       "source of Kurosawa's Rashōmon"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780140449709",
     "pages": 268,
@@ -7928,7 +10175,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Rashōmon",
+        "author": "Akutagawa Ryūnosuke"
+      },
+      {
+        "title": "Kappa",
+        "author": "Akutagawa Ryūnosuke"
+      },
+      {
+        "title": "Hell Screen",
+        "author": "Akutagawa Ryūnosuke"
+      }
+    ]
   },
   {
     "id": 187,
@@ -7948,7 +10209,6 @@
       "ten elegies on mortality, transformation, and the difficulty of praise",
       "among the most profound lyric sequences in any language"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780486838670",
     "pages": null,
@@ -7962,7 +10222,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Sonnets to Orpheus",
+        "author": "Rainer Maria Rilke"
+      },
+      {
+        "title": "The Notebooks of Malte Laurids Brigge",
+        "author": "Rainer Maria Rilke"
+      },
+      {
+        "title": "New Poems",
+        "author": "Rainer Maria Rilke"
+      }
+    ]
   },
   {
     "id": 188,
@@ -7982,7 +10256,6 @@
       "Mofolo reimagines the Zulu king as a Faustian figure consumed by power",
       "the African historical novel at its origin"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781478607151",
     "pages": 168,
@@ -7996,7 +10269,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Mhudi",
+        "author": "Sol T. Plaatje"
+      },
+      {
+        "title": "Emperor Shaka the Great",
+        "author": "Mazisi Kunene"
+      },
+      {
+        "title": "The Dark Child",
+        "author": "Camara Laye"
+      }
+    ]
   },
   {
     "id": 189,
@@ -8016,7 +10303,6 @@
       "Fitzgerald's jazz-age elegy for wealth, longing, and the irretrievable past",
       "the most taught novel in American literature"
     ],
-    "connections": null,
     "read": true,
     "isbn": "9781982149482",
     "pages": 208,
@@ -8030,7 +10316,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Tender Is the Night",
+        "author": "F. Scott Fitzgerald"
+      },
+      {
+        "title": "The Sun Also Rises",
+        "author": "Ernest Hemingway"
+      },
+      {
+        "title": "The Age of Innocence",
+        "author": "Edith Wharton"
+      }
+    ]
   },
   {
     "id": 190,
@@ -8050,7 +10350,6 @@
       "a single June day in London refracted through memory, class, and the lingering trauma of war",
       "modernist interiority at its most luminous"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780192859853",
     "pages": 225,
@@ -8065,7 +10364,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "To the Lighthouse",
+        "author": "Virginia Woolf"
+      },
+      {
+        "title": "The Waves",
+        "author": "Virginia Woolf"
+      },
+      {
+        "title": "Orlando",
+        "author": "Virginia Woolf"
+      }
+    ]
   },
   {
     "id": 191,
@@ -8085,9 +10398,6 @@
       "foundational text of structural narratology",
       "direct influence on Lévi-Strauss, Barthes, and narrative theory"
     ],
-    "connections": [
-      65
-    ],
     "read": false,
     "isbn": "9780292783768",
     "pages": null,
@@ -8098,7 +10408,21 @@
     "type": "criticism",
     "yearStart": null,
     "yearEnd": null,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Hero with a Thousand Faces",
+        "author": "Joseph Campbell"
+      },
+      {
+        "title": "Structural Anthropology",
+        "author": "Claude Lévi-Strauss"
+      },
+      {
+        "title": "Theory of Prose",
+        "author": "Viktor Shklovsky"
+      }
+    ]
   },
   {
     "id": 192,
@@ -8118,7 +10442,6 @@
       "waiata of love, lament, war, and genealogy",
       "Ngata's life work preserving the oral literary heritage of Aotearoa"
     ],
-    "connections": null,
     "read": false,
     "isbn": null,
     "pages": null,
@@ -8132,7 +10455,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": true
+    "approximate": true,
+    "seeAlso": [
+      {
+        "title": "He Tāonga Tuku Iho",
+        "author": "various"
+      },
+      {
+        "title": "Ngā Pēpeha a ngā Tīpuna",
+        "author": "Hirini Moko Mead"
+      },
+      {
+        "title": "The Old-Time Māori",
+        "author": "Makereti"
+      }
+    ]
   },
   {
     "id": 193,
@@ -8152,7 +10489,6 @@
       "\"a woman must have money and a room of her own\"",
       "transforms literary criticism into personal essay"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780156787338",
     "pages": 82,
@@ -8164,7 +10500,21 @@
     "yearStart": null,
     "yearEnd": null,
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Three Guineas",
+        "author": "Virginia Woolf"
+      },
+      {
+        "title": "A Vindication of the Rights of Woman",
+        "author": "Mary Wollstonecraft"
+      },
+      {
+        "title": "The Subjection of Women",
+        "author": "John Stuart Mill"
+      }
+    ]
   },
   {
     "id": 194,
@@ -8184,7 +10534,6 @@
       "the decline of a Southern family told through four radically different consciousnesses",
       "stream of consciousness pushed to its formal limit"
     ],
-    "connections": null,
     "read": true,
     "isbn": "9780393912692",
     "pages": 528,
@@ -8199,7 +10548,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "As I Lay Dying",
+        "author": "William Faulkner"
+      },
+      {
+        "title": "Absalom, Absalom!",
+        "author": "William Faulkner"
+      },
+      {
+        "title": "Light in August",
+        "author": "William Faulkner"
+      }
+    ]
   },
   {
     "id": 195,
@@ -8219,7 +10582,6 @@
       "desire and honor erupt into ritual violence in rural Andalusia",
       "the duende of Spanish folk tradition fused with avant-garde theater"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780571190065",
     "pages": 80,
@@ -8234,7 +10596,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Yerma",
+        "author": "Federico García Lorca"
+      },
+      {
+        "title": "The House of Bernarda Alba",
+        "author": "Federico García Lorca"
+      },
+      {
+        "title": "Bodas de sangre",
+        "author": "Federico García Lorca"
+      }
+    ]
   },
   {
     "id": 196,
@@ -8254,7 +10630,6 @@
       "a meditation on the beauty that Western illumination destroys",
       "essential text of Japanese aesthetic philosophy"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780918172020",
     "pages": 50,
@@ -8265,7 +10640,21 @@
     "type": "criticism",
     "yearStart": null,
     "yearEnd": null,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Makioka Sisters",
+        "author": "Tanizaki Jun'ichirō"
+      },
+      {
+        "title": "A Fool's Love",
+        "author": "Tanizaki Jun'ichirō"
+      },
+      {
+        "title": "The Key",
+        "author": "Tanizaki Jun'ichirō"
+      }
+    ]
   },
   {
     "id": 197,
@@ -8284,7 +10673,6 @@
       "Benjamin's landmark essay on how photography and film transform art's \"aura\"",
       "foundational text of media theory and cultural criticism"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781328470232",
     "pages": null,
@@ -8295,7 +10683,21 @@
     "type": "criticism",
     "yearStart": null,
     "yearEnd": null,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Storyteller",
+        "author": "Walter Benjamin"
+      },
+      {
+        "title": "One-Way Street",
+        "author": "Walter Benjamin"
+      },
+      {
+        "title": "The Arcades Project",
+        "author": "Walter Benjamin"
+      }
+    ]
   },
   {
     "id": 198,
@@ -8314,7 +10716,6 @@
       "Premchand's greatest novel and the masterwork of Hindi realist fiction",
       "a peasant's futile struggle to own a cow as an anatomy of rural poverty, caste, and colonial exploitation"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780253215673",
     "pages": 480,
@@ -8328,7 +10729,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Nirmala",
+        "author": "Premchand"
+      },
+      {
+        "title": "Rangbhūmi",
+        "author": "Premchand"
+      },
+      {
+        "title": "Manasarovar",
+        "author": "Premchand"
+      }
+    ]
   },
   {
     "id": 199,
@@ -8348,7 +10763,6 @@
       "introduces heteroglossia, chronotope, and the carnivalesque",
       "transforms narrative theory"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780292715349",
     "pages": null,
@@ -8359,7 +10773,21 @@
     "coords": null,
     "yearStart": 1935,
     "yearEnd": 1941,
-    "type": "criticism"
+    "type": "criticism",
+    "seeAlso": [
+      {
+        "title": "Rabelais and His World",
+        "author": "Mikhail Bakhtin"
+      },
+      {
+        "title": "Problems of Dostoevsky's Poetics",
+        "author": "Mikhail Bakhtin"
+      },
+      {
+        "title": "Speech Genres and Other Late Essays",
+        "author": "Mikhail Bakhtin"
+      }
+    ]
   },
   {
     "id": 200,
@@ -8379,7 +10807,6 @@
       "the Joad family's westward journey as a collective portrait of American dispossession and endurance",
       "the social novel at its most powerful"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780143039433",
     "pages": 528,
@@ -8403,7 +10830,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Of Mice and Men",
+        "author": "John Steinbeck"
+      },
+      {
+        "title": "East of Eden",
+        "author": "John Steinbeck"
+      },
+      {
+        "title": "The Jungle",
+        "author": "Upton Sinclair"
+      }
+    ]
   },
   {
     "id": 201,
@@ -8423,7 +10864,6 @@
       "a canteen woman profits from the Thirty Years' War while it devours her children",
       "epic theater's defining work — estrangement over empathy"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780394717593",
     "pages": 516,
@@ -8437,7 +10877,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Threepenny Opera",
+        "author": "Bertolt Brecht"
+      },
+      {
+        "title": "The Good Person of Szechwan",
+        "author": "Bertolt Brecht"
+      },
+      {
+        "title": "The Caucasian Chalk Circle",
+        "author": "Bertolt Brecht"
+      }
+    ]
   },
   {
     "id": 202,
@@ -8456,7 +10910,6 @@
       "founding poem of the Négritude movement",
       "Césaire's volcanic return to Martinique as a reclamation of Black identity, language, and revolutionary consciousness"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780822368960",
     "pages": 334,
@@ -8471,7 +10924,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Les Armes miraculeuses",
+        "author": "Aimé Césaire"
+      },
+      {
+        "title": "Pigments",
+        "author": "Léon-Gontran Damas"
+      },
+      {
+        "title": "Chants d'ombre",
+        "author": "Léopold Sédar Senghor"
+      }
+    ]
   },
   {
     "id": 203,
@@ -8491,7 +10958,6 @@
       "Meursault's refusal to perform emotion as a confrontation with absurdity",
       "the novel that defines mid-century existentialism"
     ],
-    "connections": null,
     "read": true,
     "isbn": "9780679720201",
     "pages": 123,
@@ -8506,7 +10972,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "The Plague",
+        "author": "Albert Camus"
+      },
+      {
+        "title": "The Fall",
+        "author": "Albert Camus"
+      },
+      {
+        "title": "Nausea",
+        "author": "Jean-Paul Sartre"
+      }
+    ]
   },
   {
     "id": 204,
@@ -8525,7 +11005,6 @@
       "the poet laureate of the Harlem Renaissance",
       "jazz rhythms, blues cadences, and the lives of ordinary Black Americans transformed into lyric art"
     ],
-    "connections": null,
     "read": true,
     "isbn": "9780679426318",
     "pages": null,
@@ -8539,7 +11018,21 @@
     "yearStart": 1921,
     "yearEnd": 1967,
     "type": "work",
-    "approximate": true
+    "approximate": true,
+    "seeAlso": [
+      {
+        "title": "poetry of Claude McKay",
+        "author": "Claude McKay"
+      },
+      {
+        "title": "poetry of Countee Cullen",
+        "author": "Countee Cullen"
+      },
+      {
+        "title": "Their Eyes Were Watching God",
+        "author": "Zora Neale Hurston"
+      }
+    ]
   },
   {
     "id": 205,
@@ -8559,7 +11052,6 @@
       "invents the comparative study of literary realism",
       "written in wartime exile without a library, from memory alone"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780691113364",
     "pages": null,
@@ -8570,7 +11062,21 @@
     "type": "criticism",
     "yearStart": null,
     "yearEnd": null,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Great Tradition",
+        "author": "F. R. Leavis"
+      },
+      {
+        "title": "The Theory of the Novel",
+        "author": "Georg Lukács"
+      },
+      {
+        "title": "European Literature and the Latin Middle Ages",
+        "author": "Ernst Robert Curtius"
+      }
+    ]
   },
   {
     "id": 206,
@@ -8590,7 +11096,6 @@
       "the chemist's precise, restrained prose makes the horror more devastating, not less",
       "among the essential works of Holocaust literature"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780349144009",
     "pages": null,
@@ -8605,7 +11110,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "The Drowned and the Saved",
+        "author": "Primo Levi"
+      },
+      {
+        "title": "Night",
+        "author": "Elie Wiesel"
+      },
+      {
+        "title": "Survival in Auschwitz",
+        "author": "Primo Levi"
+      }
+    ]
   },
   {
     "id": 207,
@@ -8625,7 +11144,6 @@
       "desire, delusion, and the cruelty of the new South",
       "defines the postwar American stage"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780141190273",
     "pages": 111,
@@ -8639,7 +11157,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Cat on a Hot Tin Roof",
+        "author": "Tennessee Williams"
+      },
+      {
+        "title": "The Glass Menagerie",
+        "author": "Tennessee Williams"
+      },
+      {
+        "title": "Death of a Salesman",
+        "author": "Arthur Miller"
+      }
+    ]
   },
   {
     "id": 208,
@@ -8658,7 +11190,6 @@
       "Brooks's New Critical manifesto that a poem's meaning cannot be separated from its form",
       "foundational text of close reading as critical method"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780156957052",
     "pages": null,
@@ -8669,7 +11200,21 @@
     "type": "criticism",
     "yearStart": null,
     "yearEnd": null,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Verbal Icon",
+        "author": "W. K. Wimsatt"
+      },
+      {
+        "title": "Seven Types of Ambiguity",
+        "author": "William Empson"
+      },
+      {
+        "title": "Understanding Poetry",
+        "author": "Cleanth Brooks and Robert Penn Warren"
+      }
+    ]
   },
   {
     "id": 209,
@@ -8689,7 +11234,6 @@
       "a mother waiting outside a Leningrad prison becomes the voice of an entire people's suffering",
       "poetry as moral resistance, circulated in secret for decades"
     ],
-    "connections": null,
     "read": true,
     "isbn": "9780939010615",
     "pages": 22,
@@ -8704,7 +11248,21 @@
     "yearEnd": 1961,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Poem Without a Hero",
+        "author": "Anna Akhmatova"
+      },
+      {
+        "title": "poetry of Marina Tsvetaeva",
+        "author": "Marina Tsvetaeva"
+      },
+      {
+        "title": "poetry of Osip Mandelstam",
+        "author": "Osip Mandelstam"
+      }
+    ]
   },
   {
     "id": 210,
@@ -8724,9 +11282,6 @@
       "the short story as philosophical thought experiment",
       "transforms Latin American and world fiction"
     ],
-    "connections": [
-      72
-    ],
     "read": true,
     "isbn": "9780140286809",
     "pages": 575,
@@ -8741,7 +11296,21 @@
     "yearEnd": 1956,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Ficciones",
+        "author": "Jorge Luis Borges"
+      },
+      {
+        "title": "The Aleph",
+        "author": "Jorge Luis Borges"
+      },
+      {
+        "title": "The Invention of Morel",
+        "author": "Adolfo Bioy Casares"
+      }
+    ]
   },
   {
     "id": 211,
@@ -8761,7 +11330,6 @@
       "\"one is not born, but rather becomes, a woman\"",
       "transforms philosophy, gender theory, and the understanding of lived experience"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780307277787",
     "pages": null,
@@ -8772,7 +11340,21 @@
     "coords": null,
     "yearStart": null,
     "yearEnd": null,
-    "type": "criticism"
+    "type": "criticism",
+    "seeAlso": [
+      {
+        "title": "The Ethics of Ambiguity",
+        "author": "Simone de Beauvoir"
+      },
+      {
+        "title": "Memoirs of a Dutiful Daughter",
+        "author": "Simone de Beauvoir"
+      },
+      {
+        "title": "The Mandarins",
+        "author": "Simone de Beauvoir"
+      }
+    ]
   },
   {
     "id": 212,
@@ -8792,7 +11374,6 @@
       "the definitive novel of political unfreedom",
       "more relevant with each passing decade"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780452262935",
     "pages": 320,
@@ -8806,7 +11387,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Brave New World",
+        "author": "Aldous Huxley"
+      },
+      {
+        "title": "We",
+        "author": "Yevgeny Zamyatin"
+      },
+      {
+        "title": "Animal Farm",
+        "author": "George Orwell"
+      }
+    ]
   },
   {
     "id": 213,
@@ -8826,7 +11421,6 @@
       "odes to artichokes and onions, love sonnets, and political fury",
       "Neruda makes Spanish sing at every register"
     ],
-    "connections": null,
     "read": true,
     "isbn": "9780872864283",
     "pages": null,
@@ -8840,7 +11434,21 @@
     "yearStart": 1924,
     "yearEnd": 1975,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Canto General",
+        "author": "Pablo Neruda"
+      },
+      {
+        "title": "Twenty Love Poems and a Song of Despair",
+        "author": "Pablo Neruda"
+      },
+      {
+        "title": "poetry of César Vallejo",
+        "author": "César Vallejo"
+      }
+    ]
   },
   {
     "id": 214,
@@ -8860,7 +11468,6 @@
       "the colonized subject's internalization of the oppressor's gaze",
       "foundational text of postcolonial theory"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780802143006",
     "pages": null,
@@ -8871,7 +11478,21 @@
     "type": "criticism",
     "yearStart": null,
     "yearEnd": null,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Wretched of the Earth",
+        "author": "Frantz Fanon"
+      },
+      {
+        "title": "A Dying Colonialism",
+        "author": "Frantz Fanon"
+      },
+      {
+        "title": "Discourse on Colonialism",
+        "author": "Aimé Césaire"
+      }
+    ]
   },
   {
     "id": 215,
@@ -8891,7 +11512,6 @@
       "the definitive novel of Black American experience and identity",
       "jazz-inflected modernism at its most powerful"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780679732761",
     "pages": 581,
@@ -8916,7 +11536,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Native Son",
+        "author": "Richard Wright"
+      },
+      {
+        "title": "Go Tell It on the Mountain",
+        "author": "James Baldwin"
+      },
+      {
+        "title": "The Fire Next Time",
+        "author": "James Baldwin"
+      }
+    ]
   },
   {
     "id": 216,
@@ -8935,7 +11569,6 @@
       "Beckett strips theater to its essence — two men, a tree, and nothing happens, twice",
       "the absurdist masterpiece that redefines what drama can be"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780802144423",
     "pages": 128,
@@ -8950,7 +11583,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Endgame",
+        "author": "Samuel Beckett"
+      },
+      {
+        "title": "The Bald Soprano",
+        "author": "Eugène Ionesco"
+      },
+      {
+        "title": "Molloy",
+        "author": "Samuel Beckett"
+      }
+    ]
   },
   {
     "id": 217,
@@ -8970,7 +11617,6 @@
       "Rulfo invents Latin American magical realism in a single, devastating short novel",
       "García Márquez called it \"the most beautiful novel ever written\""
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780802160935",
     "pages": 144,
@@ -8985,7 +11631,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "The Plain in Flames",
+        "author": "Juan Rulfo"
+      },
+      {
+        "title": "The Death of Artemio Cruz",
+        "author": "Carlos Fuentes"
+      },
+      {
+        "title": "Al filo del agua",
+        "author": "Agustín Yáñez"
+      }
+    ]
   },
   {
     "id": 218,
@@ -9005,7 +11665,6 @@
       "the great realist novel of the Arabic-speaking world",
       "cornerstone of the Cairo Trilogy that won him the Nobel"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780385264662",
     "pages": 498,
@@ -9020,7 +11679,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Palace of Desire",
+        "author": "Naguib Mahfouz"
+      },
+      {
+        "title": "Sugar Street",
+        "author": "Naguib Mahfouz"
+      },
+      {
+        "title": "Midaq Alley",
+        "author": "Naguib Mahfouz"
+      }
+    ]
   },
   {
     "id": 219,
@@ -9040,7 +11713,6 @@
       "the most ambitious work of literary theory in English",
       "liberates criticism from mere evaluation"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780691202563",
     "pages": null,
@@ -9051,7 +11723,21 @@
     "coords": null,
     "yearStart": null,
     "yearEnd": null,
-    "type": "criticism"
+    "type": "criticism",
+    "seeAlso": [
+      {
+        "title": "The Educated Imagination",
+        "author": "Northrop Frye"
+      },
+      {
+        "title": "The Great Code",
+        "author": "Northrop Frye"
+      },
+      {
+        "title": "Fearful Symmetry",
+        "author": "Northrop Frye"
+      }
+    ]
   },
   {
     "id": 220,
@@ -9071,7 +11757,6 @@
       "Okonkwo's tragedy as colonialism dismantles Igbo society",
       "the founding work of modern African fiction in English"
     ],
-    "connections": null,
     "read": true,
     "isbn": "9780143131342",
     "pages": 161,
@@ -9086,7 +11771,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Arrow of God",
+        "author": "Chinua Achebe"
+      },
+      {
+        "title": "No Longer at Ease",
+        "author": "Chinua Achebe"
+      },
+      {
+        "title": "The Beautyful Ones Are Not Yet Born",
+        "author": "Ayi Kwei Armah"
+      }
+    ]
   },
   {
     "id": 221,
@@ -9106,7 +11805,6 @@
       "existential crisis and moral reckoning in postwar Japan",
       "the work that defined his Nobel-winning career"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780802150615",
     "pages": 214,
@@ -9120,7 +11818,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Silent Cry",
+        "author": "Ōe Kenzaburō"
+      },
+      {
+        "title": "The Woman in the Dunes",
+        "author": "Abe Kōbō"
+      },
+      {
+        "title": "The Temple of the Golden Pavilion",
+        "author": "Mishima Yukio"
+      }
+    ]
   },
   {
     "id": 222,
@@ -9140,7 +11852,6 @@
       "a dissolution of selfhood into pure being",
       "Brazilian modernism at its most philosophical and extreme"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780811219686",
     "pages": 220,
@@ -9154,7 +11865,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Hour of the Star",
+        "author": "Clarice Lispector"
+      },
+      {
+        "title": "Near to the Wild Heart",
+        "author": "Clarice Lispector"
+      },
+      {
+        "title": "Água Viva",
+        "author": "Clarice Lispector"
+      }
+    ]
   },
   {
     "id": 223,
@@ -9174,9 +11899,6 @@
       "a Sudanese intellectual's return from Europe as a mirror-image of Heart of Darkness",
       "colonialism and desire inverted"
     ],
-    "connections": [
-      174
-    ],
     "read": false,
     "isbn": "9780435900663",
     "pages": 176,
@@ -9190,7 +11912,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Wedding of Zein",
+        "author": "Tayeb Salih"
+      },
+      {
+        "title": "Cities of Salt",
+        "author": "Abdelrahman Munif"
+      },
+      {
+        "title": "Men in the Sun",
+        "author": "Ghassan Kanafani"
+      }
+    ]
   },
   {
     "id": 224,
@@ -9209,7 +11945,6 @@
       "Heaney's debut transforms the Irish bog, the blackberry patch, and the farmyard into lyric territory",
       "the sensory precision and earthy music that made him the foremost Irish poet since Yeats"
     ],
-    "connections": null,
     "read": true,
     "isbn": "9780571230839",
     "pages": 64,
@@ -9223,7 +11958,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "North",
+        "author": "Seamus Heaney"
+      },
+      {
+        "title": "Seeing Things",
+        "author": "Seamus Heaney"
+      },
+      {
+        "title": "poetry of Eavan Boland",
+        "author": "Eavan Boland"
+      }
+    ]
   },
   {
     "id": 225,
@@ -9243,7 +11992,6 @@
       "\"in place of a hermeneutics we need an erotics of art\"",
       "redefines the role of the critic"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781250374752",
     "pages": null,
@@ -9254,7 +12002,21 @@
     "type": "criticism",
     "yearStart": null,
     "yearEnd": null,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "On Photography",
+        "author": "Susan Sontag"
+      },
+      {
+        "title": "Illness as Metaphor",
+        "author": "Susan Sontag"
+      },
+      {
+        "title": "Regarding the Pain of Others",
+        "author": "Susan Sontag"
+      }
+    ]
   },
   {
     "id": 226,
@@ -9274,7 +12036,6 @@
       "introduces différance and the critique of logocentrism",
       "foundational text of deconstruction and poststructuralism"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9781421419954",
     "pages": null,
@@ -9285,7 +12046,21 @@
     "type": "criticism",
     "yearStart": null,
     "yearEnd": null,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Writing and Difference",
+        "author": "Jacques Derrida"
+      },
+      {
+        "title": "Dissemination",
+        "author": "Jacques Derrida"
+      },
+      {
+        "title": "Margins of Philosophy",
+        "author": "Jacques Derrida"
+      }
+    ]
   },
   {
     "id": 227,
@@ -9305,7 +12080,6 @@
       "the text liberates itself from the author's intentions",
       "\"the birth of the reader must be at the cost of the death of the Author\""
     ],
-    "connections": null,
     "read": false,
     "isbn": null,
     "pages": null,
@@ -9316,7 +12090,21 @@
     "type": "criticism",
     "yearStart": null,
     "yearEnd": null,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Mythologies",
+        "author": "Roland Barthes"
+      },
+      {
+        "title": "Camera Lucida",
+        "author": "Roland Barthes"
+      },
+      {
+        "title": "The Pleasure of the Text",
+        "author": "Roland Barthes"
+      }
+    ]
   },
   {
     "id": 228,
@@ -9336,7 +12124,6 @@
       "García Márquez perfects magical realism",
       "the most influential Latin American novel ever written"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780060883287",
     "pages": 417,
@@ -9351,7 +12138,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Love in the Time of Cholera",
+        "author": "Gabriel García Márquez"
+      },
+      {
+        "title": "The Kingdom of This World",
+        "author": "Alejo Carpentier"
+      },
+      {
+        "title": "The House of the Spirits",
+        "author": "Isabel Allende"
+      }
+    ]
   },
   {
     "id": 229,
@@ -9371,7 +12172,6 @@
       "four lives entangled in the Mau Mau uprising",
       "the African novel as collective reckoning with history"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780143106760",
     "pages": 272,
@@ -9385,7 +12185,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Weep Not, Child",
+        "author": "Ngũgĩ wa Thiong'o"
+      },
+      {
+        "title": "Petals of Blood",
+        "author": "Ngũgĩ wa Thiong'o"
+      },
+      {
+        "title": "The River Between",
+        "author": "Ngũgĩ wa Thiong'o"
+      }
+    ]
   },
   {
     "id": 230,
@@ -9405,12 +12219,6 @@
       "Abel's struggle to reintegrate into Pueblo life after war",
       "landscape, ceremony, and language as paths to healing"
     ],
-    "connections": [
-      {
-        "title": "Navajo Night Chant",
-        "year": 1400.0
-      }
-    ],
     "read": false,
     "isbn": "9780062909954",
     "pages": 224,
@@ -9424,7 +12232,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Ceremony",
+        "author": "Leslie Marmon Silko"
+      },
+      {
+        "title": "Love Medicine",
+        "author": "Louise Erdrich"
+      },
+      {
+        "title": "The Way to Rainy Mountain",
+        "author": "N. Scott Momaday"
+      }
+    ]
   },
   {
     "id": 231,
@@ -9444,7 +12266,6 @@
       "memory, imagination, and the difficulty of selfhood in a conformist state",
       "the great novel of the GDR"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780374515348",
     "pages": 196,
@@ -9458,7 +12279,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Cassandra",
+        "author": "Christa Wolf"
+      },
+      {
+        "title": "Medea: A Modern Retelling",
+        "author": "Christa Wolf"
+      },
+      {
+        "title": "The Tin Drum",
+        "author": "Günter Grass"
+      }
+    ]
   },
   {
     "id": 232,
@@ -9477,12 +12312,6 @@
       "Barthes performs a line-by-line reading of a Balzac story to reveal the codes that generate literary meaning",
       "the most influential demonstration of structuralist and post-structuralist close reading"
     ],
-    "connections": [
-      {
-        "title": "Sarrasine by Honoré de Balzac",
-        "year": 1830.0
-      }
-    ],
     "read": false,
     "isbn": "9780374521677",
     "pages": null,
@@ -9493,7 +12322,21 @@
     "type": "criticism",
     "yearStart": null,
     "yearEnd": null,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Pleasure of the Text",
+        "author": "Roland Barthes"
+      },
+      {
+        "title": "Mythologies",
+        "author": "Roland Barthes"
+      },
+      {
+        "title": "Sarrasine",
+        "author": "Honoré de Balzac"
+      }
+    ]
   },
   {
     "id": 233,
@@ -9512,7 +12355,6 @@
       "Nobel laureate who fuses Surrealism, Aztec cosmology, and Eastern philosophy into a singular poetic vision",
       "the great intellectual poet of modern Mexico"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780811211734",
     "pages": 688,
@@ -9526,7 +12368,21 @@
     "yearStart": 1957,
     "yearEnd": 1987,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Labyrinth of Solitude",
+        "author": "Octavio Paz"
+      },
+      {
+        "title": "Sunstone",
+        "author": "Octavio Paz"
+      },
+      {
+        "title": "The Bow and the Lyre",
+        "author": "Octavio Paz"
+      }
+    ]
   },
   {
     "id": 234,
@@ -9545,7 +12401,6 @@
       "Pynchon's maximalist epic of paranoia, technology, and entropy across the final days of World War II",
       "the postmodern novel at its most ambitious and ungovernable"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780143039945",
     "pages": 784,
@@ -9559,7 +12414,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Crying of Lot 49",
+        "author": "Thomas Pynchon"
+      },
+      {
+        "title": "Infinite Jest",
+        "author": "David Foster Wallace"
+      },
+      {
+        "title": "White Noise",
+        "author": "Don DeLillo"
+      }
+    ]
   },
   {
     "id": 235,
@@ -9580,7 +12449,6 @@
       "the play that won him the Nobel",
       "African drama's defining achievement"
     ],
-    "connections": null,
     "read": true,
     "isbn": "9780393322996",
     "pages": 76,
@@ -9594,7 +12462,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Lion and the Jewel",
+        "author": "Wole Soyinka"
+      },
+      {
+        "title": "A Dance of the Forests",
+        "author": "Wole Soyinka"
+      },
+      {
+        "title": "The Strong Breed",
+        "author": "Wole Soyinka"
+      }
+    ]
   },
   {
     "id": 236,
@@ -9613,7 +12495,6 @@
       "Soyinka's theoretical framework for understanding African literature through Yoruba cosmology rather than Western categories",
       "foundational text of African literary theory"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780521293945",
     "pages": null,
@@ -9624,7 +12505,21 @@
     "coords": null,
     "yearStart": null,
     "yearEnd": null,
-    "type": "criticism"
+    "type": "criticism",
+    "seeAlso": [
+      {
+        "title": "Art, Dialogue and Outrage",
+        "author": "Wole Soyinka"
+      },
+      {
+        "title": "Morning Yet on Creation Day",
+        "author": "Chinua Achebe"
+      },
+      {
+        "title": "Toward the Decolonization of African Literature",
+        "author": "Chinweizu"
+      }
+    ]
   },
   {
     "id": 237,
@@ -9644,7 +12539,6 @@
       "foundational text of postcolonial studies",
       "transforms the humanities"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780394740676",
     "pages": null,
@@ -9656,7 +12550,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "criticism",
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Culture and Imperialism",
+        "author": "Edward Said"
+      },
+      {
+        "title": "The World, the Text, and the Critic",
+        "author": "Edward Said"
+      },
+      {
+        "title": "Covering Islam",
+        "author": "Edward Said"
+      }
+    ]
   },
   {
     "id": 238,
@@ -9676,7 +12584,6 @@
       "intimate and devastating",
       "a landmark of African feminist fiction"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780435905552",
     "pages": 90,
@@ -9691,7 +12598,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Scarlet Song",
+        "author": "Mariama Bâ"
+      },
+      {
+        "title": "The Abandoned Baobab",
+        "author": "Ken Bugul"
+      },
+      {
+        "title": "Nervous Conditions",
+        "author": "Tsitsi Dangarembga"
+      }
+    ]
   },
   {
     "id": 239,
@@ -9710,7 +12631,6 @@
       "Gilbert and Gubar's feminist rereading of nineteenth-century women's writing through the figure of the confined madwoman",
       "transforms the study of Victorian literature and gender"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780300246728",
     "pages": null,
@@ -9721,7 +12641,21 @@
     "coords": null,
     "yearStart": null,
     "yearEnd": null,
-    "type": "criticism"
+    "type": "criticism",
+    "seeAlso": [
+      {
+        "title": "No Man's Land",
+        "author": "Sandra Gilbert and Susan Gubar"
+      },
+      {
+        "title": "Sexual Politics",
+        "author": "Kate Millett"
+      },
+      {
+        "title": "The Feminist Mystique",
+        "author": "Betty Friedan"
+      }
+    ]
   },
   {
     "id": 240,
@@ -9741,7 +12675,6 @@
       "lyric beauty wrested from displacement and loss",
       "the most important Arabic poet of the late twentieth century"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780520237544",
     "pages": 208,
@@ -9755,7 +12688,21 @@
     "type": "work",
     "yearStart": 1960,
     "yearEnd": 2000,
-    "approximate": true
+    "approximate": true,
+    "seeAlso": [
+      {
+        "title": "Memory for Forgetfulness",
+        "author": "Mahmoud Darwish"
+      },
+      {
+        "title": "Mural",
+        "author": "Mahmoud Darwish"
+      },
+      {
+        "title": "poetry of Samih al-Qasim",
+        "author": "Samih al-Qasim"
+      }
+    ]
   },
   {
     "id": 241,
@@ -9775,9 +12722,6 @@
       "a thousand and one children born at the stroke of midnight as the nation itself",
       "magical realism meets postcolonial history at full velocity"
     ],
-    "connections": [
-      72
-    ],
     "read": false,
     "isbn": "9780812976533",
     "pages": 564,
@@ -9791,7 +12735,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Shame",
+        "author": "Salman Rushdie"
+      },
+      {
+        "title": "The Satanic Verses",
+        "author": "Salman Rushdie"
+      },
+      {
+        "title": "The God of Small Things",
+        "author": "Arundhati Roy"
+      }
+    ]
   },
   {
     "id": 242,
@@ -9810,7 +12768,6 @@
       "Gordimer imagines the collapse of white South Africa through one family's flight into their servant's village",
       "power, dependency, and the impossibility of innocence under apartheid"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780140061406",
     "pages": 176,
@@ -9824,7 +12781,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Burger's Daughter",
+        "author": "Nadine Gordimer"
+      },
+      {
+        "title": "Waiting for the Barbarians",
+        "author": "J. M. Coetzee"
+      },
+      {
+        "title": "Cry, the Beloved Country",
+        "author": "Alan Paton"
+      }
+    ]
   },
   {
     "id": 243,
@@ -9842,10 +12813,6 @@
     "why": [
       "Narasimhaiah's argument for reading India's many literatures through shared aesthetic principles rooted in the Nāṭyaśāstra and Dhvanyāloka rather than Western critical frameworks"
     ],
-    "connections": [
-      27,
-      46
-    ],
     "read": false,
     "isbn": null,
     "pages": null,
@@ -9856,7 +12823,21 @@
     "type": "criticism",
     "yearStart": null,
     "yearEnd": null,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Is There an Indian Way of Thinking?",
+        "author": "A. K. Ramanujan"
+      },
+      {
+        "title": "The Interior Landscape",
+        "author": "A. K. Ramanujan"
+      },
+      {
+        "title": "When God Is a Customer",
+        "author": "A. K. Ramanujan"
+      }
+    ]
   },
   {
     "id": 244,
@@ -9876,7 +12857,6 @@
       "lightness versus weight as a framework for existence",
       "the Czech novel's most internationally celebrated work"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780061148521",
     "pages": 320,
@@ -9890,7 +12870,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Book of Laughter and Forgetting",
+        "author": "Milan Kundera"
+      },
+      {
+        "title": "The Joke",
+        "author": "Milan Kundera"
+      },
+      {
+        "title": "The Trial",
+        "author": "Franz Kafka"
+      }
+    ]
   },
   {
     "id": 245,
@@ -9910,7 +12904,6 @@
       "foundational argument that language is the medium of cultural imperialism",
       "transforms the debate on African literary production"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780852555019",
     "pages": null,
@@ -9922,7 +12915,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "criticism",
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Moving the Centre",
+        "author": "Ngũgĩ wa Thiong'o"
+      },
+      {
+        "title": "Writers in Politics",
+        "author": "Ngũgĩ wa Thiong'o"
+      },
+      {
+        "title": "The Empire Writes Back",
+        "author": "Bill Ashcroft, Gareth Griffiths, and Helen Tiffin"
+      }
+    ]
   },
   {
     "id": 246,
@@ -9942,7 +12949,6 @@
       "Sethe's murdered daughter returns to embody the unspeakable trauma of the Middle Passage",
       "the American novel's supreme reckoning with its original sin"
     ],
-    "connections": null,
     "read": true,
     "isbn": "9781400033416",
     "pages": 321,
@@ -9957,7 +12963,21 @@
     "yearEnd": null,
     "type": "work",
     "approximate": false,
-    "lite": true
+    "lite": true,
+    "seeAlso": [
+      {
+        "title": "Song of Solomon",
+        "author": "Toni Morrison"
+      },
+      {
+        "title": "The Bluest Eye",
+        "author": "Toni Morrison"
+      },
+      {
+        "title": "Sula",
+        "author": "Toni Morrison"
+      }
+    ]
   },
   {
     "id": 247,
@@ -9977,10 +12997,6 @@
       "St. Lucian fishermen as Achille and Hector",
       "the epic tradition reborn through creole voice, colonial memory, and the beauty of the Antillean sea"
     ],
-    "connections": [
-      7,
-      8
-    ],
     "read": false,
     "isbn": "9780374523503",
     "pages": 336,
@@ -9994,7 +13010,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "Tiepolo's Hound",
+        "author": "Derek Walcott"
+      },
+      {
+        "title": "The Star-Apple Kingdom",
+        "author": "Derek Walcott"
+      },
+      {
+        "title": "Another Life",
+        "author": "Derek Walcott"
+      }
+    ]
   },
   {
     "id": 248,
@@ -10013,7 +13043,6 @@
       "Adūnīs traces the tension between tradition and modernity in Arabic poetry from the pre-Islamic ode to the present",
       "essential critical framework for understanding Arabic literary history"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780863563317",
     "pages": null,
@@ -10024,7 +13053,21 @@
     "type": "criticism",
     "yearStart": null,
     "yearEnd": null,
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Pages of Day and Night",
+        "author": "Adūnīs"
+      },
+      {
+        "title": "Sufism and Surrealism",
+        "author": "Adūnīs"
+      },
+      {
+        "title": "The Book",
+        "author": "Adūnīs"
+      }
+    ]
   },
   {
     "id": 249,
@@ -10044,7 +13087,6 @@
       "language as both the instrument of oppression and the last refuge of the self",
       "the Nobel laureate's most powerful work"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780312429942",
     "pages": 272,
@@ -10058,7 +13100,21 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Hunger Angel",
+        "author": "Herta Müller"
+      },
+      {
+        "title": "The Fox Was Ever the Hunter",
+        "author": "Herta Müller"
+      },
+      {
+        "title": "The Passport",
+        "author": "Herta Müller"
+      }
+    ]
   },
   {
     "id": 250,
@@ -10078,7 +13134,6 @@
       "the clash between Islamic and Western traditions of visual representation",
       "storytelling, identity, and art at the crossroads of civilizations"
     ],
-    "connections": null,
     "read": false,
     "isbn": "9780375406959",
     "pages": 417,
@@ -10092,6 +13147,20 @@
     "yearStart": null,
     "yearEnd": null,
     "type": "work",
-    "approximate": false
+    "approximate": false,
+    "seeAlso": [
+      {
+        "title": "The Black Book",
+        "author": "Orhan Pamuk"
+      },
+      {
+        "title": "Snow",
+        "author": "Orhan Pamuk"
+      },
+      {
+        "title": "The Museum of Innocence",
+        "author": "Orhan Pamuk"
+      }
+    ]
   }
 ]

@@ -102,7 +102,7 @@
   --color-rule: #e2e2e2;
   --color-accent: #34568B;
   --color-accent-light: #eaeff7;
-  --font-serif: "Minion Pro", "Gentium Plus", "Georgia", serif;
+  --font-serif: "Minion Pro", "Gentium Plus", "Noto Naskh Arabic", "Georgia", serif;
   --font-sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
   --font-mono: "Fira Code", "SFMono-Regular", "Consolas", monospace;
   --content-width: 680px;
@@ -1054,6 +1054,199 @@ main {
   }
 }
 
+/* --- SALM (Southern African Languages Map) --- */
+
+.salm-map {
+  position: relative;
+  margin: 2rem 0;
+  background: transparent;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.salm-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.salm-countries path {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 0.8;
+}
+
+.salm-edges line {
+  stroke: #555;
+  stroke-opacity: 0.15;
+  transition: stroke-opacity 0.2s, stroke 0.2s;
+}
+
+.salm-edge-highlight {
+  stroke: #333 !important;
+  stroke-opacity: 0.6 !important;
+  stroke-width: 2 !important;
+}
+
+.salm-edge-dim {
+  stroke-opacity: 0.04 !important;
+}
+
+.salm-nodes circle {
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+
+.salm-node-dim circle {
+  opacity: 0.2;
+}
+
+.salm-tooltip {
+  display: none;
+  position: absolute;
+  pointer-events: none;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 0.4em 0.7em;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: #333;
+  white-space: nowrap;
+  z-index: 10;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 1100px) {
+  .salm-map {
+    max-width: var(--wide-width);
+    margin-left: calc((var(--content-width) - var(--wide-width)) / 2);
+  }
+}
+
+/* --- SALM Filter Buttons --- */
+
+.salm-filters {
+  padding: 0.5em 0;
+}
+
+.salm-filter-row {
+  display: flex;
+  gap: 0.4em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.salm-filter-sub {
+  display: none;
+  margin-top: 0.4em;
+}
+
+.salm-filter-sub.visible {
+  display: flex;
+}
+
+.salm-filter-btn {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  padding: 0.3em 0.8em;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #fff;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.15s;
+  letter-spacing: 0.02em;
+}
+
+.salm-filter-btn:hover {
+  border-color: #999;
+  color: #333;
+}
+
+.salm-filter-btn.active {
+  background: #333;
+  border-color: #333;
+  color: #fff;
+}
+
+/* --- SALM MDS Scatter --- */
+
+.salm-mds {
+  position: relative;
+  margin: 2rem 0;
+  overflow: hidden;
+}
+
+.salm-mds-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.mds-label {
+  font-family: var(--font-sans);
+  font-size: 8px;
+  fill: #666;
+  pointer-events: none;
+  display: none;
+}
+
+.mds-point:hover .mds-label {
+  display: block;
+}
+
+.mds-legend-text {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  fill: #555;
+}
+
+@media (min-width: 1100px) {
+  .salm-mds {
+    max-width: var(--wide-width);
+    margin-left: calc((var(--content-width) - var(--wide-width)) / 2);
+  }
+}
+
+/* --- SALM Dendrogram --- */
+
+.salm-dendro {
+  position: relative;
+  margin: 2rem 0;
+  overflow-x: auto;
+}
+
+.salm-dendro-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.dendro-link {
+  fill: none;
+  stroke: #bbb;
+  stroke-width: 1;
+}
+
+.dendro-label {
+  font-family: var(--font-sans);
+  font-size: 7px;
+}
+
+.dendro-leaf {
+  stroke: #fff;
+  stroke-width: 0.5;
+}
+
+@media (min-width: 1100px) {
+  .salm-dendro {
+    max-width: var(--wide-width);
+    margin-left: calc((var(--content-width) - var(--wide-width)) / 2);
+  }
+}
+
 /* --- OpenType Utilities --- */
 
 .smcp {
@@ -1098,6 +1291,559 @@ main {
 
 .tl {
   font-family: "Gentium Plus", "Gentium Book Plus", serif;
+}
+
+/* --- Persian / Arabic Script --- */
+
+.persian {
+  font-family: "Noto Naskh Arabic", "Traditional Arabic", "Simplified Arabic", serif;
+  direction: rtl;
+  text-align: right;
+  line-height: 2;
+}
+
+.verse-original {
+  font-family: "Noto Naskh Arabic", "Traditional Arabic", "Simplified Arabic", serif;
+  direction: rtl;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2.2;
+  margin: 1.5rem 0;
+  padding: 1rem 0;
+}
+
+.verse-original.nastaliq {
+  font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", serif;
+  font-size: 1.65rem;
+  line-height: 2.8;
+}
+
+.verse-transliteration {
+  text-align: center;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin: 0.5rem 0 1.5rem;
+  color: var(--color-muted);
+}
+
+/* Verse word hover pairing */
+.vw {
+  cursor: default;
+  border-radius: 2px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.vw.vw-active {
+  color: #2a7abf;
+}
+
+/* --- Margin figure --- */
+
+.margin-figure {
+  float: right;
+  width: 220px;
+  margin: 0.2em 0 1em 1.5em;
+  position: relative;
+}
+
+.margin-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.margin-figure figcaption {
+  font-size: 0.72rem;
+  font-family: var(--font-sans);
+  color: #999;
+  line-height: 1.45;
+  margin-top: 0.5em;
+}
+
+.margin-figure figcaption .fig-label {
+  font-weight: 700;
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #666;
+  margin-right: 0.35em;
+}
+
+@media (min-width: 1000px) {
+  .margin-figure {
+    position: absolute;
+    left: calc(-240px - 2rem);
+    width: 240px;
+    margin: 0;
+    float: none;
+  }
+  .margin-figure-anchor {
+    position: relative;
+  }
+}
+
+@media (max-width: 640px) {
+  .margin-figure {
+    float: none;
+    width: 60%;
+    max-width: 260px;
+    margin: 1em auto;
+  }
+}
+
+/* --- Interlinear Gloss (Leipzig-style) --- */
+
+.igl {
+  margin: 1.5em 0;
+  overflow-x: auto;
+}
+
+.igl-words {
+  display: inline-flex;
+  gap: 1.25em;
+  align-items: flex-start;
+}
+
+.igl-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15em;
+  min-width: 0;
+}
+
+.igl-src {
+  font-family: "Noto Naskh Arabic", "Traditional Arabic", serif;
+  font-size: 1.15rem;
+  line-height: 1.6;
+}
+
+.igl-tl {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.igl-gl {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  line-height: 1.4;
+  color: var(--color-muted);
+}
+
+.igl-ft {
+  margin-top: 0.5em;
+  font-style: italic;
+  font-size: 0.95rem;
+}
+
+/* --- Poem Scrollytelling --- */
+
+.poem-scroll {
+  position: relative;
+  margin: 3rem calc(-1 * (100vw - var(--content-width)) / 2);
+  width: 100vw;
+  display: flex;
+  gap: 0;
+}
+
+.poem-display {
+  flex: 0 0 50%;
+  position: sticky;
+  top: calc(50vh - 14rem);
+  align-self: flex-start;
+  padding: 0 2.5rem;
+  z-index: 2;
+}
+
+.poem-steps {
+  flex: 0 0 50%;
+  padding: 0 2.5rem;
+}
+
+.poem-step {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.poem-step:first-child {
+  min-height: 60vh;
+}
+
+.poem-step:last-child {
+  min-height: 50vh;
+}
+
+.poem-step-label {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 0.75rem;
+}
+
+.poem-step h3 {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 0 0 0.75rem;
+}
+
+.poem-step p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--color-text);
+  margin: 0 0 0.75rem;
+}
+
+.poem-step p:last-child {
+  margin-bottom: 0;
+}
+
+/* --- Sticky Poem Display --- */
+
+.poem-line-group {
+  margin-bottom: 0.5rem;
+}
+
+.poem-line-group:last-child {
+  margin-bottom: 0;
+}
+
+.poem-fa {
+  direction: rtl;
+  text-align: center;
+  font-family: "Noto Naskh Arabic", "Traditional Arabic", "Simplified Arabic", serif;
+  font-size: 1.2rem;
+  line-height: 1.85;
+}
+
+.poem-tl-line {
+  text-align: center;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: var(--color-muted);
+  transition: opacity 0.4s ease, max-height 0.4s ease;
+  max-height: 3em;
+}
+
+/* Word spans — base state */
+.pw {
+  transition: all 0.4s ease;
+  border-radius: 2px;
+  padding: 0.05em 0.15em;
+  margin: 0 -0.05em;
+}
+
+/* Integrated scansion: meter marks above syllables (hidden by default) */
+.poem-scansion {
+  text-align: center;
+  font-family: "Fira Code", "Source Code Pro", monospace;
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.4s ease, max-height 0.4s ease;
+  line-height: 1.4;
+  margin-top: 0.15rem;
+}
+
+.poem-scansion .syl {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: bottom;
+}
+
+.poem-scansion .syl::before {
+  content: attr(data-m);
+  font-size: 0.65rem;
+  line-height: 1.2;
+  color: var(--color-muted);
+}
+
+.poem-scansion .foot-sep {
+  display: inline-block;
+  width: 1.2em;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.poem-scansion .foot-sep::before {
+  content: "|";
+  opacity: 0.35;
+}
+
+
+/* Rhyme labels (hidden by default) */
+.poem-rhyme-label {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--color-bg);
+  background: var(--color-accent);
+  border-radius: 2px;
+  padding: 0.1em 0.35em;
+  margin-left: 0.5em;
+  vertical-align: middle;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+/* Couplet brace (hidden by default) */
+.poem-couplet-brace {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--color-accent);
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.4s ease, max-height 0.4s ease;
+}
+
+/* --- Highlight Colors --- */
+
+:root {
+  --hl-rhyme: #34568B;
+  --hl-arabic: #8B5E34;
+  --hl-persian: #34798B;
+  --hl-body: #6B3480;
+  --hl-turn: #C44536;
+  --hl-anceps: #2E86AB;
+  --hl-elision: #C44536;
+  --hl-preserved: #4A8C5C;
+  --hl-expansion: #7B4FA0;
+  --hl-contraction: #C47D25;
+}
+
+/* Dimming: when a highlight step is active, dim non-highlighted words */
+.poem-scroll[data-active-step="prosody"] .pw,
+.poem-scroll[data-active-step="rhyme"] .pw,
+.poem-scroll[data-active-step="origin"] .pw,
+.poem-scroll[data-active-step="body"] .pw,
+.poem-scroll[data-active-step="turn"] .pw {
+  opacity: 0.3;
+}
+
+/* --- Step: Meter --- */
+
+.poem-scroll[data-active-step="meter"] .poem-tl-line {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.poem-scroll[data-active-step="meter"] .poem-scansion {
+  opacity: 1;
+  max-height: 4em;
+}
+
+/* --- Step: Prosody --- */
+
+.poem-scroll[data-active-step="prosody"] .poem-tl-line {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.poem-scroll[data-active-step="prosody"] .poem-scansion {
+  opacity: 1;
+  max-height: 4em;
+}
+
+.poem-scroll[data-active-step="prosody"] .syl {
+  opacity: 0.35;
+  transition: opacity 0.4s ease;
+}
+
+.poem-scroll[data-active-step="prosody"] .syl[data-quirk] {
+  opacity: 1;
+}
+
+.poem-scroll[data-active-step="prosody"] .syl[data-quirk="anceps"] {
+  color: var(--hl-anceps);
+  font-weight: 600;
+}
+
+.poem-scroll[data-active-step="prosody"] .syl[data-quirk="elision"] {
+  color: var(--hl-elision);
+  font-weight: 600;
+}
+
+.poem-scroll[data-active-step="prosody"] .syl[data-quirk="preserved"] {
+  color: var(--hl-preserved);
+  font-weight: 600;
+}
+
+.poem-scroll[data-active-step="prosody"] .syl[data-quirk="expansion"] {
+  color: var(--hl-expansion);
+  font-weight: 600;
+}
+
+.poem-scroll[data-active-step="prosody"] .syl[data-quirk="contraction"] {
+  color: var(--hl-contraction);
+  font-weight: 600;
+}
+
+/* Also dim the meter marks above non-quirk syllables */
+.poem-scroll[data-active-step="prosody"] .syl::before {
+  opacity: 0.35;
+  transition: opacity 0.4s ease;
+}
+
+.poem-scroll[data-active-step="prosody"] .syl[data-quirk]::before {
+  opacity: 1;
+}
+
+/* Legend keys in the step text */
+.quirk-key {
+  display: inline-block;
+  width: 0.7em;
+  height: 0.7em;
+  border-radius: 2px;
+  vertical-align: baseline;
+  position: relative;
+  top: 0.05em;
+}
+
+.quirk-key[data-quirk="anceps"]     { background: var(--hl-anceps); }
+.quirk-key[data-quirk="elision"]    { background: var(--hl-elision); }
+.quirk-key[data-quirk="preserved"]  { background: var(--hl-preserved); }
+.quirk-key[data-quirk="expansion"]  { background: var(--hl-expansion); }
+.quirk-key[data-quirk="contraction"]{ background: var(--hl-contraction); }
+
+/* --- Step: Rhyme --- */
+
+.poem-scroll[data-active-step="rhyme"] .pw[data-rhyme] {
+  opacity: 1;
+  background: var(--color-accent-light);
+  color: var(--hl-rhyme);
+  font-weight: 500;
+}
+
+.poem-scroll[data-active-step="rhyme"] .poem-rhyme-label {
+  opacity: 1;
+}
+
+.poem-scroll[data-active-step="rhyme"] .poem-couplet-brace {
+  opacity: 1;
+  max-height: 2em;
+}
+
+/* --- Step: Arabic vs. Persian origin --- */
+
+.poem-scroll[data-active-step="origin"] .pw[data-origin="ar"] {
+  opacity: 1;
+  background: #f5ede4;
+  color: var(--hl-arabic);
+}
+
+.poem-scroll[data-active-step="origin"] .pw[data-origin="fa"] {
+  opacity: 1;
+  background: #e4f0f3;
+  color: var(--hl-persian);
+}
+
+/* --- Step: Body metaphor --- */
+
+.poem-scroll[data-active-step="body"] .pw[data-body] {
+  opacity: 1;
+  background: #f0e6f5;
+  color: var(--hl-body);
+}
+
+/* --- Step: The Turn (second-person address) --- */
+
+.poem-scroll[data-active-step="turn"] .pw[data-turn] {
+  opacity: 1;
+  background: #fce8e6;
+  color: var(--hl-turn);
+  font-weight: 500;
+}
+
+/* Line-level highlights for the turn */
+.poem-scroll[data-active-step="turn"] .poem-line-group[data-couplet="3"] .pw:not([data-turn]) {
+  opacity: 0.6;
+}
+
+.poem-scroll[data-active-step="turn"] .poem-line-group[data-couplet="1"] .pw,
+.poem-scroll[data-active-step="turn"] .poem-line-group[data-couplet="2"] .pw {
+  opacity: 0.15;
+}
+
+/* --- Responsive: narrow screens --- */
+
+@media (max-width: 999px) {
+  .poem-scroll {
+    flex-direction: column;
+    margin: 2rem -1rem;
+    width: calc(100% + 2rem);
+  }
+
+  .poem-display {
+    flex: none;
+    position: sticky;
+    top: 3.5rem;
+    padding: 1.25rem 1rem;
+    border-bottom: 1px solid var(--color-rule);
+    max-height: 45vh;
+  }
+
+  .poem-fa {
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+
+  .poem-tl-line {
+    font-size: 0.78rem;
+  }
+
+  .poem-steps {
+    flex: none;
+    padding: 0 1rem;
+  }
+
+  .poem-step {
+    min-height: 70vh;
+  }
+}
+
+@media (max-width: 640px) {
+  .poem-display {
+    top: 3rem;
+    padding: 1rem 0.75rem;
+    max-height: 40vh;
+  }
+
+  .poem-fa {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .poem-tl-line {
+    font-size: 0.72rem;
+  }
+
+  .poem-line-group {
+    margin-bottom: 0.4rem;
+  }
+
+  .poem-step {
+    min-height: 60vh;
+  }
 }
 
 /* --- KaTeX --- */
@@ -1233,41 +1979,7 @@ main {
   font-size: 0.72rem;
 }
 
-/* Map connection arcs */
-#rl-map .rl-map-arc {
-  fill: none;
-  stroke: var(--color-accent);
-  stroke-width: 1.2;
-  stroke-dasharray: 4 3;
-  stroke-opacity: 0.6;
-  pointer-events: none;
-}
-
-/* Arc toggle button */
-#rl-map .rl-arc-toggle {
-  position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
-  font-family: var(--font-sans);
-  font-size: 0.7rem;
-  padding: 0.3rem 0.6rem;
-  background: var(--color-bg);
-  color: var(--color-text);
-  border: 1px solid var(--color-rule);
-  border-radius: 3px;
-  cursor: pointer;
-  z-index: 5;
-  transition: background-color 0.15s ease, border-color 0.15s ease;
-}
-
-#rl-map .rl-arc-toggle:hover {
-  border-color: var(--color-accent);
-  color: var(--color-accent);
-}
-
-#rl-map .rl-arc-toggle:active {
-  background-color: var(--color-rule);
-}
+/* (Map connection arcs removed — replaced by per-card "See also") */
 
 #rl-map .rl-map-zoom-controls {
   position: absolute;
@@ -1745,7 +2457,7 @@ main {
   line-height: 1.6;
 }
 
-#rl-list .rl-card-conn {
+#rl-list .rl-card-see-also {
   font-family: var(--font-sans);
   font-size: 0.72rem;
   color: var(--color-muted);
@@ -1753,32 +2465,13 @@ main {
   line-height: 1.4;
 }
 
-#rl-list .rl-conn-label {
-  color: var(--color-accent);
+#rl-list .rl-see-also-label {
   font-weight: 600;
-}
-
-#rl-list .rl-conn-link {
   color: var(--color-accent);
-  opacity: 0.8;
-  text-decoration: none;
-  border-bottom: 1px dotted transparent;
-  cursor: pointer;
-  transition: opacity 0.15s ease, border-color 0.15s ease;
 }
 
-#rl-list .rl-conn-link:hover {
-  opacity: 1;
-  border-bottom-color: var(--color-accent);
-}
-
-#rl-list .rl-conn-ext {
+#rl-list .rl-see-also-item {
   color: var(--color-muted);
-  opacity: 0.55;
-}
-
-#rl-list .rl-conn-ext-nonlit {
-  font-style: italic;
 }
 
 /* Scroll-to highlight pulse */

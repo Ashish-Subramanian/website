@@ -151,26 +151,8 @@
   function init(works, folktales, allData) {
     totalWorkCount = works.length + folktales.length;
 
-    /* Build lookup and bidirectional connection map */
+    /* Build lookup */
     works.forEach(function (w) { worksById[w.id] = w; });
-    works.forEach(function (w) {
-      if (!w.connections || !w.connections.length) return;
-      w.connections.forEach(function (c) {
-        /* External (off-list) connection: {title, year} object */
-        if (typeof c === "object" && c !== null) {
-          if (!externalConns[w.id]) externalConns[w.id] = [];
-          externalConns[w.id].push(c);
-          return;
-        }
-        /* Internal connection: numeric id */
-        var tid = c;
-        if (tid === w.id || !worksById[tid]) return;
-        if (!connectionMap[w.id]) connectionMap[w.id] = [];
-        if (connectionMap[w.id].indexOf(tid) === -1) connectionMap[w.id].push(tid);
-        if (!connectionMap[tid]) connectionMap[tid] = [];
-        if (connectionMap[tid].indexOf(w.id) === -1) connectionMap[tid].push(w.id);
-      });
-    });
 
     /* All entries sorted by ID (already in chronological order from JSON) */
     allFolktales = folktales;
@@ -475,58 +457,7 @@
             .attr("r", r / s)
             .attr("stroke-width", dotStroke(d) / s);
         });
-        svg.selectAll(".rl-map-arc")
-          .attr("stroke-width", 1.2 / s)
-          .attr("stroke-dasharray", (4 / s) + " " + (3 / s));
       });
-
-      /* --- Connection arcs (great circle lines) --- */
-      var arcData = [];
-      var seenEdges = {};
-      Object.keys(connectionMap).forEach(function (sid) {
-        var srcId = Number(sid);
-        var src = worksById[srcId];
-        if (!src || !src.coords) return;
-        connectionMap[srcId].forEach(function (tid) {
-          if (!worksById[tid] || !worksById[tid].coords) return;
-          var key = Math.min(srcId, tid) + "-" + Math.max(srcId, tid);
-          if (seenEdges[key]) return;
-          seenEdges[key] = true;
-          arcData.push({
-            srcId: srcId,
-            tgtId: tid,
-            type: "Feature",
-            geometry: {
-              type: "LineString",
-              coordinates: [
-                [src.coords[1], src.coords[0]],
-                [worksById[tid].coords[1], worksById[tid].coords[0]]
-              ]
-            }
-          });
-        });
-      });
-
-      var arcGroup = svg.append("g")
-        .attr("class", "rl-arc-group")
-        .style("display", "none");
-
-      arcGroup.selectAll(".rl-map-arc")
-        .data(arcData)
-        .join("path")
-        .attr("class", "rl-map-arc")
-        .attr("d", path);
-
-      /* Toggle button */
-      var arcToggle = document.createElement("button");
-      arcToggle.className = "rl-arc-toggle";
-      arcToggle.textContent = "Show connections";
-      arcToggle.addEventListener("click", function () {
-        var visible = arcGroup.style("display") !== "none";
-        arcGroup.style("display", visible ? "none" : null);
-        arcToggle.textContent = visible ? "Show connections" : "Hide connections";
-      });
-      container.appendChild(arcToggle);
 
       /* Zoom controls */
       var zoomControls = el("div", "rl-map-zoom-controls");
@@ -1124,8 +1055,7 @@
   var allWorks = [];
   var allFolktales = [];
   var worksById = {};
-  var connectionMap = {};
-  var externalConns = {};  /* id → [{title, year}] for off-list works */
+  /* (connectionMap / externalConns removed — replaced by per-work seeAlso) */
 
   /* --- Global state for brushable timeline & map filtering --- */
   var timeRange = { min: -Infinity, max: Infinity };
@@ -1468,91 +1398,18 @@
         body.appendChild(details);
       }
 
-      /* Connections to other works (bidirectional, clickable, directional) */
-      var connIds = connectionMap[w.id] || [];
-      var extConns = externalConns[w.id] || [];
-      if (connIds.length || extConns.length) {
-        var earlier = [];
-        var later = [];
-        var earlierExt = [];
-        var laterExt = [];
-
-        connIds.forEach(function (tid) {
-          var target = worksById[tid];
-          if (!target) return;
-          if (target.year !== null && w.year !== null && target.year < w.year) {
-            earlier.push(tid);
-          } else {
-            later.push(tid);
-          }
+      /* See also: similar works from the same tradition */
+      var seeAlso = w.seeAlso || [];
+      if (seeAlso.length) {
+        var saDiv = el("div", "rl-card-see-also");
+        saDiv.appendChild(el("span", "rl-see-also-label", "See also: "));
+        seeAlso.forEach(function (rec, i) {
+          if (i > 0) saDiv.appendChild(document.createTextNode(", "));
+          var text = rec.title;
+          if (rec.author) text += " (" + rec.author + ")";
+          saDiv.appendChild(el("span", "rl-see-also-item", text));
         });
-
-        extConns.forEach(function (ext) {
-          if (ext.year != null && w.year !== null && ext.year < w.year) {
-            earlierExt.push(ext);
-          } else {
-            laterExt.push(ext);
-          }
-        });
-
-        var connDiv = el("div", "rl-card-conn");
-
-        function appendConnLink(tid) {
-          var target = worksById[tid];
-          if (!target) return;
-          var a = document.createElement("a");
-          a.className = "rl-conn-link";
-          a.href = "#rl-work-" + tid;
-          a.textContent = target.title;
-          a.addEventListener("click", function (e) {
-            e.preventDefault();
-            scrollToWork(tid);
-          });
-          connDiv.appendChild(a);
-        }
-
-        function appendExtLink(ext) {
-          var cls = "rl-conn-ext" + (ext.nonLiterary ? " rl-conn-ext-nonlit" : "");
-          var span = el("span", cls, ext.title);
-          connDiv.appendChild(span);
-        }
-
-        var hasEarlier = earlier.length || earlierExt.length;
-        var hasLater = later.length || laterExt.length;
-
-        if (hasEarlier) {
-          connDiv.appendChild(el("span", "rl-conn-label", "\u2190 "));
-          var firstE = true;
-          earlier.forEach(function (tid) {
-            if (!firstE) connDiv.appendChild(document.createTextNode(", "));
-            appendConnLink(tid);
-            firstE = false;
-          });
-          earlierExt.forEach(function (ext) {
-            if (!firstE) connDiv.appendChild(document.createTextNode(", "));
-            appendExtLink(ext);
-            firstE = false;
-          });
-        }
-        if (hasEarlier && hasLater) {
-          connDiv.appendChild(document.createTextNode("  "));
-        }
-        if (hasLater) {
-          connDiv.appendChild(el("span", "rl-conn-label", "\u2192 "));
-          var firstL = true;
-          later.forEach(function (tid) {
-            if (!firstL) connDiv.appendChild(document.createTextNode(", "));
-            appendConnLink(tid);
-            firstL = false;
-          });
-          laterExt.forEach(function (ext) {
-            if (!firstL) connDiv.appendChild(document.createTextNode(", "));
-            appendExtLink(ext);
-            firstL = false;
-          });
-        }
-
-        body.appendChild(connDiv);
+        body.appendChild(saDiv);
       }
 
       card.appendChild(body);

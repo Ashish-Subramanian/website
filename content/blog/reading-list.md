@@ -51,7 +51,7 @@ I hope that you too find this list to be useful; even if you don't read the full
 
 <div class="rl-cumulative" id="rl-cumulative"></div>
 
-<p class="rl-disclaimer">Dates and places of composition are approximations, especially for older works with uncertain provenance. Reading times are estimates based on my personal reading speed and published page counts. Connections between works are necessarily selective and will never be complete.</p>
+<p class="rl-disclaimer">Dates and places of composition are approximations, especially for older works with uncertain provenance. Reading times are estimates based on my personal reading speed and published page counts. "See also" recommendations are necessarily selective and point toward the broader tradition each work represents.</p>
 
 <details class="rl-appendix" id="rl-methods">
 <summary>Methods</summary>
