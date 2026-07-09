@@ -1,0 +1,19 @@
+{{/* Interlinear gloss — Leipzig-style word-aligned columns */}}
+{{/* Parameters: src, tl, gl (pipe-delimited words), ft (free translation) */}}
+{{/* Optional: rtl="true" to set source row direction */}}
+{{ $src := split (.Get "src") "|" }}
+{{ $tl := split (.Get "tl") "|" }}
+{{ $gl := split (.Get "gl") "|" }}
+{{ $rtl := eq (.Get "rtl") "true" }}
+<div class="igl">
+  <div class="igl-words">
+    {{- range $i, $word := $src -}}
+    <div class="igl-col">
+      <div class="igl-src"{{ if $rtl }} dir="rtl"{{ end }}>{{ $word | strings.TrimSpace }}</div>
+      {{- if lt $i (len $tl) }}{{ with index $tl $i }}<div class="igl-tl">{{ . | strings.TrimSpace }}</div>{{ end }}{{ end -}}
+      {{- if lt $i (len $gl) }}{{ with index $gl $i }}<div class="igl-gl">{{ . | strings.TrimSpace }}</div>{{ end }}{{ end -}}
+    </div>
+    {{- end -}}
+  </div>
+  {{ with .Get "ft" }}<div class="igl-ft">'{{ . }}'</div>{{ end }}
+</div>

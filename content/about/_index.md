@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About Me"
 ---
 
 I wear many hats: biostatistician, geographer, traveler, linguist, translator of Swahili, anthropologist, ecologist, epidemiologist, professional gamelan musician, quizbowl editor, and more. I graduated from Duke University in 2024 with a B.S. in Health and Medical Geography of Human–Environmental Interactions, and I'm an incoming MD-PhD student.

@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section class="page">
   <header class="page-header">
-    <h1>{{ .Title }}</h1>
+    <h1>{{ .Title | safeHTML }}</h1>
   </header>
   <div class="page-body">
     {{ .Content }}
@@ -11,7 +11,7 @@
     {{ range .Pages.ByDate.Reverse }}
     <li class="post-item fade-in-section">
       <time class="post-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-      <a class="post-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <a class="post-title" href="{{ .RelPermalink }}">{{ .Title | safeHTML }}</a>
     </li>
     {{ end }}
   </ul>

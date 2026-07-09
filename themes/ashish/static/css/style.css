@@ -1,55 +1,71 @@
 /* ==========================================================================
    Ashish — Personal Website Theme
-   Typography: Minion Pro (body/headings) + Source Sans 3 (nav/UI)
+   Typography: Minion 3 (body/headings) + Source Sans 3 (nav/UI)
    ========================================================================== */
 
 /* --- Font Faces --- */
 
 @font-face {
-  font-family: "Minion Pro";
-  src: url("/fonts/Minion Pro Regular.ttf") format("truetype");
+  font-family: "Minion 3";
+  src: url("/fonts/Minion 3 Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Minion Pro";
-  src: url("/fonts/Minion Pro Italic.ttf") format("truetype");
+  font-family: "Minion 3";
+  src: url("/fonts/Minion 3 Italic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Minion Pro";
-  src: url("/fonts/Minion Pro Bold.ttf") format("truetype");
+  font-family: "Minion 3";
+  src: url("/fonts/Minion 3 Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Minion Pro";
-  src: url("/fonts/Minion Pro Bold Italic.ttf") format("truetype");
+  font-family: "Minion 3";
+  src: url("/fonts/Minion 3 Bold Italic.ttf") format("truetype");
   font-weight: 700;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Minion Pro";
-  src: url("/fonts/Minion Pro Semibold.ttf") format("truetype");
+  font-family: "Minion 3";
+  src: url("/fonts/Minion 3 Semibold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Minion Pro";
-  src: url("/fonts/Minion Pro Medium.ttf") format("truetype");
+  font-family: "Minion 3";
+  src: url("/fonts/Minion 3 Semibold Italic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Minion 3";
+  src: url("/fonts/Minion 3 Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Minion 3";
+  src: url("/fonts/Minion 3 Medium Italic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
   font-display: swap;
 }
 
@@ -102,7 +118,7 @@
   --color-rule: #e2e2e2;
   --color-accent: #34568B;
   --color-accent-light: #eaeff7;
-  --font-serif: "Minion Pro", "Gentium Plus", "Noto Naskh Arabic", "Georgia", serif;
+  --font-serif: "Minion 3", "Gentium Plus", "Noto Naskh Arabic", "Georgia", serif;
   --font-sans: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
   --font-mono: "Fira Code", "SFMono-Regular", "Consolas", monospace;
   --content-width: 680px;

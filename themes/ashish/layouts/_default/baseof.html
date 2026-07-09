@@ -26,6 +26,13 @@
   <script defer src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
   {{ end }}
+  {{ if .Params.persian }}
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script defer src="{{ "js/persian-poem.js" | absURL }}"></script>
+  {{ end }}
+  {{ if .Params.salm }}
+  <script defer src="{{ "js/salm.js" | absURL }}"></script>
+  {{ end }}
   <script defer src="https://cloud.umami.is/script.js" data-website-id="c57449c6-efe0-402f-b99f-be70fe569bb3"></script>
   <script defer src="{{ "js/main.js" | absURL }}"></script>
   <noscript><style>.fade-in-section,.cv-entry,.pub{opacity:1!important;transform:none!important}.cv-gate{display:none!important}#cv-content{display:block!important}</style></noscript>
